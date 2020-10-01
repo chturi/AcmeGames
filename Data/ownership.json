@@ -1,0 +1,8090 @@
+[
+  {
+    "ownershipId": 1,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2016-02-10"
+  },
+  {
+    "ownershipId": 2,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2017-06-15"
+  },
+  {
+    "ownershipId": 3,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2017-04-07"
+  },
+  {
+    "ownershipId": 4,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-02-09"
+  },
+  {
+    "ownershipId": 5,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2017-06-06"
+  },
+  {
+    "ownershipId": 6,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2017-03-12"
+  },
+  {
+    "ownershipId": 7,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2017-04-05"
+  },
+  {
+    "ownershipId": 8,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2016-04-04"
+  },
+  {
+    "ownershipId": 9,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 12,
+    "state": 1,
+    "registeredDate": "2015-09-07"
+  },
+  {
+    "ownershipId": 10,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2017-07-19"
+  },
+  {
+    "ownershipId": 11,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2016-10-30"
+  },
+  {
+    "ownershipId": 12,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2015-06-14"
+  },
+  {
+    "ownershipId": 13,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2016-04-19"
+  },
+  {
+    "ownershipId": 14,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2016-08-20"
+  },
+  {
+    "ownershipId": 15,
+    "userAccountId": "04399079-0aee-4448-adf7-0ca6ebf0f6a2",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-06-18"
+  },
+  {
+    "ownershipId": 16,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2017-01-22"
+  },
+  {
+    "ownershipId": 17,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2016-08-28"
+  },
+  {
+    "ownershipId": 18,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 31,
+    "state": 1,
+    "registeredDate": "2015-04-17"
+  },
+  {
+    "ownershipId": 19,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-03-15"
+  },
+  {
+    "ownershipId": 20,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2015-02-16"
+  },
+  {
+    "ownershipId": 21,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-05-18"
+  },
+  {
+    "ownershipId": 22,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2017-03-01"
+  },
+  {
+    "ownershipId": 23,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2017-08-06"
+  },
+  {
+    "ownershipId": 24,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2015-06-29"
+  },
+  {
+    "ownershipId": 25,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 21,
+    "state": 1,
+    "registeredDate": "2016-09-24"
+  },
+  {
+    "ownershipId": 26,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-03-21"
+  },
+  {
+    "ownershipId": 27,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2017-07-27"
+  },
+  {
+    "ownershipId": 28,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-03-10"
+  },
+  {
+    "ownershipId": 29,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 32,
+    "state": 1,
+    "registeredDate": "2015-08-14"
+  },
+  {
+    "ownershipId": 30,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-06-05"
+  },
+  {
+    "ownershipId": 31,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2017-09-05"
+  },
+  {
+    "ownershipId": 32,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-07-11"
+  },
+  {
+    "ownershipId": 33,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2017-02-13"
+  },
+  {
+    "ownershipId": 34,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2015-09-23"
+  },
+  {
+    "ownershipId": 35,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2015-08-20"
+  },
+  {
+    "ownershipId": 36,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2015-06-27"
+  },
+  {
+    "ownershipId": 37,
+    "userAccountId": "7d26aeae-b51f-4079-8b3e-db0d98a1fee4",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2017-01-12"
+  },
+  {
+    "ownershipId": 38,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2017-02-27"
+  },
+  {
+    "ownershipId": 39,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2016-06-14"
+  },
+  {
+    "ownershipId": 40,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-10-31"
+  },
+  {
+    "ownershipId": 41,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2016-11-04"
+  },
+  {
+    "ownershipId": 42,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-03-10"
+  },
+  {
+    "ownershipId": 43,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2015-09-12"
+  },
+  {
+    "ownershipId": 44,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2017-11-21"
+  },
+  {
+    "ownershipId": 45,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-12-24"
+  },
+  {
+    "ownershipId": 46,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-05-22"
+  },
+  {
+    "ownershipId": 47,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-04-04"
+  },
+  {
+    "ownershipId": 48,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-12-20"
+  },
+  {
+    "ownershipId": 49,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2016-09-02"
+  },
+  {
+    "ownershipId": 50,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2015-10-01"
+  },
+  {
+    "ownershipId": 51,
+    "userAccountId": "b56cfde8-9b07-4dc6-affb-446b6c2a7487",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2016-10-21"
+  },
+  {
+    "ownershipId": 52,
+    "userAccountId": "7445b1e3-8b72-406a-8883-cec3da1757db",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2016-09-08"
+  },
+  {
+    "ownershipId": 53,
+    "userAccountId": "7445b1e3-8b72-406a-8883-cec3da1757db",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2017-07-09"
+  },
+  {
+    "ownershipId": 54,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2016-05-15"
+  },
+  {
+    "ownershipId": 55,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2015-04-01"
+  },
+  {
+    "ownershipId": 56,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2016-11-11"
+  },
+  {
+    "ownershipId": 57,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2017-10-10"
+  },
+  {
+    "ownershipId": 58,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2016-10-10"
+  },
+  {
+    "ownershipId": 59,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2016-04-17"
+  },
+  {
+    "ownershipId": 60,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2016-03-17"
+  },
+  {
+    "ownershipId": 61,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2017-07-17"
+  },
+  {
+    "ownershipId": 62,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-01-27"
+  },
+  {
+    "ownershipId": 63,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 21,
+    "state": 1,
+    "registeredDate": "2015-08-23"
+  },
+  {
+    "ownershipId": 64,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2016-03-04"
+  },
+  {
+    "ownershipId": 65,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 33,
+    "state": 1,
+    "registeredDate": "2017-10-14"
+  },
+  {
+    "ownershipId": 66,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2016-04-21"
+  },
+  {
+    "ownershipId": 67,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-03-31"
+  },
+  {
+    "ownershipId": 68,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 1,
+    "state": 1,
+    "registeredDate": "2015-07-29"
+  },
+  {
+    "ownershipId": 69,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2016-01-01"
+  },
+  {
+    "ownershipId": 70,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-12-23"
+  },
+  {
+    "ownershipId": 71,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-01-10"
+  },
+  {
+    "ownershipId": 72,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 12,
+    "state": 1,
+    "registeredDate": "2017-05-31"
+  },
+  {
+    "ownershipId": 73,
+    "userAccountId": "69d2dc12-fa0f-47a5-b25f-e9b3359115fd",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-10-02"
+  },
+  {
+    "ownershipId": 74,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-04-14"
+  },
+  {
+    "ownershipId": 75,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2016-03-13"
+  },
+  {
+    "ownershipId": 76,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2015-03-11"
+  },
+  {
+    "ownershipId": 77,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2016-06-19"
+  },
+  {
+    "ownershipId": 78,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2017-08-15"
+  },
+  {
+    "ownershipId": 79,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2016-06-04"
+  },
+  {
+    "ownershipId": 80,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2017-04-05"
+  },
+  {
+    "ownershipId": 81,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-11-17"
+  },
+  {
+    "ownershipId": 82,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2016-08-07"
+  },
+  {
+    "ownershipId": 83,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2015-07-09"
+  },
+  {
+    "ownershipId": 84,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2017-10-14"
+  },
+  {
+    "ownershipId": 85,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2015-08-15"
+  },
+  {
+    "ownershipId": 86,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 30,
+    "state": 1,
+    "registeredDate": "2015-12-28"
+  },
+  {
+    "ownershipId": 87,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-12-03"
+  },
+  {
+    "ownershipId": 88,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 24,
+    "state": 1,
+    "registeredDate": "2015-10-01"
+  },
+  {
+    "ownershipId": 89,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2015-06-24"
+  },
+  {
+    "ownershipId": 90,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2016-09-07"
+  },
+  {
+    "ownershipId": 91,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2015-08-18"
+  },
+  {
+    "ownershipId": 92,
+    "userAccountId": "54f7f552-e8b2-4abe-9041-ab2cfd395e42",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2015-04-05"
+  },
+  {
+    "ownershipId": 93,
+    "userAccountId": "1719507a-61e9-4aa6-aaf4-d39b19741be7",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-11-13"
+  },
+  {
+    "ownershipId": 94,
+    "userAccountId": "1719507a-61e9-4aa6-aaf4-d39b19741be7",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-03-30"
+  },
+  {
+    "ownershipId": 95,
+    "userAccountId": "1719507a-61e9-4aa6-aaf4-d39b19741be7",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-04-17"
+  },
+  {
+    "ownershipId": 96,
+    "userAccountId": "1719507a-61e9-4aa6-aaf4-d39b19741be7",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2016-10-09"
+  },
+  {
+    "ownershipId": 97,
+    "userAccountId": "1719507a-61e9-4aa6-aaf4-d39b19741be7",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2017-06-17"
+  },
+  {
+    "ownershipId": 98,
+    "userAccountId": "1719507a-61e9-4aa6-aaf4-d39b19741be7",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2017-06-10"
+  },
+  {
+    "ownershipId": 99,
+    "userAccountId": "1719507a-61e9-4aa6-aaf4-d39b19741be7",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2015-02-08"
+  },
+  {
+    "ownershipId": 100,
+    "userAccountId": "1719507a-61e9-4aa6-aaf4-d39b19741be7",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-09-05"
+  },
+  {
+    "ownershipId": 101,
+    "userAccountId": "1719507a-61e9-4aa6-aaf4-d39b19741be7",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2016-02-21"
+  },
+  {
+    "ownershipId": 102,
+    "userAccountId": "1719507a-61e9-4aa6-aaf4-d39b19741be7",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2015-09-08"
+  },
+  {
+    "ownershipId": 103,
+    "userAccountId": "1719507a-61e9-4aa6-aaf4-d39b19741be7",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2017-11-18"
+  },
+  {
+    "ownershipId": 104,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2015-09-11"
+  },
+  {
+    "ownershipId": 105,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-09-21"
+  },
+  {
+    "ownershipId": 106,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-04-23"
+  },
+  {
+    "ownershipId": 107,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2017-11-06"
+  },
+  {
+    "ownershipId": 108,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2017-03-27"
+  },
+  {
+    "ownershipId": 109,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2015-03-04"
+  },
+  {
+    "ownershipId": 110,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 26,
+    "state": 1,
+    "registeredDate": "2015-01-21"
+  },
+  {
+    "ownershipId": 111,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-05-26"
+  },
+  {
+    "ownershipId": 112,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-02-25"
+  },
+  {
+    "ownershipId": 113,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2015-05-08"
+  },
+  {
+    "ownershipId": 114,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2016-12-12"
+  },
+  {
+    "ownershipId": 115,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-03-31"
+  },
+  {
+    "ownershipId": 116,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2015-12-10"
+  },
+  {
+    "ownershipId": 117,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-06-20"
+  },
+  {
+    "ownershipId": 118,
+    "userAccountId": "55695b6e-bac2-41b4-8531-cfc599849e4d",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2015-10-10"
+  },
+  {
+    "ownershipId": 119,
+    "userAccountId": "6a2ad8b5-0272-4090-990d-7da07b1b9835",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2015-07-22"
+  },
+  {
+    "ownershipId": 120,
+    "userAccountId": "6a2ad8b5-0272-4090-990d-7da07b1b9835",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-10-17"
+  },
+  {
+    "ownershipId": 121,
+    "userAccountId": "6a2ad8b5-0272-4090-990d-7da07b1b9835",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-05-21"
+  },
+  {
+    "ownershipId": 122,
+    "userAccountId": "6a2ad8b5-0272-4090-990d-7da07b1b9835",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-07-02"
+  },
+  {
+    "ownershipId": 123,
+    "userAccountId": "6a2ad8b5-0272-4090-990d-7da07b1b9835",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-02-04"
+  },
+  {
+    "ownershipId": 124,
+    "userAccountId": "6a2ad8b5-0272-4090-990d-7da07b1b9835",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2017-03-26"
+  },
+  {
+    "ownershipId": 125,
+    "userAccountId": "6a2ad8b5-0272-4090-990d-7da07b1b9835",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2015-05-07"
+  },
+  {
+    "ownershipId": 126,
+    "userAccountId": "6a2ad8b5-0272-4090-990d-7da07b1b9835",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-09-07"
+  },
+  {
+    "ownershipId": 127,
+    "userAccountId": "aff9a9ba-f52b-43fb-ac84-fb26285c3749",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2016-07-19"
+  },
+  {
+    "ownershipId": 128,
+    "userAccountId": "aff9a9ba-f52b-43fb-ac84-fb26285c3749",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2016-07-05"
+  },
+  {
+    "ownershipId": 129,
+    "userAccountId": "aff9a9ba-f52b-43fb-ac84-fb26285c3749",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2017-11-28"
+  },
+  {
+    "ownershipId": 130,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2017-05-04"
+  },
+  {
+    "ownershipId": 131,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2015-08-24"
+  },
+  {
+    "ownershipId": 132,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2016-12-09"
+  },
+  {
+    "ownershipId": 133,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2017-07-08"
+  },
+  {
+    "ownershipId": 134,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-10-01"
+  },
+  {
+    "ownershipId": 135,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-02-13"
+  },
+  {
+    "ownershipId": 136,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2017-03-11"
+  },
+  {
+    "ownershipId": 137,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2016-08-20"
+  },
+  {
+    "ownershipId": 138,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2017-09-27"
+  },
+  {
+    "ownershipId": 139,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-01-23"
+  },
+  {
+    "ownershipId": 140,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2016-03-24"
+  },
+  {
+    "ownershipId": 141,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2016-01-22"
+  },
+  {
+    "ownershipId": 142,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-08-07"
+  },
+  {
+    "ownershipId": 143,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2015-07-30"
+  },
+  {
+    "ownershipId": 144,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2015-06-04"
+  },
+  {
+    "ownershipId": 145,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2016-04-15"
+  },
+  {
+    "ownershipId": 146,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2015-06-24"
+  },
+  {
+    "ownershipId": 147,
+    "userAccountId": "2457d49b-9f0f-40bd-8869-fc7ed3fdad8b",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2017-10-29"
+  },
+  {
+    "ownershipId": 148,
+    "userAccountId": "0a5e0d56-2714-4ee6-b087-06687021b465",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2016-10-31"
+  },
+  {
+    "ownershipId": 149,
+    "userAccountId": "0a5e0d56-2714-4ee6-b087-06687021b465",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2016-11-29"
+  },
+  {
+    "ownershipId": 150,
+    "userAccountId": "1dae252a-efef-4d02-9e8c-6bfab4d7522a",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2017-04-07"
+  },
+  {
+    "ownershipId": 151,
+    "userAccountId": "1dae252a-efef-4d02-9e8c-6bfab4d7522a",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-03-22"
+  },
+  {
+    "ownershipId": 152,
+    "userAccountId": "1dae252a-efef-4d02-9e8c-6bfab4d7522a",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2016-09-08"
+  },
+  {
+    "ownershipId": 153,
+    "userAccountId": "1dae252a-efef-4d02-9e8c-6bfab4d7522a",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2016-11-20"
+  },
+  {
+    "ownershipId": 154,
+    "userAccountId": "1dae252a-efef-4d02-9e8c-6bfab4d7522a",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2016-03-24"
+  },
+  {
+    "ownershipId": 155,
+    "userAccountId": "1dae252a-efef-4d02-9e8c-6bfab4d7522a",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-04-18"
+  },
+  {
+    "ownershipId": 156,
+    "userAccountId": "1dae252a-efef-4d02-9e8c-6bfab4d7522a",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-08-23"
+  },
+  {
+    "ownershipId": 157,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-08-04"
+  },
+  {
+    "ownershipId": 158,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2015-08-26"
+  },
+  {
+    "ownershipId": 159,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-05-08"
+  },
+  {
+    "ownershipId": 160,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-12-15"
+  },
+  {
+    "ownershipId": 161,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2015-10-06"
+  },
+  {
+    "ownershipId": 162,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2016-05-04"
+  },
+  {
+    "ownershipId": 163,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2017-03-30"
+  },
+  {
+    "ownershipId": 164,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2015-10-01"
+  },
+  {
+    "ownershipId": 165,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 26,
+    "state": 1,
+    "registeredDate": "2017-04-29"
+  },
+  {
+    "ownershipId": 166,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2016-05-16"
+  },
+  {
+    "ownershipId": 167,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2015-07-21"
+  },
+  {
+    "ownershipId": 168,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2017-07-07"
+  },
+  {
+    "ownershipId": 169,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-10-31"
+  },
+  {
+    "ownershipId": 170,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2016-12-20"
+  },
+  {
+    "ownershipId": 171,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2017-03-22"
+  },
+  {
+    "ownershipId": 172,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2017-08-23"
+  },
+  {
+    "ownershipId": 173,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 18,
+    "state": 1,
+    "registeredDate": "2016-08-16"
+  },
+  {
+    "ownershipId": 174,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2017-03-29"
+  },
+  {
+    "ownershipId": 175,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2015-09-26"
+  },
+  {
+    "ownershipId": 176,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2016-09-12"
+  },
+  {
+    "ownershipId": 177,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2017-11-02"
+  },
+  {
+    "ownershipId": 178,
+    "userAccountId": "2ce179e3-edda-4166-a095-079d808bddde",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2017-08-03"
+  },
+  {
+    "ownershipId": 179,
+    "userAccountId": "8e4bcfb8-6d00-4edd-bbd9-b6bd737a4b5e",
+    "gameId": 13,
+    "state": 1,
+    "registeredDate": "2015-12-12"
+  },
+  {
+    "ownershipId": 180,
+    "userAccountId": "8e4bcfb8-6d00-4edd-bbd9-b6bd737a4b5e",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2017-10-14"
+  },
+  {
+    "ownershipId": 181,
+    "userAccountId": "8e4bcfb8-6d00-4edd-bbd9-b6bd737a4b5e",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2017-10-10"
+  },
+  {
+    "ownershipId": 182,
+    "userAccountId": "8e4bcfb8-6d00-4edd-bbd9-b6bd737a4b5e",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2017-08-18"
+  },
+  {
+    "ownershipId": 183,
+    "userAccountId": "8e4bcfb8-6d00-4edd-bbd9-b6bd737a4b5e",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2017-07-07"
+  },
+  {
+    "ownershipId": 184,
+    "userAccountId": "8e4bcfb8-6d00-4edd-bbd9-b6bd737a4b5e",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2015-08-23"
+  },
+  {
+    "ownershipId": 185,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2015-02-13"
+  },
+  {
+    "ownershipId": 186,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2016-11-14"
+  },
+  {
+    "ownershipId": 187,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2015-01-20"
+  },
+  {
+    "ownershipId": 188,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2016-04-15"
+  },
+  {
+    "ownershipId": 189,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-06-16"
+  },
+  {
+    "ownershipId": 190,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2015-06-24"
+  },
+  {
+    "ownershipId": 191,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2016-08-07"
+  },
+  {
+    "ownershipId": 192,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-12-26"
+  },
+  {
+    "ownershipId": 193,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2017-05-23"
+  },
+  {
+    "ownershipId": 194,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2016-02-09"
+  },
+  {
+    "ownershipId": 195,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 22,
+    "state": 1,
+    "registeredDate": "2015-06-20"
+  },
+  {
+    "ownershipId": 196,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 20,
+    "state": 1,
+    "registeredDate": "2017-08-19"
+  },
+  {
+    "ownershipId": 197,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2017-04-09"
+  },
+  {
+    "ownershipId": 198,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 1,
+    "state": 1,
+    "registeredDate": "2017-09-29"
+  },
+  {
+    "ownershipId": 199,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2016-01-05"
+  },
+  {
+    "ownershipId": 200,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2017-10-30"
+  },
+  {
+    "ownershipId": 201,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2017-11-04"
+  },
+  {
+    "ownershipId": 202,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2015-04-24"
+  },
+  {
+    "ownershipId": 203,
+    "userAccountId": "e57da097-1f9a-472c-ba60-e0f9bedb4b16",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-01-02"
+  },
+  {
+    "ownershipId": 204,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2017-11-09"
+  },
+  {
+    "ownershipId": 205,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-01-17"
+  },
+  {
+    "ownershipId": 206,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2017-06-29"
+  },
+  {
+    "ownershipId": 207,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-01-24"
+  },
+  {
+    "ownershipId": 208,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2017-07-24"
+  },
+  {
+    "ownershipId": 209,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2015-06-29"
+  },
+  {
+    "ownershipId": 210,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-07-05"
+  },
+  {
+    "ownershipId": 211,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2015-09-21"
+  },
+  {
+    "ownershipId": 212,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2015-12-02"
+  },
+  {
+    "ownershipId": 213,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 12,
+    "state": 1,
+    "registeredDate": "2017-08-15"
+  },
+  {
+    "ownershipId": 214,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-06-25"
+  },
+  {
+    "ownershipId": 215,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 7,
+    "state": 1,
+    "registeredDate": "2016-02-05"
+  },
+  {
+    "ownershipId": 216,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 13,
+    "state": 1,
+    "registeredDate": "2016-01-18"
+  },
+  {
+    "ownershipId": 217,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2016-09-28"
+  },
+  {
+    "ownershipId": 218,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-08-08"
+  },
+  {
+    "ownershipId": 219,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2015-08-18"
+  },
+  {
+    "ownershipId": 220,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-06-16"
+  },
+  {
+    "ownershipId": 221,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-04-27"
+  },
+  {
+    "ownershipId": 222,
+    "userAccountId": "0f5955a2-eaec-41a2-80fc-ee4b51526de9",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-03-06"
+  },
+  {
+    "ownershipId": 223,
+    "userAccountId": "4167070c-c281-4247-85d0-d89c130dbefe",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-01-21"
+  },
+  {
+    "ownershipId": 224,
+    "userAccountId": "4167070c-c281-4247-85d0-d89c130dbefe",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-05-10"
+  },
+  {
+    "ownershipId": 225,
+    "userAccountId": "4167070c-c281-4247-85d0-d89c130dbefe",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2015-05-15"
+  },
+  {
+    "ownershipId": 226,
+    "userAccountId": "4167070c-c281-4247-85d0-d89c130dbefe",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2016-03-27"
+  },
+  {
+    "ownershipId": 227,
+    "userAccountId": "4167070c-c281-4247-85d0-d89c130dbefe",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2015-04-03"
+  },
+  {
+    "ownershipId": 228,
+    "userAccountId": "4167070c-c281-4247-85d0-d89c130dbefe",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-07-09"
+  },
+  {
+    "ownershipId": 229,
+    "userAccountId": "4167070c-c281-4247-85d0-d89c130dbefe",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2016-10-10"
+  },
+  {
+    "ownershipId": 230,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2016-01-08"
+  },
+  {
+    "ownershipId": 231,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2017-05-06"
+  },
+  {
+    "ownershipId": 232,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-02-04"
+  },
+  {
+    "ownershipId": 233,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2016-07-29"
+  },
+  {
+    "ownershipId": 234,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2016-01-12"
+  },
+  {
+    "ownershipId": 235,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-11-10"
+  },
+  {
+    "ownershipId": 236,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2017-06-18"
+  },
+  {
+    "ownershipId": 237,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-08-17"
+  },
+  {
+    "ownershipId": 238,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 9,
+    "state": 1,
+    "registeredDate": "2017-07-28"
+  },
+  {
+    "ownershipId": 239,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2015-08-06"
+  },
+  {
+    "ownershipId": 240,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-07-17"
+  },
+  {
+    "ownershipId": 241,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2016-10-22"
+  },
+  {
+    "ownershipId": 242,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2015-05-29"
+  },
+  {
+    "ownershipId": 243,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2015-10-19"
+  },
+  {
+    "ownershipId": 244,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2016-11-11"
+  },
+  {
+    "ownershipId": 245,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2017-09-03"
+  },
+  {
+    "ownershipId": 246,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2015-09-07"
+  },
+  {
+    "ownershipId": 247,
+    "userAccountId": "bf3fb85a-a9f6-476e-bd50-4c90a55d242f",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-04-12"
+  },
+  {
+    "ownershipId": 248,
+    "userAccountId": "cae8339b-287e-40b0-913f-3e9d7212133c",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2016-11-29"
+  },
+  {
+    "ownershipId": 249,
+    "userAccountId": "cae8339b-287e-40b0-913f-3e9d7212133c",
+    "gameId": 21,
+    "state": 1,
+    "registeredDate": "2015-01-05"
+  },
+  {
+    "ownershipId": 250,
+    "userAccountId": "cae8339b-287e-40b0-913f-3e9d7212133c",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2017-05-02"
+  },
+  {
+    "ownershipId": 251,
+    "userAccountId": "cae8339b-287e-40b0-913f-3e9d7212133c",
+    "gameId": 20,
+    "state": 1,
+    "registeredDate": "2015-11-22"
+  },
+  {
+    "ownershipId": 252,
+    "userAccountId": "cae8339b-287e-40b0-913f-3e9d7212133c",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2015-09-01"
+  },
+  {
+    "ownershipId": 253,
+    "userAccountId": "cae8339b-287e-40b0-913f-3e9d7212133c",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2017-02-11"
+  },
+  {
+    "ownershipId": 254,
+    "userAccountId": "cae8339b-287e-40b0-913f-3e9d7212133c",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-07-23"
+  },
+  {
+    "ownershipId": 255,
+    "userAccountId": "cae8339b-287e-40b0-913f-3e9d7212133c",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-07-04"
+  },
+  {
+    "ownershipId": 256,
+    "userAccountId": "cae8339b-287e-40b0-913f-3e9d7212133c",
+    "gameId": 7,
+    "state": 1,
+    "registeredDate": "2015-08-31"
+  },
+  {
+    "ownershipId": 257,
+    "userAccountId": "cae8339b-287e-40b0-913f-3e9d7212133c",
+    "gameId": 2,
+    "state": 1,
+    "registeredDate": "2016-03-03"
+  },
+  {
+    "ownershipId": 258,
+    "userAccountId": "cae8339b-287e-40b0-913f-3e9d7212133c",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2015-08-26"
+  },
+  {
+    "ownershipId": 259,
+    "userAccountId": "cae8339b-287e-40b0-913f-3e9d7212133c",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2017-06-27"
+  },
+  {
+    "ownershipId": 260,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 29,
+    "state": 1,
+    "registeredDate": "2016-09-22"
+  },
+  {
+    "ownershipId": 261,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2017-03-29"
+  },
+  {
+    "ownershipId": 262,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2017-06-18"
+  },
+  {
+    "ownershipId": 263,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 25,
+    "state": 1,
+    "registeredDate": "2015-10-14"
+  },
+  {
+    "ownershipId": 264,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2017-05-22"
+  },
+  {
+    "ownershipId": 265,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2017-01-29"
+  },
+  {
+    "ownershipId": 266,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2015-08-17"
+  },
+  {
+    "ownershipId": 267,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2017-04-04"
+  },
+  {
+    "ownershipId": 268,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2016-08-03"
+  },
+  {
+    "ownershipId": 269,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-07-16"
+  },
+  {
+    "ownershipId": 270,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2016-07-20"
+  },
+  {
+    "ownershipId": 271,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2017-05-02"
+  },
+  {
+    "ownershipId": 272,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2017-01-31"
+  },
+  {
+    "ownershipId": 273,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2016-01-04"
+  },
+  {
+    "ownershipId": 274,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-02-01"
+  },
+  {
+    "ownershipId": 275,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2016-07-24"
+  },
+  {
+    "ownershipId": 276,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2015-11-30"
+  },
+  {
+    "ownershipId": 277,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2016-05-18"
+  },
+  {
+    "ownershipId": 278,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2015-03-13"
+  },
+  {
+    "ownershipId": 279,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2015-08-06"
+  },
+  {
+    "ownershipId": 280,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-08-08"
+  },
+  {
+    "ownershipId": 281,
+    "userAccountId": "beb30c4d-1242-4409-954b-e5739d6bd7b2",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2017-11-14"
+  },
+  {
+    "ownershipId": 282,
+    "userAccountId": "9fb28e8a-b42e-4a9e-af13-d9cdc5a2ea9c",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2016-04-03"
+  },
+  {
+    "ownershipId": 283,
+    "userAccountId": "9fb28e8a-b42e-4a9e-af13-d9cdc5a2ea9c",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2015-07-04"
+  },
+  {
+    "ownershipId": 284,
+    "userAccountId": "9fb28e8a-b42e-4a9e-af13-d9cdc5a2ea9c",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-05-10"
+  },
+  {
+    "ownershipId": 285,
+    "userAccountId": "9fb28e8a-b42e-4a9e-af13-d9cdc5a2ea9c",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-02-16"
+  },
+  {
+    "ownershipId": 286,
+    "userAccountId": "9fb28e8a-b42e-4a9e-af13-d9cdc5a2ea9c",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-09-04"
+  },
+  {
+    "ownershipId": 287,
+    "userAccountId": "91102f04-b01a-4110-ae22-f5d5cd393fae",
+    "gameId": 30,
+    "state": 1,
+    "registeredDate": "2015-11-23"
+  },
+  {
+    "ownershipId": 288,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2016-01-08"
+  },
+  {
+    "ownershipId": 289,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2017-06-10"
+  },
+  {
+    "ownershipId": 290,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2017-03-12"
+  },
+  {
+    "ownershipId": 291,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2016-04-17"
+  },
+  {
+    "ownershipId": 292,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-12-24"
+  },
+  {
+    "ownershipId": 293,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2015-01-31"
+  },
+  {
+    "ownershipId": 294,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 23,
+    "state": 1,
+    "registeredDate": "2016-10-14"
+  },
+  {
+    "ownershipId": 295,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2016-03-20"
+  },
+  {
+    "ownershipId": 296,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-04-06"
+  },
+  {
+    "ownershipId": 297,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-07-16"
+  },
+  {
+    "ownershipId": 298,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2016-04-29"
+  },
+  {
+    "ownershipId": 299,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2017-09-12"
+  },
+  {
+    "ownershipId": 300,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2017-01-17"
+  },
+  {
+    "ownershipId": 301,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 28,
+    "state": 1,
+    "registeredDate": "2016-05-04"
+  },
+  {
+    "ownershipId": 302,
+    "userAccountId": "f943bbe3-16f0-47f9-8e53-1b8280137454",
+    "gameId": 33,
+    "state": 1,
+    "registeredDate": "2017-08-09"
+  },
+  {
+    "ownershipId": 303,
+    "userAccountId": "6413072a-795a-42d4-a5b5-a92e2ebccd97",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2016-05-17"
+  },
+  {
+    "ownershipId": 304,
+    "userAccountId": "6413072a-795a-42d4-a5b5-a92e2ebccd97",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-05-17"
+  },
+  {
+    "ownershipId": 305,
+    "userAccountId": "6413072a-795a-42d4-a5b5-a92e2ebccd97",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2015-01-01"
+  },
+  {
+    "ownershipId": 306,
+    "userAccountId": "976bbb67-e22a-4e30-9620-df8451860c37",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2016-09-20"
+  },
+  {
+    "ownershipId": 307,
+    "userAccountId": "976bbb67-e22a-4e30-9620-df8451860c37",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2017-07-29"
+  },
+  {
+    "ownershipId": 308,
+    "userAccountId": "976bbb67-e22a-4e30-9620-df8451860c37",
+    "gameId": 31,
+    "state": 1,
+    "registeredDate": "2017-01-10"
+  },
+  {
+    "ownershipId": 309,
+    "userAccountId": "976bbb67-e22a-4e30-9620-df8451860c37",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2016-11-28"
+  },
+  {
+    "ownershipId": 310,
+    "userAccountId": "976bbb67-e22a-4e30-9620-df8451860c37",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2015-08-06"
+  },
+  {
+    "ownershipId": 311,
+    "userAccountId": "59d8aae9-15d8-42f8-a8cb-ef43fb678a1b",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2017-03-14"
+  },
+  {
+    "ownershipId": 312,
+    "userAccountId": "59d8aae9-15d8-42f8-a8cb-ef43fb678a1b",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2015-12-22"
+  },
+  {
+    "ownershipId": 313,
+    "userAccountId": "59d8aae9-15d8-42f8-a8cb-ef43fb678a1b",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2015-01-20"
+  },
+  {
+    "ownershipId": 314,
+    "userAccountId": "59d8aae9-15d8-42f8-a8cb-ef43fb678a1b",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2017-10-20"
+  },
+  {
+    "ownershipId": 315,
+    "userAccountId": "59d8aae9-15d8-42f8-a8cb-ef43fb678a1b",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-10-08"
+  },
+  {
+    "ownershipId": 316,
+    "userAccountId": "59d8aae9-15d8-42f8-a8cb-ef43fb678a1b",
+    "gameId": 33,
+    "state": 1,
+    "registeredDate": "2015-12-26"
+  },
+  {
+    "ownershipId": 317,
+    "userAccountId": "59d8aae9-15d8-42f8-a8cb-ef43fb678a1b",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2016-12-15"
+  },
+  {
+    "ownershipId": 318,
+    "userAccountId": "59d8aae9-15d8-42f8-a8cb-ef43fb678a1b",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2016-05-06"
+  },
+  {
+    "ownershipId": 319,
+    "userAccountId": "59d8aae9-15d8-42f8-a8cb-ef43fb678a1b",
+    "gameId": 8,
+    "state": 1,
+    "registeredDate": "2017-04-05"
+  },
+  {
+    "ownershipId": 320,
+    "userAccountId": "59d8aae9-15d8-42f8-a8cb-ef43fb678a1b",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2015-05-27"
+  },
+  {
+    "ownershipId": 321,
+    "userAccountId": "59d8aae9-15d8-42f8-a8cb-ef43fb678a1b",
+    "gameId": 9,
+    "state": 1,
+    "registeredDate": "2017-08-25"
+  },
+  {
+    "ownershipId": 322,
+    "userAccountId": "e47ddd95-27a8-474c-9efa-249590658b96",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2016-03-28"
+  },
+  {
+    "ownershipId": 323,
+    "userAccountId": "e47ddd95-27a8-474c-9efa-249590658b96",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2017-01-24"
+  },
+  {
+    "ownershipId": 324,
+    "userAccountId": "e47ddd95-27a8-474c-9efa-249590658b96",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-04-04"
+  },
+  {
+    "ownershipId": 325,
+    "userAccountId": "667e0b0a-4ad4-4228-a9da-9ea35594cee7",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-04-05"
+  },
+  {
+    "ownershipId": 326,
+    "userAccountId": "667e0b0a-4ad4-4228-a9da-9ea35594cee7",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2016-05-10"
+  },
+  {
+    "ownershipId": 327,
+    "userAccountId": "667e0b0a-4ad4-4228-a9da-9ea35594cee7",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2017-01-01"
+  },
+  {
+    "ownershipId": 328,
+    "userAccountId": "667e0b0a-4ad4-4228-a9da-9ea35594cee7",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2017-02-19"
+  },
+  {
+    "ownershipId": 329,
+    "userAccountId": "667e0b0a-4ad4-4228-a9da-9ea35594cee7",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2016-10-14"
+  },
+  {
+    "ownershipId": 330,
+    "userAccountId": "667e0b0a-4ad4-4228-a9da-9ea35594cee7",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2017-03-20"
+  },
+  {
+    "ownershipId": 331,
+    "userAccountId": "667e0b0a-4ad4-4228-a9da-9ea35594cee7",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2016-04-16"
+  },
+  {
+    "ownershipId": 332,
+    "userAccountId": "667e0b0a-4ad4-4228-a9da-9ea35594cee7",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2015-01-20"
+  },
+  {
+    "ownershipId": 333,
+    "userAccountId": "667e0b0a-4ad4-4228-a9da-9ea35594cee7",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2015-05-31"
+  },
+  {
+    "ownershipId": 334,
+    "userAccountId": "667e0b0a-4ad4-4228-a9da-9ea35594cee7",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2016-06-19"
+  },
+  {
+    "ownershipId": 335,
+    "userAccountId": "667e0b0a-4ad4-4228-a9da-9ea35594cee7",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-04-05"
+  },
+  {
+    "ownershipId": 336,
+    "userAccountId": "667e0b0a-4ad4-4228-a9da-9ea35594cee7",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2015-04-07"
+  },
+  {
+    "ownershipId": 337,
+    "userAccountId": "5ea50eaa-5e2c-4eb8-8c85-4b418557757f",
+    "gameId": 1,
+    "state": 1,
+    "registeredDate": "2017-10-18"
+  },
+  {
+    "ownershipId": 338,
+    "userAccountId": "5ea50eaa-5e2c-4eb8-8c85-4b418557757f",
+    "gameId": 21,
+    "state": 1,
+    "registeredDate": "2017-01-17"
+  },
+  {
+    "ownershipId": 339,
+    "userAccountId": "5ea50eaa-5e2c-4eb8-8c85-4b418557757f",
+    "gameId": 22,
+    "state": 1,
+    "registeredDate": "2017-05-10"
+  },
+  {
+    "ownershipId": 340,
+    "userAccountId": "5ea50eaa-5e2c-4eb8-8c85-4b418557757f",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2016-04-27"
+  },
+  {
+    "ownershipId": 341,
+    "userAccountId": "5ea50eaa-5e2c-4eb8-8c85-4b418557757f",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2017-01-07"
+  },
+  {
+    "ownershipId": 342,
+    "userAccountId": "5ea50eaa-5e2c-4eb8-8c85-4b418557757f",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2016-10-12"
+  },
+  {
+    "ownershipId": 343,
+    "userAccountId": "5ea50eaa-5e2c-4eb8-8c85-4b418557757f",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-01-09"
+  },
+  {
+    "ownershipId": 344,
+    "userAccountId": "1cf1b054-bc11-4100-8aa8-f7ce80dc6d4a",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2016-11-05"
+  },
+  {
+    "ownershipId": 345,
+    "userAccountId": "1cf1b054-bc11-4100-8aa8-f7ce80dc6d4a",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2017-11-28"
+  },
+  {
+    "ownershipId": 346,
+    "userAccountId": "1cf1b054-bc11-4100-8aa8-f7ce80dc6d4a",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2015-04-27"
+  },
+  {
+    "ownershipId": 347,
+    "userAccountId": "1cf1b054-bc11-4100-8aa8-f7ce80dc6d4a",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2015-12-05"
+  },
+  {
+    "ownershipId": 348,
+    "userAccountId": "1cf1b054-bc11-4100-8aa8-f7ce80dc6d4a",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-03-14"
+  },
+  {
+    "ownershipId": 349,
+    "userAccountId": "1cf1b054-bc11-4100-8aa8-f7ce80dc6d4a",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2015-01-07"
+  },
+  {
+    "ownershipId": 350,
+    "userAccountId": "1cf1b054-bc11-4100-8aa8-f7ce80dc6d4a",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2015-03-26"
+  },
+  {
+    "ownershipId": 351,
+    "userAccountId": "1cf1b054-bc11-4100-8aa8-f7ce80dc6d4a",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2015-04-23"
+  },
+  {
+    "ownershipId": 352,
+    "userAccountId": "1cf1b054-bc11-4100-8aa8-f7ce80dc6d4a",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2016-03-11"
+  },
+  {
+    "ownershipId": 353,
+    "userAccountId": "1cf1b054-bc11-4100-8aa8-f7ce80dc6d4a",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2016-12-24"
+  },
+  {
+    "ownershipId": 354,
+    "userAccountId": "1cf1b054-bc11-4100-8aa8-f7ce80dc6d4a",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2017-04-18"
+  },
+  {
+    "ownershipId": 355,
+    "userAccountId": "6a778499-56ad-448a-80e1-48982665ee0a",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2017-04-24"
+  },
+  {
+    "ownershipId": 356,
+    "userAccountId": "6a778499-56ad-448a-80e1-48982665ee0a",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2015-02-07"
+  },
+  {
+    "ownershipId": 357,
+    "userAccountId": "6a778499-56ad-448a-80e1-48982665ee0a",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-07-17"
+  },
+  {
+    "ownershipId": 358,
+    "userAccountId": "6a778499-56ad-448a-80e1-48982665ee0a",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2015-02-12"
+  },
+  {
+    "ownershipId": 359,
+    "userAccountId": "6a778499-56ad-448a-80e1-48982665ee0a",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-02-13"
+  },
+  {
+    "ownershipId": 360,
+    "userAccountId": "6a778499-56ad-448a-80e1-48982665ee0a",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2016-07-23"
+  },
+  {
+    "ownershipId": 361,
+    "userAccountId": "6a778499-56ad-448a-80e1-48982665ee0a",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2017-08-20"
+  },
+  {
+    "ownershipId": 362,
+    "userAccountId": "6a778499-56ad-448a-80e1-48982665ee0a",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2015-06-09"
+  },
+  {
+    "ownershipId": 363,
+    "userAccountId": "6a778499-56ad-448a-80e1-48982665ee0a",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2015-03-30"
+  },
+  {
+    "ownershipId": 364,
+    "userAccountId": "6a778499-56ad-448a-80e1-48982665ee0a",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2017-08-11"
+  },
+  {
+    "ownershipId": 365,
+    "userAccountId": "6a778499-56ad-448a-80e1-48982665ee0a",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2017-03-21"
+  },
+  {
+    "ownershipId": 366,
+    "userAccountId": "6a778499-56ad-448a-80e1-48982665ee0a",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2017-02-23"
+  },
+  {
+    "ownershipId": 367,
+    "userAccountId": "d9e470ba-a3a7-48f3-aab2-2046dc6a1b8a",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2015-07-24"
+  },
+  {
+    "ownershipId": 368,
+    "userAccountId": "d9e470ba-a3a7-48f3-aab2-2046dc6a1b8a",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-07-02"
+  },
+  {
+    "ownershipId": 369,
+    "userAccountId": "d9e470ba-a3a7-48f3-aab2-2046dc6a1b8a",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2016-07-16"
+  },
+  {
+    "ownershipId": 370,
+    "userAccountId": "d9e470ba-a3a7-48f3-aab2-2046dc6a1b8a",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2016-07-03"
+  },
+  {
+    "ownershipId": 371,
+    "userAccountId": "d9e470ba-a3a7-48f3-aab2-2046dc6a1b8a",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2016-02-08"
+  },
+  {
+    "ownershipId": 372,
+    "userAccountId": "d9e470ba-a3a7-48f3-aab2-2046dc6a1b8a",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-10-29"
+  },
+  {
+    "ownershipId": 373,
+    "userAccountId": "d9e470ba-a3a7-48f3-aab2-2046dc6a1b8a",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2016-11-26"
+  },
+  {
+    "ownershipId": 374,
+    "userAccountId": "d9e470ba-a3a7-48f3-aab2-2046dc6a1b8a",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2015-12-09"
+  },
+  {
+    "ownershipId": 375,
+    "userAccountId": "d9e470ba-a3a7-48f3-aab2-2046dc6a1b8a",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2016-04-19"
+  },
+  {
+    "ownershipId": 376,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-11-14"
+  },
+  {
+    "ownershipId": 377,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2017-02-16"
+  },
+  {
+    "ownershipId": 378,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-03-21"
+  },
+  {
+    "ownershipId": 379,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2016-04-07"
+  },
+  {
+    "ownershipId": 380,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-11-08"
+  },
+  {
+    "ownershipId": 381,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 24,
+    "state": 1,
+    "registeredDate": "2015-06-07"
+  },
+  {
+    "ownershipId": 382,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2016-10-20"
+  },
+  {
+    "ownershipId": 383,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 4,
+    "state": 1,
+    "registeredDate": "2017-02-13"
+  },
+  {
+    "ownershipId": 384,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2016-07-22"
+  },
+  {
+    "ownershipId": 385,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2016-11-27"
+  },
+  {
+    "ownershipId": 386,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-02-05"
+  },
+  {
+    "ownershipId": 387,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2015-12-28"
+  },
+  {
+    "ownershipId": 388,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-01-13"
+  },
+  {
+    "ownershipId": 389,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2017-01-26"
+  },
+  {
+    "ownershipId": 390,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-02-28"
+  },
+  {
+    "ownershipId": 391,
+    "userAccountId": "2a23a74f-9951-4b49-a333-e6c4dbd105e4",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2017-08-22"
+  },
+  {
+    "ownershipId": 392,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2017-09-06"
+  },
+  {
+    "ownershipId": 393,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2015-12-05"
+  },
+  {
+    "ownershipId": 394,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2015-10-18"
+  },
+  {
+    "ownershipId": 395,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2016-08-08"
+  },
+  {
+    "ownershipId": 396,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2016-07-31"
+  },
+  {
+    "ownershipId": 397,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 4,
+    "state": 1,
+    "registeredDate": "2016-07-16"
+  },
+  {
+    "ownershipId": 398,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2017-05-01"
+  },
+  {
+    "ownershipId": 399,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2017-07-17"
+  },
+  {
+    "ownershipId": 400,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-10-06"
+  },
+  {
+    "ownershipId": 401,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-09-03"
+  },
+  {
+    "ownershipId": 402,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2017-05-04"
+  },
+  {
+    "ownershipId": 403,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2016-07-29"
+  },
+  {
+    "ownershipId": 404,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 19,
+    "state": 1,
+    "registeredDate": "2016-06-06"
+  },
+  {
+    "ownershipId": 405,
+    "userAccountId": "4e224b0a-2027-4478-b9b5-2d781f7214f9",
+    "gameId": 9,
+    "state": 1,
+    "registeredDate": "2017-01-16"
+  },
+  {
+    "ownershipId": 406,
+    "userAccountId": "b580776b-e0b3-4683-aa15-4d2bfa0f4ba0",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-05-26"
+  },
+  {
+    "ownershipId": 407,
+    "userAccountId": "b580776b-e0b3-4683-aa15-4d2bfa0f4ba0",
+    "gameId": 18,
+    "state": 1,
+    "registeredDate": "2017-03-16"
+  },
+  {
+    "ownershipId": 408,
+    "userAccountId": "b580776b-e0b3-4683-aa15-4d2bfa0f4ba0",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-01-16"
+  },
+  {
+    "ownershipId": 409,
+    "userAccountId": "b580776b-e0b3-4683-aa15-4d2bfa0f4ba0",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2015-12-31"
+  },
+  {
+    "ownershipId": 410,
+    "userAccountId": "b580776b-e0b3-4683-aa15-4d2bfa0f4ba0",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2016-06-11"
+  },
+  {
+    "ownershipId": 411,
+    "userAccountId": "b580776b-e0b3-4683-aa15-4d2bfa0f4ba0",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2015-11-21"
+  },
+  {
+    "ownershipId": 412,
+    "userAccountId": "b580776b-e0b3-4683-aa15-4d2bfa0f4ba0",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2015-04-29"
+  },
+  {
+    "ownershipId": 413,
+    "userAccountId": "b580776b-e0b3-4683-aa15-4d2bfa0f4ba0",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2016-10-07"
+  },
+  {
+    "ownershipId": 414,
+    "userAccountId": "b580776b-e0b3-4683-aa15-4d2bfa0f4ba0",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2016-03-06"
+  },
+  {
+    "ownershipId": 415,
+    "userAccountId": "b580776b-e0b3-4683-aa15-4d2bfa0f4ba0",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2016-02-17"
+  },
+  {
+    "ownershipId": 416,
+    "userAccountId": "b580776b-e0b3-4683-aa15-4d2bfa0f4ba0",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-10-31"
+  },
+  {
+    "ownershipId": 417,
+    "userAccountId": "d0ad193b-71c2-40fb-ba26-e2a4e7bd1a61",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2016-03-26"
+  },
+  {
+    "ownershipId": 418,
+    "userAccountId": "d0ad193b-71c2-40fb-ba26-e2a4e7bd1a61",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2016-08-07"
+  },
+  {
+    "ownershipId": 419,
+    "userAccountId": "d0ad193b-71c2-40fb-ba26-e2a4e7bd1a61",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2015-09-14"
+  },
+  {
+    "ownershipId": 420,
+    "userAccountId": "d0ad193b-71c2-40fb-ba26-e2a4e7bd1a61",
+    "gameId": 28,
+    "state": 1,
+    "registeredDate": "2017-02-13"
+  },
+  {
+    "ownershipId": 421,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2016-02-27"
+  },
+  {
+    "ownershipId": 422,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2017-06-11"
+  },
+  {
+    "ownershipId": 423,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-05-07"
+  },
+  {
+    "ownershipId": 424,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2015-05-19"
+  },
+  {
+    "ownershipId": 425,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2016-10-12"
+  },
+  {
+    "ownershipId": 426,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2016-05-03"
+  },
+  {
+    "ownershipId": 427,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2016-11-24"
+  },
+  {
+    "ownershipId": 428,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2016-02-09"
+  },
+  {
+    "ownershipId": 429,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2017-04-02"
+  },
+  {
+    "ownershipId": 430,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2017-08-20"
+  },
+  {
+    "ownershipId": 431,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2017-03-30"
+  },
+  {
+    "ownershipId": 432,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2017-09-18"
+  },
+  {
+    "ownershipId": 433,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-08-05"
+  },
+  {
+    "ownershipId": 434,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2015-07-03"
+  },
+  {
+    "ownershipId": 435,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 29,
+    "state": 1,
+    "registeredDate": "2015-03-07"
+  },
+  {
+    "ownershipId": 436,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 2,
+    "state": 1,
+    "registeredDate": "2016-01-03"
+  },
+  {
+    "ownershipId": 437,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2015-03-25"
+  },
+  {
+    "ownershipId": 438,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-09-09"
+  },
+  {
+    "ownershipId": 439,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2017-06-05"
+  },
+  {
+    "ownershipId": 440,
+    "userAccountId": "761b4259-9812-4f22-bf29-397362993106",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2016-07-05"
+  },
+  {
+    "ownershipId": 441,
+    "userAccountId": "9f262e1d-19fb-47e6-8a6f-f66ea42af4a5",
+    "gameId": 6,
+    "state": 1,
+    "registeredDate": "2015-10-23"
+  },
+  {
+    "ownershipId": 442,
+    "userAccountId": "9f262e1d-19fb-47e6-8a6f-f66ea42af4a5",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2017-11-11"
+  },
+  {
+    "ownershipId": 443,
+    "userAccountId": "9f262e1d-19fb-47e6-8a6f-f66ea42af4a5",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-01-14"
+  },
+  {
+    "ownershipId": 444,
+    "userAccountId": "9f262e1d-19fb-47e6-8a6f-f66ea42af4a5",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2015-08-17"
+  },
+  {
+    "ownershipId": 445,
+    "userAccountId": "9f262e1d-19fb-47e6-8a6f-f66ea42af4a5",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2015-04-09"
+  },
+  {
+    "ownershipId": 446,
+    "userAccountId": "9f262e1d-19fb-47e6-8a6f-f66ea42af4a5",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2017-04-26"
+  },
+  {
+    "ownershipId": 447,
+    "userAccountId": "9f262e1d-19fb-47e6-8a6f-f66ea42af4a5",
+    "gameId": 4,
+    "state": 1,
+    "registeredDate": "2015-11-30"
+  },
+  {
+    "ownershipId": 448,
+    "userAccountId": "9f262e1d-19fb-47e6-8a6f-f66ea42af4a5",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-08-30"
+  },
+  {
+    "ownershipId": 449,
+    "userAccountId": "9f262e1d-19fb-47e6-8a6f-f66ea42af4a5",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-08-01"
+  },
+  {
+    "ownershipId": 450,
+    "userAccountId": "9f262e1d-19fb-47e6-8a6f-f66ea42af4a5",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2015-10-09"
+  },
+  {
+    "ownershipId": 451,
+    "userAccountId": "9f262e1d-19fb-47e6-8a6f-f66ea42af4a5",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-05-07"
+  },
+  {
+    "ownershipId": 452,
+    "userAccountId": "9f262e1d-19fb-47e6-8a6f-f66ea42af4a5",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2017-11-08"
+  },
+  {
+    "ownershipId": 453,
+    "userAccountId": "9f262e1d-19fb-47e6-8a6f-f66ea42af4a5",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2016-08-17"
+  },
+  {
+    "ownershipId": 454,
+    "userAccountId": "3892c84b-e660-468b-9309-67516463d7b2",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2015-06-03"
+  },
+  {
+    "ownershipId": 455,
+    "userAccountId": "3892c84b-e660-468b-9309-67516463d7b2",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2017-07-09"
+  },
+  {
+    "ownershipId": 456,
+    "userAccountId": "3892c84b-e660-468b-9309-67516463d7b2",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2015-03-26"
+  },
+  {
+    "ownershipId": 457,
+    "userAccountId": "3892c84b-e660-468b-9309-67516463d7b2",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2017-11-28"
+  },
+  {
+    "ownershipId": 458,
+    "userAccountId": "3892c84b-e660-468b-9309-67516463d7b2",
+    "gameId": 31,
+    "state": 1,
+    "registeredDate": "2016-03-12"
+  },
+  {
+    "ownershipId": 459,
+
+    "userAccountId": "3892c84b-e660-468b-9309-67516463d7b2",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2017-07-26"
+  },
+  {
+    "ownershipId": 460,
+    "userAccountId": "3892c84b-e660-468b-9309-67516463d7b2",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2015-09-15"
+  },
+  {
+    "ownershipId": 461,
+    "userAccountId": "3892c84b-e660-468b-9309-67516463d7b2",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2016-05-31"
+  },
+  {
+    "ownershipId": 462,
+    "userAccountId": "3892c84b-e660-468b-9309-67516463d7b2",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2016-02-05"
+  },
+  {
+    "ownershipId": 463,
+    "userAccountId": "3892c84b-e660-468b-9309-67516463d7b2",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2016-09-15"
+  },
+  {
+    "ownershipId": 464,
+    "userAccountId": "3892c84b-e660-468b-9309-67516463d7b2",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2016-04-11"
+  },
+  {
+    "ownershipId": 465,
+    "userAccountId": "3892c84b-e660-468b-9309-67516463d7b2",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2017-02-11"
+  },
+  {
+    "ownershipId": 466,
+    "userAccountId": "3892c84b-e660-468b-9309-67516463d7b2",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-02-03"
+  },
+  {
+    "ownershipId": 467,
+    "userAccountId": "381aff88-9870-4374-9ec3-14170b78bcc6",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2017-08-25"
+  },
+  {
+    "ownershipId": 468,
+    "userAccountId": "381aff88-9870-4374-9ec3-14170b78bcc6",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-04-06"
+  },
+  {
+    "ownershipId": 469,
+    "userAccountId": "381aff88-9870-4374-9ec3-14170b78bcc6",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2015-12-31"
+  },
+  {
+    "ownershipId": 470,
+    "userAccountId": "381aff88-9870-4374-9ec3-14170b78bcc6",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2015-02-14"
+  },
+  {
+    "ownershipId": 471,
+    "userAccountId": "3f636c8a-6464-4e38-a876-83ecbe6882cf",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2015-08-09"
+  },
+  {
+    "ownershipId": 472,
+    "userAccountId": "3f636c8a-6464-4e38-a876-83ecbe6882cf",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2015-07-19"
+  },
+  {
+    "ownershipId": 473,
+    "userAccountId": "3f636c8a-6464-4e38-a876-83ecbe6882cf",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2017-02-02"
+  },
+  {
+    "ownershipId": 474,
+    "userAccountId": "3f636c8a-6464-4e38-a876-83ecbe6882cf",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2017-02-09"
+  },
+  {
+    "ownershipId": 475,
+    "userAccountId": "3f636c8a-6464-4e38-a876-83ecbe6882cf",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2016-04-24"
+  },
+  {
+    "ownershipId": 476,
+    "userAccountId": "3f636c8a-6464-4e38-a876-83ecbe6882cf",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-03-18"
+  },
+  {
+    "ownershipId": 477,
+    "userAccountId": "986da9e5-d635-4c03-8ea4-71b308ff519e",
+    "gameId": 12,
+    "state": 1,
+    "registeredDate": "2017-05-29"
+  },
+  {
+    "ownershipId": 478,
+    "userAccountId": "986da9e5-d635-4c03-8ea4-71b308ff519e",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2016-09-20"
+  },
+  {
+    "ownershipId": 479,
+    "userAccountId": "986da9e5-d635-4c03-8ea4-71b308ff519e",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2015-02-10"
+  },
+  {
+    "ownershipId": 480,
+    "userAccountId": "986da9e5-d635-4c03-8ea4-71b308ff519e",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2017-05-19"
+  },
+  {
+    "ownershipId": 481,
+    "userAccountId": "986da9e5-d635-4c03-8ea4-71b308ff519e",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2015-06-04"
+  },
+  {
+    "ownershipId": 482,
+    "userAccountId": "986da9e5-d635-4c03-8ea4-71b308ff519e",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2017-02-25"
+  },
+  {
+    "ownershipId": 483,
+    "userAccountId": "986da9e5-d635-4c03-8ea4-71b308ff519e",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-06-10"
+  },
+  {
+    "ownershipId": 484,
+    "userAccountId": "986da9e5-d635-4c03-8ea4-71b308ff519e",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-06-24"
+  },
+  {
+    "ownershipId": 485,
+    "userAccountId": "986da9e5-d635-4c03-8ea4-71b308ff519e",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2017-04-15"
+  },
+  {
+    "ownershipId": 486,
+    "userAccountId": "986da9e5-d635-4c03-8ea4-71b308ff519e",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2017-04-22"
+  },
+  {
+    "ownershipId": 487,
+    "userAccountId": "986da9e5-d635-4c03-8ea4-71b308ff519e",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2016-02-02"
+  },
+  {
+    "ownershipId": 488,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2015-03-04"
+  },
+  {
+    "ownershipId": 489,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 30,
+    "state": 1,
+    "registeredDate": "2015-11-25"
+  },
+  {
+    "ownershipId": 490,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2017-11-12"
+  },
+  {
+    "ownershipId": 491,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2016-01-06"
+  },
+  {
+    "ownershipId": 492,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2016-12-13"
+  },
+  {
+    "ownershipId": 493,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2016-01-15"
+  },
+  {
+    "ownershipId": 494,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 24,
+    "state": 1,
+    "registeredDate": "2016-09-21"
+  },
+  {
+    "ownershipId": 495,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2015-02-05"
+  },
+  {
+    "ownershipId": 496,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2017-08-18"
+  },
+  {
+    "ownershipId": 497,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2016-02-26"
+  },
+  {
+    "ownershipId": 498,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 15,
+    "state": 1,
+    "registeredDate": "2016-09-03"
+  },
+  {
+    "ownershipId": 499,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2016-06-05"
+  },
+  {
+    "ownershipId": 500,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2017-02-04"
+  },
+  {
+    "ownershipId": 501,
+    "userAccountId": "7e5527bf-d9bc-4a11-8a75-8cf2ea712aea",
+    "gameId": 26,
+    "state": 1,
+    "registeredDate": "2017-08-01"
+  },
+  {
+    "ownershipId": 502,
+    "userAccountId": "a246b6f8-7046-4b17-9d58-13409fafe24d",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2017-07-26"
+  },
+  {
+    "ownershipId": 503,
+    "userAccountId": "a246b6f8-7046-4b17-9d58-13409fafe24d",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2016-08-30"
+  },
+  {
+    "ownershipId": 504,
+    "userAccountId": "a246b6f8-7046-4b17-9d58-13409fafe24d",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-06-18"
+  },
+  {
+    "ownershipId": 505,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2015-03-03"
+  },
+  {
+    "ownershipId": 506,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-09-19"
+  },
+  {
+    "ownershipId": 507,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-10-07"
+  },
+  {
+    "ownershipId": 508,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 22,
+    "state": 1,
+    "registeredDate": "2017-06-07"
+  },
+  {
+    "ownershipId": 509,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 4,
+    "state": 1,
+    "registeredDate": "2017-01-09"
+  },
+  {
+    "ownershipId": 510,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-04-23"
+  },
+  {
+    "ownershipId": 511,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2015-09-27"
+  },
+  {
+    "ownershipId": 512,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2016-03-10"
+  },
+  {
+    "ownershipId": 513,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2016-01-31"
+  },
+  {
+    "ownershipId": 514,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-03-10"
+  },
+  {
+    "ownershipId": 515,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2015-04-13"
+  },
+  {
+    "ownershipId": 516,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2017-03-06"
+  },
+  {
+    "ownershipId": 517,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2017-07-28"
+  },
+  {
+    "ownershipId": 518,
+    "userAccountId": "e286f7f4-4703-4058-aa24-225cc4853403",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-03-25"
+  },
+  {
+    "ownershipId": 519,
+    "userAccountId": "a4348b59-a03b-40e8-b0c5-1eb33c8b52a3",
+    "gameId": 9,
+    "state": 1,
+    "registeredDate": "2016-11-27"
+  },
+  {
+    "ownershipId": 520,
+    "userAccountId": "a4348b59-a03b-40e8-b0c5-1eb33c8b52a3",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2017-09-22"
+  },
+  {
+    "ownershipId": 521,
+    "userAccountId": "a4348b59-a03b-40e8-b0c5-1eb33c8b52a3",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2015-01-02"
+  },
+  {
+    "ownershipId": 522,
+    "userAccountId": "a4348b59-a03b-40e8-b0c5-1eb33c8b52a3",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2017-06-23"
+  },
+  {
+    "ownershipId": 523,
+    "userAccountId": "a4348b59-a03b-40e8-b0c5-1eb33c8b52a3",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2015-05-14"
+  },
+  {
+    "ownershipId": 524,
+    "userAccountId": "a4348b59-a03b-40e8-b0c5-1eb33c8b52a3",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2016-01-19"
+  },
+  {
+    "ownershipId": 525,
+    "userAccountId": "a4348b59-a03b-40e8-b0c5-1eb33c8b52a3",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2017-01-08"
+  },
+  {
+    "ownershipId": 526,
+    "userAccountId": "a4348b59-a03b-40e8-b0c5-1eb33c8b52a3",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2016-07-26"
+  },
+  {
+    "ownershipId": 527,
+    "userAccountId": "a4348b59-a03b-40e8-b0c5-1eb33c8b52a3",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2017-06-03"
+  },
+  {
+    "ownershipId": 528,
+    "userAccountId": "a4348b59-a03b-40e8-b0c5-1eb33c8b52a3",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2015-05-14"
+  },
+  {
+    "ownershipId": 529,
+    "userAccountId": "a4348b59-a03b-40e8-b0c5-1eb33c8b52a3",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2017-01-04"
+  },
+  {
+    "ownershipId": 530,
+    "userAccountId": "a4348b59-a03b-40e8-b0c5-1eb33c8b52a3",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2016-08-07"
+  },
+  {
+    "ownershipId": 531,
+    "userAccountId": "a4348b59-a03b-40e8-b0c5-1eb33c8b52a3",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-01-21"
+  },
+  {
+    "ownershipId": 532,
+    "userAccountId": "bae52037-851a-4088-bcd4-2404b74efe36",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-09-25"
+  },
+  {
+    "ownershipId": 533,
+    "userAccountId": "bae52037-851a-4088-bcd4-2404b74efe36",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2015-04-17"
+  },
+  {
+    "ownershipId": 534,
+    "userAccountId": "bae52037-851a-4088-bcd4-2404b74efe36",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2015-12-06"
+  },
+  {
+    "ownershipId": 535,
+    "userAccountId": "bae52037-851a-4088-bcd4-2404b74efe36",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2017-09-17"
+  },
+  {
+    "ownershipId": 536,
+    "userAccountId": "7a21704f-38ad-487c-b11a-ad21b403f40a",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2015-10-10"
+  },
+  {
+    "ownershipId": 537,
+    "userAccountId": "7a21704f-38ad-487c-b11a-ad21b403f40a",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2015-06-28"
+  },
+  {
+    "ownershipId": 538,
+    "userAccountId": "7a21704f-38ad-487c-b11a-ad21b403f40a",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2016-11-22"
+  },
+  {
+    "ownershipId": 539,
+    "userAccountId": "7a21704f-38ad-487c-b11a-ad21b403f40a",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2016-04-23"
+  },
+  {
+    "ownershipId": 540,
+    "userAccountId": "7a21704f-38ad-487c-b11a-ad21b403f40a",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2017-06-27"
+  },
+  {
+    "ownershipId": 541,
+    "userAccountId": "7a21704f-38ad-487c-b11a-ad21b403f40a",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2016-07-17"
+  },
+  {
+    "ownershipId": 542,
+    "userAccountId": "7a21704f-38ad-487c-b11a-ad21b403f40a",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2016-07-27"
+  },
+  {
+    "ownershipId": 543,
+    "userAccountId": "7a21704f-38ad-487c-b11a-ad21b403f40a",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2016-01-23"
+  },
+  {
+    "ownershipId": 544,
+    "userAccountId": "970df822-93cb-445f-b8da-9fdcaca355c4",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2017-07-04"
+  },
+  {
+    "ownershipId": 545,
+    "userAccountId": "970df822-93cb-445f-b8da-9fdcaca355c4",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2017-02-16"
+  },
+  {
+    "ownershipId": 546,
+    "userAccountId": "970df822-93cb-445f-b8da-9fdcaca355c4",
+    "gameId": 2,
+    "state": 1,
+    "registeredDate": "2017-09-27"
+  },
+  {
+    "ownershipId": 547,
+    "userAccountId": "970df822-93cb-445f-b8da-9fdcaca355c4",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-11-13"
+  },
+  {
+    "ownershipId": 548,
+    "userAccountId": "970df822-93cb-445f-b8da-9fdcaca355c4",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2015-11-08"
+  },
+  {
+    "ownershipId": 549,
+    "userAccountId": "970df822-93cb-445f-b8da-9fdcaca355c4",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2016-06-10"
+  },
+  {
+    "ownershipId": 550,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2015-11-02"
+  },
+  {
+    "ownershipId": 551,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 11,
+    "state": 1,
+    "registeredDate": "2015-01-21"
+  },
+  {
+    "ownershipId": 552,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-12-05"
+  },
+  {
+    "ownershipId": 553,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2017-09-07"
+  },
+  {
+    "ownershipId": 554,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-08-14"
+  },
+  {
+    "ownershipId": 555,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-02-03"
+  },
+  {
+    "ownershipId": 556,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2015-02-09"
+  },
+  {
+    "ownershipId": 557,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2017-03-15"
+  },
+  {
+    "ownershipId": 558,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-08-13"
+  },
+  {
+    "ownershipId": 559,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2015-06-10"
+  },
+  {
+    "ownershipId": 560,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2016-07-08"
+  },
+  {
+    "ownershipId": 561,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 1,
+    "state": 1,
+    "registeredDate": "2015-04-18"
+  },
+  {
+    "ownershipId": 562,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 15,
+    "state": 1,
+    "registeredDate": "2015-05-26"
+  },
+  {
+    "ownershipId": 563,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2015-06-04"
+  },
+  {
+    "ownershipId": 564,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2015-06-05"
+  },
+  {
+    "ownershipId": 565,
+    "userAccountId": "1d8fa572-42f1-430c-addc-a5c5a5349c17",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2016-04-02"
+  },
+  {
+    "ownershipId": 566,
+    "userAccountId": "e1f84651-6eab-4fbd-ba68-1c9fb1f4ccdf",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-01-02"
+  },
+  {
+    "ownershipId": 567,
+    "userAccountId": "e1f84651-6eab-4fbd-ba68-1c9fb1f4ccdf",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2015-11-24"
+  },
+  {
+    "ownershipId": 568,
+    "userAccountId": "948ee6f0-bbb4-48db-841b-d43612b42dc6",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2015-02-26"
+  },
+  {
+    "ownershipId": 569,
+    "userAccountId": "948ee6f0-bbb4-48db-841b-d43612b42dc6",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-05-24"
+  },
+  {
+    "ownershipId": 570,
+    "userAccountId": "948ee6f0-bbb4-48db-841b-d43612b42dc6",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2017-06-04"
+  },
+  {
+    "ownershipId": 571,
+    "userAccountId": "948ee6f0-bbb4-48db-841b-d43612b42dc6",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-09-08"
+  },
+  {
+    "ownershipId": 572,
+    "userAccountId": "948ee6f0-bbb4-48db-841b-d43612b42dc6",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2015-09-05"
+  },
+  {
+    "ownershipId": 573,
+    "userAccountId": "948ee6f0-bbb4-48db-841b-d43612b42dc6",
+    "gameId": 33,
+    "state": 1,
+    "registeredDate": "2016-10-31"
+  },
+  {
+    "ownershipId": 574,
+    "userAccountId": "948ee6f0-bbb4-48db-841b-d43612b42dc6",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2017-05-02"
+  },
+  {
+    "ownershipId": 575,
+    "userAccountId": "948ee6f0-bbb4-48db-841b-d43612b42dc6",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2016-03-07"
+  },
+  {
+    "ownershipId": 576,
+    "userAccountId": "948ee6f0-bbb4-48db-841b-d43612b42dc6",
+    "gameId": 3,
+    "state": 1,
+    "registeredDate": "2016-05-07"
+  },
+  {
+    "ownershipId": 577,
+    "userAccountId": "948ee6f0-bbb4-48db-841b-d43612b42dc6",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2016-06-01"
+  },
+  {
+    "ownershipId": 578,
+    "userAccountId": "948ee6f0-bbb4-48db-841b-d43612b42dc6",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-10-11"
+  },
+  {
+    "ownershipId": 579,
+    "userAccountId": "948ee6f0-bbb4-48db-841b-d43612b42dc6",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2016-11-01"
+  },
+  {
+    "ownershipId": 580,
+    "userAccountId": "cb925c28-f0f4-422a-bab8-cf29f63fca66",
+    "gameId": 18,
+    "state": 1,
+    "registeredDate": "2017-03-13"
+  },
+  {
+    "ownershipId": 581,
+    "userAccountId": "cb925c28-f0f4-422a-bab8-cf29f63fca66",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-09-14"
+  },
+  {
+    "ownershipId": 582,
+    "userAccountId": "cb925c28-f0f4-422a-bab8-cf29f63fca66",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2016-07-27"
+  },
+  {
+    "ownershipId": 583,
+    "userAccountId": "cb925c28-f0f4-422a-bab8-cf29f63fca66",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2016-11-03"
+  },
+  {
+    "ownershipId": 584,
+    "userAccountId": "cb925c28-f0f4-422a-bab8-cf29f63fca66",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2016-03-05"
+  },
+  {
+    "ownershipId": 585,
+    "userAccountId": "cb925c28-f0f4-422a-bab8-cf29f63fca66",
+    "gameId": 6,
+    "state": 1,
+    "registeredDate": "2016-07-17"
+  },
+  {
+    "ownershipId": 586,
+    "userAccountId": "cb925c28-f0f4-422a-bab8-cf29f63fca66",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2017-01-17"
+  },
+  {
+    "ownershipId": 587,
+    "userAccountId": "cb925c28-f0f4-422a-bab8-cf29f63fca66",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2015-12-19"
+  },
+  {
+    "ownershipId": 588,
+    "userAccountId": "cca5c793-c922-4311-982e-2b855a9961cd",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-08-03"
+  },
+  {
+    "ownershipId": 589,
+    "userAccountId": "cca5c793-c922-4311-982e-2b855a9961cd",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-10-02"
+  },
+  {
+    "ownershipId": 590,
+    "userAccountId": "cca5c793-c922-4311-982e-2b855a9961cd",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2017-08-09"
+  },
+  {
+    "ownershipId": 591,
+    "userAccountId": "cca5c793-c922-4311-982e-2b855a9961cd",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2016-06-27"
+  },
+  {
+    "ownershipId": 592,
+    "userAccountId": "cca5c793-c922-4311-982e-2b855a9961cd",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2017-10-16"
+  },
+  {
+    "ownershipId": 593,
+    "userAccountId": "cca5c793-c922-4311-982e-2b855a9961cd",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-06-14"
+  },
+  {
+    "ownershipId": 594,
+    "userAccountId": "cca5c793-c922-4311-982e-2b855a9961cd",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2017-09-16"
+  },
+  {
+    "ownershipId": 595,
+    "userAccountId": "cca5c793-c922-4311-982e-2b855a9961cd",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2017-03-11"
+  },
+  {
+    "ownershipId": 596,
+    "userAccountId": "cca5c793-c922-4311-982e-2b855a9961cd",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2016-02-23"
+  },
+  {
+    "ownershipId": 597,
+    "userAccountId": "cca5c793-c922-4311-982e-2b855a9961cd",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2016-02-24"
+  },
+  {
+    "ownershipId": 598,
+    "userAccountId": "cca5c793-c922-4311-982e-2b855a9961cd",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2015-08-21"
+  },
+  {
+    "ownershipId": 599,
+    "userAccountId": "cca5c793-c922-4311-982e-2b855a9961cd",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2016-04-02"
+  },
+  {
+    "ownershipId": 600,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2017-02-14"
+  },
+  {
+    "ownershipId": 601,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-11-04"
+  },
+  {
+    "ownershipId": 602,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2015-09-18"
+  },
+  {
+    "ownershipId": 603,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-06-18"
+  },
+  {
+    "ownershipId": 604,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2016-12-07"
+  },
+  {
+    "ownershipId": 605,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-01-23"
+  },
+  {
+    "ownershipId": 606,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2017-04-18"
+  },
+  {
+    "ownershipId": 607,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 12,
+    "state": 1,
+    "registeredDate": "2017-01-03"
+  },
+  {
+    "ownershipId": 608,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2015-05-08"
+  },
+  {
+    "ownershipId": 609,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2015-06-09"
+  },
+  {
+    "ownershipId": 610,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2015-09-29"
+  },
+  {
+    "ownershipId": 611,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 24,
+    "state": 1,
+    "registeredDate": "2016-08-09"
+  },
+  {
+    "ownershipId": 612,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2016-06-04"
+  },
+  {
+    "ownershipId": 613,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2016-09-10"
+  },
+  {
+    "ownershipId": 614,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 4,
+    "state": 1,
+    "registeredDate": "2016-02-27"
+  },
+  {
+    "ownershipId": 615,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-10-26"
+  },
+  {
+    "ownershipId": 616,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2016-08-22"
+  },
+  {
+    "ownershipId": 617,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 17,
+    "state": 1,
+    "registeredDate": "2016-06-22"
+  },
+  {
+    "ownershipId": 618,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2017-02-28"
+  },
+  {
+    "ownershipId": 619,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2016-10-18"
+  },
+  {
+    "ownershipId": 620,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2017-02-14"
+  },
+  {
+    "ownershipId": 621,
+    "userAccountId": "47001598-281e-4de5-85fe-fb8f6de745f0",
+    "gameId": 30,
+    "state": 1,
+    "registeredDate": "2016-12-15"
+  },
+  {
+    "ownershipId": 622,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2017-03-23"
+  },
+  {
+    "ownershipId": 623,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2016-04-25"
+  },
+  {
+    "ownershipId": 624,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2015-09-15"
+  },
+  {
+    "ownershipId": 625,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2015-12-08"
+  },
+  {
+    "ownershipId": 626,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2016-10-24"
+  },
+  {
+    "ownershipId": 627,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2017-02-20"
+  },
+  {
+    "ownershipId": 628,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 20,
+    "state": 1,
+    "registeredDate": "2017-01-15"
+  },
+  {
+    "ownershipId": 629,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-02-22"
+  },
+  {
+    "ownershipId": 630,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2015-01-14"
+  },
+  {
+    "ownershipId": 631,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-03-15"
+  },
+  {
+    "ownershipId": 632,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-10-13"
+  },
+  {
+    "ownershipId": 633,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2017-06-09"
+  },
+  {
+    "ownershipId": 634,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-08-18"
+  },
+  {
+    "ownershipId": 635,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-05-10"
+  },
+  {
+    "ownershipId": 636,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 2,
+    "state": 1,
+    "registeredDate": "2017-11-26"
+  },
+  {
+    "ownershipId": 637,
+    "userAccountId": "da2ff852-c443-49f0-ac47-102f611f343f",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2016-02-10"
+  },
+  {
+    "ownershipId": 638,
+    "userAccountId": "811e2f52-168c-416e-a7a1-21a56f3f3caf",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2017-10-27"
+  },
+  {
+    "ownershipId": 639,
+    "userAccountId": "811e2f52-168c-416e-a7a1-21a56f3f3caf",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2017-01-11"
+  },
+  {
+    "ownershipId": 640,
+    "userAccountId": "811e2f52-168c-416e-a7a1-21a56f3f3caf",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2017-03-01"
+  },
+  {
+    "ownershipId": 641,
+    "userAccountId": "811e2f52-168c-416e-a7a1-21a56f3f3caf",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2015-01-14"
+  },
+  {
+    "ownershipId": 642,
+    "userAccountId": "811e2f52-168c-416e-a7a1-21a56f3f3caf",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-08-14"
+  },
+  {
+    "ownershipId": 643,
+    "userAccountId": "811e2f52-168c-416e-a7a1-21a56f3f3caf",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2016-02-25"
+  },
+  {
+    "ownershipId": 644,
+    "userAccountId": "811e2f52-168c-416e-a7a1-21a56f3f3caf",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2016-01-05"
+  },
+  {
+    "ownershipId": 645,
+    "userAccountId": "811e2f52-168c-416e-a7a1-21a56f3f3caf",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2015-12-31"
+  },
+  {
+    "ownershipId": 646,
+    "userAccountId": "811e2f52-168c-416e-a7a1-21a56f3f3caf",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2015-01-23"
+  },
+  {
+    "ownershipId": 647,
+    "userAccountId": "811e2f52-168c-416e-a7a1-21a56f3f3caf",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-02-05"
+  },
+  {
+    "ownershipId": 648,
+    "userAccountId": "811e2f52-168c-416e-a7a1-21a56f3f3caf",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-04-19"
+  },
+  {
+    "ownershipId": 649,
+    "userAccountId": "811e2f52-168c-416e-a7a1-21a56f3f3caf",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-11-22"
+  },
+  {
+    "ownershipId": 650,
+    "userAccountId": "811e2f52-168c-416e-a7a1-21a56f3f3caf",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-07-20"
+  },
+  {
+    "ownershipId": 651,
+    "userAccountId": "e0bce3a8-079c-430a-a231-2301a0b53358",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2017-08-03"
+  },
+  {
+    "ownershipId": 652,
+    "userAccountId": "e0bce3a8-079c-430a-a231-2301a0b53358",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2016-11-26"
+  },
+  {
+    "ownershipId": 653,
+    "userAccountId": "e0bce3a8-079c-430a-a231-2301a0b53358",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2016-10-02"
+  },
+  {
+    "ownershipId": 654,
+    "userAccountId": "e0bce3a8-079c-430a-a231-2301a0b53358",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2017-01-17"
+  },
+  {
+    "ownershipId": 655,
+    "userAccountId": "e0bce3a8-079c-430a-a231-2301a0b53358",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2015-03-03"
+  },
+  {
+    "ownershipId": 656,
+    "userAccountId": "d4754aee-e0c1-4b86-beee-fd73c16be0f3",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2017-07-14"
+  },
+  {
+    "ownershipId": 657,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2017-04-25"
+  },
+  {
+    "ownershipId": 658,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2017-09-02"
+  },
+  {
+    "ownershipId": 659,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 11,
+    "state": 1,
+    "registeredDate": "2016-01-01"
+  },
+  {
+    "ownershipId": 660,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2015-04-01"
+  },
+  {
+    "ownershipId": 661,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2015-02-26"
+  },
+  {
+    "ownershipId": 662,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2017-11-19"
+  },
+  {
+    "ownershipId": 663,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-03-16"
+  },
+  {
+    "ownershipId": 664,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2015-05-27"
+  },
+  {
+    "ownershipId": 665,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-07-17"
+  },
+  {
+    "ownershipId": 666,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-10-29"
+  },
+  {
+    "ownershipId": 667,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-11-26"
+  },
+  {
+    "ownershipId": 668,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2016-12-23"
+  },
+  {
+    "ownershipId": 669,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2015-10-20"
+  },
+  {
+    "ownershipId": 670,
+    "userAccountId": "78a2dc58-2020-4399-b421-aaaa5c08441a",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-10-30"
+  },
+  {
+    "ownershipId": 671,
+    "userAccountId": "a60e9e56-c7f9-47ba-a434-a1e00fbe2918",
+    "gameId": 29,
+    "state": 1,
+    "registeredDate": "2015-07-14"
+  },
+  {
+    "ownershipId": 672,
+    "userAccountId": "a60e9e56-c7f9-47ba-a434-a1e00fbe2918",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2016-07-26"
+  },
+  {
+    "ownershipId": 673,
+    "userAccountId": "a60e9e56-c7f9-47ba-a434-a1e00fbe2918",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2015-02-17"
+  },
+  {
+    "ownershipId": 674,
+    "userAccountId": "a60e9e56-c7f9-47ba-a434-a1e00fbe2918",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2017-07-20"
+  },
+  {
+    "ownershipId": 675,
+    "userAccountId": "a60e9e56-c7f9-47ba-a434-a1e00fbe2918",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2017-01-31"
+  },
+  {
+    "ownershipId": 676,
+    "userAccountId": "a60e9e56-c7f9-47ba-a434-a1e00fbe2918",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2016-05-03"
+  },
+  {
+    "ownershipId": 677,
+    "userAccountId": "a60e9e56-c7f9-47ba-a434-a1e00fbe2918",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2016-01-27"
+  },
+  {
+    "ownershipId": 678,
+    "userAccountId": "a60e9e56-c7f9-47ba-a434-a1e00fbe2918",
+    "gameId": 15,
+    "state": 1,
+    "registeredDate": "2015-04-21"
+  },
+  {
+    "ownershipId": 679,
+    "userAccountId": "a60e9e56-c7f9-47ba-a434-a1e00fbe2918",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2017-08-15"
+  },
+  {
+    "ownershipId": 680,
+    "userAccountId": "34c28858-aff3-466d-883c-8aeb338054bd",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-11-15"
+  },
+  {
+    "ownershipId": 681,
+    "userAccountId": "34c28858-aff3-466d-883c-8aeb338054bd",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2015-09-19"
+  },
+  {
+    "ownershipId": 682,
+    "userAccountId": "34c28858-aff3-466d-883c-8aeb338054bd",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2016-11-04"
+  },
+  {
+    "ownershipId": 683,
+    "userAccountId": "34c28858-aff3-466d-883c-8aeb338054bd",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-02-24"
+  },
+  {
+    "ownershipId": 684,
+    "userAccountId": "34c28858-aff3-466d-883c-8aeb338054bd",
+    "gameId": 1,
+    "state": 1,
+    "registeredDate": "2017-07-05"
+  },
+  {
+    "ownershipId": 685,
+    "userAccountId": "34c28858-aff3-466d-883c-8aeb338054bd",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-05-14"
+  },
+  {
+    "ownershipId": 686,
+    "userAccountId": "34c28858-aff3-466d-883c-8aeb338054bd",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2016-03-19"
+  },
+  {
+    "ownershipId": 687,
+    "userAccountId": "34c28858-aff3-466d-883c-8aeb338054bd",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2016-12-11"
+  },
+  {
+    "ownershipId": 688,
+    "userAccountId": "8ed0502b-9e5f-40b5-876c-3b2f7631deb4",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-05-23"
+  },
+  {
+    "ownershipId": 689,
+    "userAccountId": "8ed0502b-9e5f-40b5-876c-3b2f7631deb4",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2017-06-18"
+  },
+  {
+    "ownershipId": 690,
+    "userAccountId": "8ed0502b-9e5f-40b5-876c-3b2f7631deb4",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2015-09-26"
+  },
+  {
+    "ownershipId": 691,
+    "userAccountId": "8ed0502b-9e5f-40b5-876c-3b2f7631deb4",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2015-08-04"
+  },
+  {
+    "ownershipId": 692,
+    "userAccountId": "8ed0502b-9e5f-40b5-876c-3b2f7631deb4",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2016-05-09"
+  },
+  {
+    "ownershipId": 693,
+    "userAccountId": "8ed0502b-9e5f-40b5-876c-3b2f7631deb4",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2016-10-27"
+  },
+  {
+    "ownershipId": 694,
+    "userAccountId": "8ed0502b-9e5f-40b5-876c-3b2f7631deb4",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-10-12"
+  },
+  {
+    "ownershipId": 695,
+    "userAccountId": "8ed0502b-9e5f-40b5-876c-3b2f7631deb4",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2017-01-04"
+  },
+  {
+    "ownershipId": 696,
+    "userAccountId": "8ed0502b-9e5f-40b5-876c-3b2f7631deb4",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2015-01-25"
+  },
+  {
+    "ownershipId": 697,
+    "userAccountId": "8ed0502b-9e5f-40b5-876c-3b2f7631deb4",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-05-31"
+  },
+  {
+    "ownershipId": 698,
+    "userAccountId": "8ed0502b-9e5f-40b5-876c-3b2f7631deb4",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2015-10-02"
+  },
+  {
+    "ownershipId": 699,
+    "userAccountId": "8ed0502b-9e5f-40b5-876c-3b2f7631deb4",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2015-06-22"
+  },
+  {
+    "ownershipId": 700,
+    "userAccountId": "91453c31-50d8-42f7-b7ea-94332fe13b91",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2015-03-05"
+  },
+  {
+    "ownershipId": 701,
+    "userAccountId": "91453c31-50d8-42f7-b7ea-94332fe13b91",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2016-01-28"
+  },
+  {
+    "ownershipId": 702,
+    "userAccountId": "91453c31-50d8-42f7-b7ea-94332fe13b91",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-01-12"
+  },
+  {
+    "ownershipId": 703,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2017-05-30"
+  },
+  {
+    "ownershipId": 704,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-01-24"
+  },
+  {
+    "ownershipId": 705,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2015-01-07"
+  },
+  {
+    "ownershipId": 706,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2016-01-08"
+  },
+  {
+    "ownershipId": 707,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 23,
+    "state": 1,
+    "registeredDate": "2016-10-09"
+  },
+  {
+    "ownershipId": 708,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2017-02-12"
+  },
+  {
+    "ownershipId": 709,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2017-11-17"
+  },
+  {
+    "ownershipId": 710,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-09-29"
+  },
+  {
+    "ownershipId": 711,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2016-06-18"
+  },
+  {
+    "ownershipId": 712,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2017-01-04"
+  },
+  {
+    "ownershipId": 713,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-01-19"
+  },
+  {
+    "ownershipId": 714,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-02-16"
+  },
+  {
+    "ownershipId": 715,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2017-06-13"
+  },
+  {
+    "ownershipId": 716,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2016-03-23"
+  },
+  {
+    "ownershipId": 717,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2017-09-26"
+  },
+  {
+    "ownershipId": 718,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2015-08-11"
+  },
+  {
+    "ownershipId": 719,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2015-01-13"
+  },
+  {
+    "ownershipId": 720,
+    "userAccountId": "74e54c4f-b32b-4236-8470-bfabadc091f0",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2017-03-29"
+  },
+  {
+    "ownershipId": 721,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2016-10-18"
+  },
+  {
+    "ownershipId": 722,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2016-07-06"
+  },
+  {
+    "ownershipId": 723,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2017-06-07"
+  },
+  {
+    "ownershipId": 724,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-01-25"
+  },
+  {
+    "ownershipId": 725,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-03-29"
+  },
+  {
+    "ownershipId": 726,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-02-04"
+  },
+  {
+    "ownershipId": 727,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2017-08-29"
+  },
+  {
+    "ownershipId": 728,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2016-04-06"
+  },
+  {
+    "ownershipId": 729,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2015-07-17"
+  },
+  {
+    "ownershipId": 730,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2017-01-06"
+  },
+  {
+    "ownershipId": 731,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-12-05"
+  },
+  {
+    "ownershipId": 732,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-04-27"
+  },
+  {
+    "ownershipId": 733,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-09-30"
+  },
+  {
+    "ownershipId": 734,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2017-06-13"
+  },
+  {
+    "ownershipId": 735,
+    "userAccountId": "0037b381-bb0f-46c3-bd4c-99c66452d2fb",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2017-09-18"
+  },
+  {
+    "ownershipId": 736,
+    "userAccountId": "5d52c8eb-4f9b-4042-9770-0e3353847f46",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2016-08-07"
+  },
+  {
+    "ownershipId": 737,
+    "userAccountId": "5d52c8eb-4f9b-4042-9770-0e3353847f46",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-05-07"
+  },
+  {
+    "ownershipId": 738,
+    "userAccountId": "5d52c8eb-4f9b-4042-9770-0e3353847f46",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2017-01-01"
+  },
+  {
+    "ownershipId": 739,
+    "userAccountId": "5d52c8eb-4f9b-4042-9770-0e3353847f46",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2017-06-29"
+  },
+  {
+    "ownershipId": 740,
+    "userAccountId": "5d52c8eb-4f9b-4042-9770-0e3353847f46",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2017-04-05"
+  },
+  {
+    "ownershipId": 741,
+    "userAccountId": "5d52c8eb-4f9b-4042-9770-0e3353847f46",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2017-05-10"
+  },
+  {
+    "ownershipId": 742,
+    "userAccountId": "5d52c8eb-4f9b-4042-9770-0e3353847f46",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2017-09-28"
+  },
+  {
+    "ownershipId": 743,
+    "userAccountId": "5d52c8eb-4f9b-4042-9770-0e3353847f46",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2015-06-06"
+  },
+  {
+    "ownershipId": 744,
+    "userAccountId": "5d52c8eb-4f9b-4042-9770-0e3353847f46",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-09-20"
+  },
+  {
+    "ownershipId": 745,
+    "userAccountId": "5d52c8eb-4f9b-4042-9770-0e3353847f46",
+    "gameId": 15,
+    "state": 1,
+    "registeredDate": "2017-03-10"
+  },
+  {
+    "ownershipId": 746,
+    "userAccountId": "c38e2aee-dbf5-4a33-b515-dd84deb51f3d",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2016-06-29"
+  },
+  {
+    "ownershipId": 747,
+    "userAccountId": "c38e2aee-dbf5-4a33-b515-dd84deb51f3d",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2016-04-20"
+  },
+  {
+    "ownershipId": 748,
+    "userAccountId": "c38e2aee-dbf5-4a33-b515-dd84deb51f3d",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2016-09-11"
+  },
+  {
+    "ownershipId": 749,
+    "userAccountId": "c38e2aee-dbf5-4a33-b515-dd84deb51f3d",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2017-04-01"
+  },
+  {
+    "ownershipId": 750,
+    "userAccountId": "c38e2aee-dbf5-4a33-b515-dd84deb51f3d",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2015-10-14"
+  },
+  {
+    "ownershipId": 751,
+    "userAccountId": "c38e2aee-dbf5-4a33-b515-dd84deb51f3d",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-04-01"
+  },
+  {
+    "ownershipId": 752,
+    "userAccountId": "c38e2aee-dbf5-4a33-b515-dd84deb51f3d",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2017-09-19"
+  },
+  {
+    "ownershipId": 753,
+    "userAccountId": "c38e2aee-dbf5-4a33-b515-dd84deb51f3d",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2015-09-20"
+  },
+  {
+    "ownershipId": 754,
+    "userAccountId": "c38e2aee-dbf5-4a33-b515-dd84deb51f3d",
+    "gameId": 24,
+    "state": 1,
+    "registeredDate": "2016-02-23"
+  },
+  {
+    "ownershipId": 755,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2016-04-17"
+  },
+  {
+    "ownershipId": 756,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2017-06-23"
+  },
+  {
+    "ownershipId": 757,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 5,
+    "state": 1,
+    "registeredDate": "2017-07-08"
+  },
+  {
+    "ownershipId": 758,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-05-06"
+  },
+  {
+    "ownershipId": 759,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-10-29"
+  },
+  {
+    "ownershipId": 760,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 27,
+    "state": 1,
+    "registeredDate": "2015-11-02"
+  },
+  {
+    "ownershipId": 761,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-04-10"
+  },
+  {
+    "ownershipId": 762,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-07-05"
+  },
+  {
+    "ownershipId": 763,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2016-07-30"
+  },
+  {
+    "ownershipId": 764,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-11-11"
+  },
+  {
+    "ownershipId": 765,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2015-10-26"
+  },
+  {
+    "ownershipId": 766,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2016-02-22"
+  },
+  {
+    "ownershipId": 767,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2017-03-07"
+  },
+  {
+    "ownershipId": 768,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-07-08"
+  },
+  {
+    "ownershipId": 769,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2015-05-01"
+  },
+  {
+    "ownershipId": 770,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-11-06"
+  },
+  {
+    "ownershipId": 771,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2016-10-17"
+  },
+  {
+    "ownershipId": 772,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-09-26"
+  },
+  {
+    "ownershipId": 773,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-01-13"
+  },
+  {
+    "ownershipId": 774,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-09-09"
+  },
+  {
+    "ownershipId": 775,
+    "userAccountId": "e1b1e354-e6dc-4849-b6f9-af152b2eedc4",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2017-10-20"
+  },
+  {
+    "ownershipId": 776,
+    "userAccountId": "18d73cca-1a84-4305-b261-657cf06efdcf",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2016-12-20"
+  },
+  {
+    "ownershipId": 777,
+    "userAccountId": "18d73cca-1a84-4305-b261-657cf06efdcf",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-02-01"
+  },
+  {
+    "ownershipId": 778,
+    "userAccountId": "18d73cca-1a84-4305-b261-657cf06efdcf",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2016-09-18"
+  },
+  {
+    "ownershipId": 779,
+    "userAccountId": "18d73cca-1a84-4305-b261-657cf06efdcf",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-10-17"
+  },
+  {
+    "ownershipId": 780,
+    "userAccountId": "18d73cca-1a84-4305-b261-657cf06efdcf",
+    "gameId": 31,
+    "state": 1,
+    "registeredDate": "2016-08-29"
+  },
+  {
+    "ownershipId": 781,
+    "userAccountId": "18d73cca-1a84-4305-b261-657cf06efdcf",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2015-10-17"
+  },
+  {
+    "ownershipId": 782,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2015-12-19"
+  },
+  {
+    "ownershipId": 783,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2016-12-06"
+  },
+  {
+    "ownershipId": 784,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2017-09-03"
+  },
+  {
+    "ownershipId": 785,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2016-10-08"
+  },
+  {
+    "ownershipId": 786,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2016-02-15"
+  },
+  {
+    "ownershipId": 787,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-07-08"
+  },
+  {
+    "ownershipId": 788,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2016-08-08"
+  },
+  {
+    "ownershipId": 789,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2016-02-27"
+  },
+  {
+    "ownershipId": 790,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-03-28"
+  },
+  {
+    "ownershipId": 791,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2016-12-30"
+  },
+  {
+    "ownershipId": 792,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-01-02"
+  },
+  {
+    "ownershipId": 793,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2016-03-06"
+  },
+  {
+    "ownershipId": 794,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2016-08-28"
+  },
+  {
+    "ownershipId": 795,
+    "userAccountId": "e081a5af-4448-4099-bc08-7c004e1c6e23",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-12-27"
+  },
+  {
+    "ownershipId": 796,
+    "userAccountId": "2f151c14-54f8-4d81-933c-c6a61cf64165",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2016-11-05"
+  },
+  {
+    "ownershipId": 797,
+    "userAccountId": "2f151c14-54f8-4d81-933c-c6a61cf64165",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2016-03-01"
+  },
+  {
+    "ownershipId": 798,
+    "userAccountId": "2f151c14-54f8-4d81-933c-c6a61cf64165",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2017-06-25"
+  },
+  {
+    "ownershipId": 799,
+    "userAccountId": "2f151c14-54f8-4d81-933c-c6a61cf64165",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2017-10-25"
+  },
+  {
+    "ownershipId": 800,
+    "userAccountId": "2f151c14-54f8-4d81-933c-c6a61cf64165",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-01-17"
+  },
+  {
+    "ownershipId": 801,
+    "userAccountId": "2f151c14-54f8-4d81-933c-c6a61cf64165",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2017-03-25"
+  },
+  {
+    "ownershipId": 802,
+    "userAccountId": "2f151c14-54f8-4d81-933c-c6a61cf64165",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-10-14"
+  },
+  {
+    "ownershipId": 803,
+    "userAccountId": "2f151c14-54f8-4d81-933c-c6a61cf64165",
+    "gameId": 9,
+    "state": 1,
+    "registeredDate": "2016-05-14"
+  },
+  {
+    "ownershipId": 804,
+    "userAccountId": "2f151c14-54f8-4d81-933c-c6a61cf64165",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-05-26"
+  },
+  {
+    "ownershipId": 805,
+    "userAccountId": "2f151c14-54f8-4d81-933c-c6a61cf64165",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2016-11-27"
+  },
+  {
+    "ownershipId": 806,
+    "userAccountId": "2f151c14-54f8-4d81-933c-c6a61cf64165",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2017-06-06"
+  },
+  {
+    "ownershipId": 807,
+    "userAccountId": "2f151c14-54f8-4d81-933c-c6a61cf64165",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2016-09-07"
+  },
+  {
+    "ownershipId": 808,
+    "userAccountId": "2f151c14-54f8-4d81-933c-c6a61cf64165",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2015-01-11"
+  },
+  {
+    "ownershipId": 809,
+    "userAccountId": "675d7b09-9996-4bd9-bd9d-690e9740d349",
+    "gameId": 25,
+    "state": 1,
+    "registeredDate": "2016-04-05"
+  },
+  {
+    "ownershipId": 810,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2017-03-28"
+  },
+  {
+    "ownershipId": 811,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2016-05-23"
+  },
+  {
+    "ownershipId": 812,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2015-10-21"
+  },
+  {
+    "ownershipId": 813,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-07-20"
+  },
+  {
+    "ownershipId": 814,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 11,
+    "state": 1,
+    "registeredDate": "2017-01-29"
+  },
+  {
+    "ownershipId": 815,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2015-01-16"
+  },
+  {
+    "ownershipId": 816,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-04-23"
+  },
+  {
+    "ownershipId": 817,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 9,
+    "state": 1,
+    "registeredDate": "2016-06-29"
+  },
+  {
+    "ownershipId": 818,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2016-10-26"
+  },
+  {
+    "ownershipId": 819,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2017-01-03"
+  },
+  {
+    "ownershipId": 820,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2017-08-11"
+  },
+  {
+    "ownershipId": 821,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2016-07-16"
+  },
+  {
+    "ownershipId": 822,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2015-07-31"
+  },
+  {
+    "ownershipId": 823,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2017-04-11"
+  },
+  {
+    "ownershipId": 824,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2015-02-03"
+  },
+  {
+    "ownershipId": 825,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2016-10-06"
+  },
+  {
+    "ownershipId": 826,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-10-15"
+  },
+  {
+    "ownershipId": 827,
+    "userAccountId": "7ba2773d-3dae-4e7f-b994-0bbb346993d6",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2017-06-21"
+  },
+  {
+    "ownershipId": 828,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2017-04-16"
+  },
+  {
+    "ownershipId": 829,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2017-08-14"
+  },
+  {
+    "ownershipId": 830,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2015-12-15"
+  },
+  {
+    "ownershipId": 831,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2015-10-22"
+  },
+  {
+    "ownershipId": 832,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2016-07-08"
+  },
+  {
+    "ownershipId": 833,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2016-10-24"
+  },
+  {
+    "ownershipId": 834,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2017-08-30"
+  },
+  {
+    "ownershipId": 835,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2017-05-06"
+  },
+  {
+    "ownershipId": 836,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-01-03"
+  },
+  {
+    "ownershipId": 837,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2017-07-07"
+  },
+  {
+    "ownershipId": 838,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2015-07-13"
+  },
+  {
+    "ownershipId": 839,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2015-10-08"
+  },
+  {
+    "ownershipId": 840,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 16,
+    "state": 1,
+    "registeredDate": "2017-04-03"
+  },
+  {
+    "ownershipId": 841,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2017-05-10"
+  },
+  {
+    "ownershipId": 842,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2017-06-28"
+  },
+  {
+    "ownershipId": 843,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-05-05"
+  },
+  {
+    "ownershipId": 844,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-11-01"
+  },
+  {
+    "ownershipId": 845,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 3,
+    "state": 1,
+    "registeredDate": "2016-10-05"
+  },
+  {
+    "ownershipId": 846,
+    "userAccountId": "0cd605d7-7049-403d-8f3e-144b2fa1a4bb",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2016-03-12"
+  },
+  {
+    "ownershipId": 847,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2016-05-14"
+  },
+  {
+    "ownershipId": 848,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2017-01-05"
+  },
+  {
+    "ownershipId": 849,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2016-08-12"
+  },
+  {
+    "ownershipId": 850,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2015-09-05"
+  },
+  {
+    "ownershipId": 851,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2015-05-10"
+  },
+  {
+    "ownershipId": 852,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2017-04-05"
+  },
+  {
+    "ownershipId": 853,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2015-06-23"
+  },
+  {
+    "ownershipId": 854,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-03-17"
+  },
+  {
+    "ownershipId": 855,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2017-06-03"
+  },
+  {
+    "ownershipId": 856,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2016-08-26"
+  },
+  {
+    "ownershipId": 857,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2016-06-04"
+  },
+  {
+    "ownershipId": 858,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2016-04-10"
+  },
+  {
+    "ownershipId": 859,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2017-07-20"
+  },
+  {
+    "ownershipId": 860,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2015-02-12"
+  },
+  {
+    "ownershipId": 861,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-11-15"
+  },
+  {
+    "ownershipId": 862,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2017-04-23"
+  },
+  {
+    "ownershipId": 863,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2015-04-30"
+  },
+  {
+    "ownershipId": 864,
+    "userAccountId": "6080280b-1f8b-4113-964b-f6aabd31ef77",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-04-23"
+  },
+  {
+    "ownershipId": 865,
+    "userAccountId": "802e0a22-f7b4-441d-b32e-b0f5338cdf92",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2016-06-06"
+  },
+  {
+    "ownershipId": 866,
+    "userAccountId": "802e0a22-f7b4-441d-b32e-b0f5338cdf92",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2017-10-15"
+  },
+  {
+    "ownershipId": 867,
+    "userAccountId": "802e0a22-f7b4-441d-b32e-b0f5338cdf92",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2016-11-26"
+  },
+  {
+    "ownershipId": 868,
+    "userAccountId": "802e0a22-f7b4-441d-b32e-b0f5338cdf92",
+    "gameId": 4,
+    "state": 1,
+    "registeredDate": "2016-10-21"
+  },
+  {
+    "ownershipId": 869,
+    "userAccountId": "802e0a22-f7b4-441d-b32e-b0f5338cdf92",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2017-08-25"
+  },
+  {
+    "ownershipId": 870,
+    "userAccountId": "802e0a22-f7b4-441d-b32e-b0f5338cdf92",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2015-01-14"
+  },
+  {
+    "ownershipId": 871,
+    "userAccountId": "802e0a22-f7b4-441d-b32e-b0f5338cdf92",
+    "gameId": 2,
+    "state": 1,
+    "registeredDate": "2015-09-16"
+  },
+  {
+    "ownershipId": 872,
+    "userAccountId": "802e0a22-f7b4-441d-b32e-b0f5338cdf92",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2015-12-18"
+  },
+  {
+    "ownershipId": 873,
+    "userAccountId": "802e0a22-f7b4-441d-b32e-b0f5338cdf92",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2016-01-20"
+  },
+  {
+    "ownershipId": 874,
+    "userAccountId": "802e0a22-f7b4-441d-b32e-b0f5338cdf92",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2017-09-02"
+  },
+  {
+    "ownershipId": 875,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2015-04-03"
+  },
+  {
+    "ownershipId": 876,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-12-19"
+  },
+  {
+    "ownershipId": 877,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-03-28"
+  },
+  {
+    "ownershipId": 878,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2015-06-11"
+  },
+  {
+    "ownershipId": 879,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2016-03-30"
+  },
+  {
+    "ownershipId": 880,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-07-28"
+  },
+  {
+    "ownershipId": 881,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2015-06-04"
+  },
+  {
+    "ownershipId": 882,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-06-17"
+  },
+  {
+    "ownershipId": 883,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2015-09-05"
+  },
+  {
+    "ownershipId": 884,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2016-12-09"
+  },
+  {
+    "ownershipId": 885,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2015-08-07"
+  },
+  {
+    "ownershipId": 886,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2016-06-17"
+  },
+  {
+    "ownershipId": 887,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-01-16"
+  },
+  {
+    "ownershipId": 888,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2016-08-10"
+  },
+  {
+    "ownershipId": 889,
+    "userAccountId": "36073ca6-c11d-4b8a-986c-018794a780ac",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-03-30"
+  },
+  {
+    "ownershipId": 890,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2015-09-11"
+  },
+  {
+    "ownershipId": 891,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2016-07-01"
+  },
+  {
+    "ownershipId": 892,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 15,
+    "state": 1,
+    "registeredDate": "2016-03-28"
+  },
+  {
+    "ownershipId": 893,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2015-11-24"
+  },
+  {
+    "ownershipId": 894,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-08-27"
+  },
+  {
+    "ownershipId": 895,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2017-04-18"
+  },
+  {
+    "ownershipId": 896,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-01-17"
+  },
+  {
+    "ownershipId": 897,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-02-28"
+  },
+  {
+    "ownershipId": 898,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-01-13"
+  },
+  {
+    "ownershipId": 899,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2015-05-28"
+  },
+  {
+    "ownershipId": 900,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 21,
+    "state": 1,
+    "registeredDate": "2016-11-21"
+  },
+  {
+    "ownershipId": 901,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2017-03-17"
+  },
+  {
+    "ownershipId": 902,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2017-06-24"
+  },
+  {
+    "ownershipId": 903,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2017-04-12"
+  },
+  {
+    "ownershipId": 904,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-07-30"
+  },
+  {
+    "ownershipId": 905,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-11-19"
+  },
+  {
+    "ownershipId": 906,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 18,
+    "state": 1,
+    "registeredDate": "2017-04-22"
+  },
+  {
+    "ownershipId": 907,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2016-03-17"
+  },
+  {
+    "ownershipId": 908,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2015-09-21"
+  },
+  {
+    "ownershipId": 909,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 30,
+    "state": 1,
+    "registeredDate": "2017-11-13"
+  },
+  {
+    "ownershipId": 910,
+    "userAccountId": "27fc4b2b-d28d-485f-9e25-432fef34db57",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-06-15"
+  },
+  {
+    "ownershipId": 911,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2016-06-01"
+  },
+  {
+    "ownershipId": 912,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2015-12-26"
+  },
+  {
+    "ownershipId": 913,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-01-12"
+  },
+  {
+    "ownershipId": 914,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2016-12-24"
+  },
+  {
+    "ownershipId": 915,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 9,
+    "state": 1,
+    "registeredDate": "2017-08-10"
+  },
+  {
+    "ownershipId": 916,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2017-06-01"
+  },
+  {
+    "ownershipId": 917,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-08-19"
+  },
+  {
+    "ownershipId": 918,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2016-04-20"
+  },
+  {
+    "ownershipId": 919,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2017-08-16"
+  },
+  {
+    "ownershipId": 920,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2017-11-20"
+  },
+  {
+    "ownershipId": 921,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2016-09-29"
+  },
+  {
+    "ownershipId": 922,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2015-04-18"
+  },
+  {
+    "ownershipId": 923,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2016-07-24"
+  },
+  {
+    "ownershipId": 924,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2016-12-15"
+  },
+  {
+    "ownershipId": 925,
+    "userAccountId": "183e461e-90f0-457f-b4a4-311f887e10e0",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-06-14"
+  },
+  {
+    "ownershipId": 926,
+    "userAccountId": "2e8fa677-fdd1-4216-80d9-fa50d14f8d98",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-05-20"
+  },
+  {
+    "ownershipId": 927,
+    "userAccountId": "2e8fa677-fdd1-4216-80d9-fa50d14f8d98",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2015-01-25"
+  },
+  {
+    "ownershipId": 928,
+    "userAccountId": "2e8fa677-fdd1-4216-80d9-fa50d14f8d98",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2015-05-27"
+  },
+  {
+    "ownershipId": 929,
+    "userAccountId": "2e8fa677-fdd1-4216-80d9-fa50d14f8d98",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-05-17"
+  },
+  {
+    "ownershipId": 930,
+    "userAccountId": "2e8fa677-fdd1-4216-80d9-fa50d14f8d98",
+    "gameId": 7,
+    "state": 1,
+    "registeredDate": "2015-03-18"
+  },
+  {
+    "ownershipId": 931,
+    "userAccountId": "2e8fa677-fdd1-4216-80d9-fa50d14f8d98",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-09-20"
+  },
+  {
+    "ownershipId": 932,
+    "userAccountId": "2e8fa677-fdd1-4216-80d9-fa50d14f8d98",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2015-03-15"
+  },
+  {
+    "ownershipId": 933,
+    "userAccountId": "2e8fa677-fdd1-4216-80d9-fa50d14f8d98",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2015-01-14"
+  },
+  {
+    "ownershipId": 934,
+    "userAccountId": "2e8fa677-fdd1-4216-80d9-fa50d14f8d98",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2017-04-09"
+  },
+  {
+    "ownershipId": 935,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-04-11"
+  },
+  {
+    "ownershipId": 936,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-11-10"
+  },
+  {
+    "ownershipId": 937,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2016-02-04"
+  },
+  {
+    "ownershipId": 938,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2017-01-06"
+  },
+  {
+    "ownershipId": 939,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2016-12-21"
+  },
+  {
+    "ownershipId": 940,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2016-03-17"
+  },
+  {
+    "ownershipId": 941,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-04-03"
+  },
+  {
+    "ownershipId": 942,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 13,
+    "state": 1,
+    "registeredDate": "2015-04-28"
+  },
+  {
+    "ownershipId": 943,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2016-08-27"
+  },
+  {
+    "ownershipId": 944,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-09-15"
+  },
+  {
+    "ownershipId": 945,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2017-03-11"
+  },
+  {
+    "ownershipId": 946,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2015-07-07"
+  },
+  {
+    "ownershipId": 947,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2016-03-17"
+  },
+  {
+    "ownershipId": 948,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2016-10-30"
+  },
+  {
+    "ownershipId": 949,
+    "userAccountId": "5cd1f8d0-ac86-4169-8369-02f67af8852a",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2015-12-17"
+  },
+  {
+    "ownershipId": 950,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2017-10-18"
+  },
+  {
+    "ownershipId": 951,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2016-04-30"
+  },
+  {
+    "ownershipId": 952,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-11-11"
+  },
+  {
+    "ownershipId": 953,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2015-04-30"
+  },
+  {
+    "ownershipId": 954,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2015-06-08"
+  },
+  {
+    "ownershipId": 955,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2015-02-22"
+  },
+  {
+    "ownershipId": 956,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2016-11-29"
+  },
+  {
+    "ownershipId": 957,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-12-02"
+  },
+  {
+    "ownershipId": 958,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2015-04-28"
+  },
+  {
+    "ownershipId": 959,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-02-15"
+  },
+  {
+    "ownershipId": 960,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2015-07-02"
+  },
+  {
+    "ownershipId": 961,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2017-03-28"
+  },
+  {
+    "ownershipId": 962,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-10-23"
+  },
+  {
+    "ownershipId": 963,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-05-07"
+  },
+  {
+    "ownershipId": 964,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2017-08-29"
+  },
+  {
+    "ownershipId": 965,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2015-08-25"
+  },
+  {
+    "ownershipId": 966,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2016-03-20"
+  },
+  {
+    "ownershipId": 967,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2015-12-12"
+  },
+  {
+    "ownershipId": 968,
+    "userAccountId": "eeda9029-1bcf-466f-a0dd-f51cb7c70712",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2015-09-05"
+  },
+  {
+    "ownershipId": 969,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-09-15"
+  },
+  {
+    "ownershipId": 970,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2016-10-01"
+  },
+  {
+    "ownershipId": 971,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2016-04-27"
+  },
+  {
+    "ownershipId": 972,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2017-07-14"
+  },
+  {
+    "ownershipId": 973,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2017-03-31"
+  },
+  {
+    "ownershipId": 974,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-05-31"
+  },
+  {
+    "ownershipId": 975,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2017-08-19"
+  },
+  {
+    "ownershipId": 976,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2016-06-04"
+  },
+  {
+    "ownershipId": 977,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 27,
+    "state": 1,
+    "registeredDate": "2016-07-21"
+  },
+  {
+    "ownershipId": 978,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2016-10-08"
+  },
+  {
+    "ownershipId": 979,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-09-06"
+  },
+  {
+    "ownershipId": 980,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-12-09"
+  },
+  {
+    "ownershipId": 981,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2016-03-05"
+  },
+  {
+    "ownershipId": 982,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2016-02-26"
+  },
+  {
+    "ownershipId": 983,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 24,
+    "state": 1,
+    "registeredDate": "2017-05-10"
+  },
+  {
+    "ownershipId": 984,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2015-06-30"
+  },
+  {
+    "ownershipId": 985,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 13,
+    "state": 1,
+    "registeredDate": "2016-10-17"
+  },
+  {
+    "ownershipId": 986,
+    "userAccountId": "fe90295d-3bb2-460b-8ff9-83da5702df18",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-11-10"
+  },
+  {
+    "ownershipId": 987,
+    "userAccountId": "d30e0ff2-6660-4c81-b5ff-0ec9cbbbc278",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2017-10-15"
+  },
+  {
+    "ownershipId": 988,
+    "userAccountId": "d30e0ff2-6660-4c81-b5ff-0ec9cbbbc278",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2017-07-09"
+  },
+  {
+    "ownershipId": 989,
+    "userAccountId": "d30e0ff2-6660-4c81-b5ff-0ec9cbbbc278",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2017-02-15"
+  },
+  {
+    "ownershipId": 990,
+    "userAccountId": "d30e0ff2-6660-4c81-b5ff-0ec9cbbbc278",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2017-04-12"
+  },
+  {
+    "ownershipId": 991,
+    "userAccountId": "bd22160b-5a24-4731-90fe-a57de9c4aeed",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2017-11-09"
+  },
+  {
+    "ownershipId": 992,
+    "userAccountId": "bd22160b-5a24-4731-90fe-a57de9c4aeed",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-10-09"
+  },
+  {
+    "ownershipId": 993,
+    "userAccountId": "bd22160b-5a24-4731-90fe-a57de9c4aeed",
+    "gameId": 4,
+    "state": 1,
+    "registeredDate": "2016-11-21"
+  },
+  {
+    "ownershipId": 994,
+    "userAccountId": "bd22160b-5a24-4731-90fe-a57de9c4aeed",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2016-06-21"
+  },
+  {
+    "ownershipId": 995,
+    "userAccountId": "9d0b186a-04f1-4fb7-bf62-4c4d69df5ee6",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-11-19"
+  },
+  {
+    "ownershipId": 996,
+    "userAccountId": "9d0b186a-04f1-4fb7-bf62-4c4d69df5ee6",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2017-05-11"
+  },
+  {
+    "ownershipId": 997,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2017-11-21"
+  },
+  {
+    "ownershipId": 998,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 19,
+    "state": 1,
+    "registeredDate": "2016-11-29"
+  },
+  {
+    "ownershipId": 999,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2017-01-22"
+  },
+  {
+    "ownershipId": 1000,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2015-12-23"
+  },
+  {
+    "ownershipId": 1001,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2017-06-26"
+  },
+  {
+    "ownershipId": 1002,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-07-14"
+  },
+  {
+    "ownershipId": 1003,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2016-02-16"
+  },
+  {
+    "ownershipId": 1004,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2017-02-15"
+  },
+  {
+    "ownershipId": 1005,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2016-06-22"
+  },
+  {
+    "ownershipId": 1006,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-09-17"
+  },
+  {
+    "ownershipId": 1007,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-07-13"
+  },
+  {
+    "ownershipId": 1008,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2016-10-29"
+  },
+  {
+    "ownershipId": 1009,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2015-09-19"
+  },
+  {
+    "ownershipId": 1010,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 7,
+    "state": 1,
+    "registeredDate": "2016-08-20"
+  },
+  {
+    "ownershipId": 1011,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-05-11"
+  },
+  {
+    "ownershipId": 1012,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2017-01-23"
+  },
+  {
+    "ownershipId": 1013,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 18,
+    "state": 1,
+    "registeredDate": "2015-07-23"
+  },
+  {
+    "ownershipId": 1014,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2017-02-06"
+  },
+  {
+    "ownershipId": 1015,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2017-03-29"
+  },
+  {
+    "ownershipId": 1016,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-02-01"
+  },
+  {
+    "ownershipId": 1017,
+    "userAccountId": "73419899-604a-4741-9d0b-b00123a14710",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2016-05-14"
+  },
+  {
+    "ownershipId": 1018,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2017-10-08"
+  },
+  {
+    "ownershipId": 1019,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 32,
+    "state": 1,
+    "registeredDate": "2015-11-12"
+  },
+  {
+    "ownershipId": 1020,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 33,
+    "state": 1,
+    "registeredDate": "2016-09-13"
+  },
+  {
+    "ownershipId": 1021,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2016-05-05"
+  },
+  {
+    "ownershipId": 1022,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2016-05-04"
+  },
+  {
+    "ownershipId": 1023,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-06-20"
+  },
+  {
+    "ownershipId": 1024,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-05-04"
+  },
+  {
+    "ownershipId": 1025,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2016-10-22"
+  },
+  {
+    "ownershipId": 1026,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2015-07-20"
+  },
+  {
+    "ownershipId": 1027,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-08-23"
+  },
+  {
+    "ownershipId": 1028,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-10-10"
+  },
+  {
+    "ownershipId": 1029,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 9,
+    "state": 0,
+    "registeredDate": "2017-06-12"
+  },
+  {
+    "ownershipId": 1030,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-04-11"
+  },
+  {
+    "ownershipId": 1031,
+    "userAccountId": "4ee67ddb-7ca9-446c-a3b5-35f37d39ece3",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-06-13"
+  },
+  {
+    "ownershipId": 1032,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2017-07-23"
+  },
+  {
+    "ownershipId": 1033,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 21,
+    "state": 0,
+    "registeredDate": "2017-08-17"
+  },
+  {
+    "ownershipId": 1034,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2016-09-14"
+  },
+  {
+    "ownershipId": 1035,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-05-15"
+  },
+  {
+    "ownershipId": 1036,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2015-08-24"
+  },
+  {
+    "ownershipId": 1037,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2015-01-11"
+  },
+  {
+    "ownershipId": 1038,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2015-03-26"
+  },
+  {
+    "ownershipId": 1039,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-12-07"
+  },
+  {
+    "ownershipId": 1040,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2015-01-31"
+  },
+  {
+    "ownershipId": 1041,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-05-01"
+  },
+  {
+    "ownershipId": 1042,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-12-18"
+  },
+  {
+    "ownershipId": 1043,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2016-10-21"
+  },
+  {
+    "ownershipId": 1044,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2015-06-28"
+  },
+  {
+    "ownershipId": 1045,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2016-12-03"
+  },
+  {
+    "ownershipId": 1046,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2015-10-18"
+  },
+  {
+    "ownershipId": 1047,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2015-03-20"
+  },
+  {
+    "ownershipId": 1048,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2017-09-14"
+  },
+  {
+    "ownershipId": 1049,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2017-02-23"
+  },
+  {
+    "ownershipId": 1050,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 32,
+    "state": 1,
+    "registeredDate": "2015-10-20"
+  },
+  {
+    "ownershipId": 1051,
+    "userAccountId": "82006469-ea49-4345-9bbf-4ce797e2eb1b",
+    "gameId": 26,
+    "state": 1,
+    "registeredDate": "2015-12-29"
+  },
+  {
+    "ownershipId": 1052,
+    "userAccountId": "7a1e1ef7-d8d9-4907-8811-a51b2cdf6a93",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-02-13"
+  },
+  {
+    "ownershipId": 1053,
+    "userAccountId": "7a1e1ef7-d8d9-4907-8811-a51b2cdf6a93",
+    "gameId": 27,
+    "state": 1,
+    "registeredDate": "2016-01-19"
+  },
+  {
+    "ownershipId": 1054,
+    "userAccountId": "7a1e1ef7-d8d9-4907-8811-a51b2cdf6a93",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-05-11"
+  },
+  {
+    "ownershipId": 1055,
+    "userAccountId": "7a1e1ef7-d8d9-4907-8811-a51b2cdf6a93",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2017-07-20"
+  },
+  {
+    "ownershipId": 1056,
+    "userAccountId": "7a1e1ef7-d8d9-4907-8811-a51b2cdf6a93",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2016-02-22"
+  },
+  {
+    "ownershipId": 1057,
+    "userAccountId": "7a1e1ef7-d8d9-4907-8811-a51b2cdf6a93",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2016-12-23"
+  },
+  {
+    "ownershipId": 1058,
+    "userAccountId": "7a1e1ef7-d8d9-4907-8811-a51b2cdf6a93",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2017-09-13"
+  },
+  {
+    "ownershipId": 1059,
+    "userAccountId": "7d547d0d-39eb-4ea5-9512-b142ae568baa",
+    "gameId": 19,
+    "state": 1,
+    "registeredDate": "2015-04-26"
+  },
+  {
+    "ownershipId": 1060,
+    "userAccountId": "7d547d0d-39eb-4ea5-9512-b142ae568baa",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2015-12-05"
+  },
+  {
+    "ownershipId": 1061,
+    "userAccountId": "7d547d0d-39eb-4ea5-9512-b142ae568baa",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2016-01-26"
+  },
+  {
+    "ownershipId": 1062,
+    "userAccountId": "7d547d0d-39eb-4ea5-9512-b142ae568baa",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2015-10-04"
+  },
+  {
+    "ownershipId": 1063,
+    "userAccountId": "7d547d0d-39eb-4ea5-9512-b142ae568baa",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2017-04-19"
+  },
+  {
+    "ownershipId": 1064,
+    "userAccountId": "7d547d0d-39eb-4ea5-9512-b142ae568baa",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2015-06-11"
+  },
+  {
+    "ownershipId": 1065,
+    "userAccountId": "017bd48c-d923-49ee-8e6f-34c4089b59ef",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-03-09"
+  },
+  {
+    "ownershipId": 1066,
+    "userAccountId": "017bd48c-d923-49ee-8e6f-34c4089b59ef",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-09-19"
+  },
+  {
+    "ownershipId": 1067,
+    "userAccountId": "017bd48c-d923-49ee-8e6f-34c4089b59ef",
+    "gameId": 26,
+    "state": 1,
+    "registeredDate": "2017-05-08"
+  },
+  {
+    "ownershipId": 1068,
+    "userAccountId": "017bd48c-d923-49ee-8e6f-34c4089b59ef",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2016-10-07"
+  },
+  {
+    "ownershipId": 1069,
+    "userAccountId": "017bd48c-d923-49ee-8e6f-34c4089b59ef",
+    "gameId": 18,
+
+    "state": 0,
+    "registeredDate": "2015-09-25"
+  },
+  {
+    "ownershipId": 1070,
+    "userAccountId": "017bd48c-d923-49ee-8e6f-34c4089b59ef",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-08-05"
+  },
+  {
+    "ownershipId": 1071,
+    "userAccountId": "017bd48c-d923-49ee-8e6f-34c4089b59ef",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-01-21"
+  },
+  {
+    "ownershipId": 1072,
+    "userAccountId": "017bd48c-d923-49ee-8e6f-34c4089b59ef",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2016-02-19"
+  },
+  {
+    "ownershipId": 1073,
+    "userAccountId": "017bd48c-d923-49ee-8e6f-34c4089b59ef",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2015-11-01"
+  },
+  {
+    "ownershipId": 1074,
+    "userAccountId": "017bd48c-d923-49ee-8e6f-34c4089b59ef",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-10-12"
+  },
+  {
+    "ownershipId": 1075,
+    "userAccountId": "017bd48c-d923-49ee-8e6f-34c4089b59ef",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2016-05-16"
+  },
+  {
+    "ownershipId": 1076,
+    "userAccountId": "017bd48c-d923-49ee-8e6f-34c4089b59ef",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2015-05-19"
+  },
+  {
+    "ownershipId": 1077,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2017-06-14"
+  },
+  {
+    "ownershipId": 1078,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2015-12-24"
+  },
+  {
+    "ownershipId": 1079,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 9,
+    "state": 1,
+    "registeredDate": "2017-05-02"
+  },
+  {
+    "ownershipId": 1080,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 27,
+    "state": 0,
+    "registeredDate": "2016-01-05"
+  },
+  {
+    "ownershipId": 1081,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2015-05-03"
+  },
+  {
+    "ownershipId": 1082,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2015-11-08"
+  },
+  {
+    "ownershipId": 1083,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 3,
+    "state": 1,
+    "registeredDate": "2016-07-17"
+  },
+  {
+    "ownershipId": 1084,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2016-08-23"
+  },
+  {
+    "ownershipId": 1085,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2017-03-13"
+  },
+  {
+    "ownershipId": 1086,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2016-04-30"
+  },
+  {
+    "ownershipId": 1087,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2016-07-04"
+  },
+  {
+    "ownershipId": 1088,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 32,
+    "state": 0,
+    "registeredDate": "2017-04-09"
+  },
+  {
+    "ownershipId": 1089,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2017-01-26"
+  },
+  {
+    "ownershipId": 1090,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2015-03-24"
+  },
+  {
+    "ownershipId": 1091,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2016-07-31"
+  },
+  {
+    "ownershipId": 1092,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 5,
+    "state": 1,
+    "registeredDate": "2015-03-30"
+  },
+  {
+    "ownershipId": 1093,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2017-10-30"
+  },
+  {
+    "ownershipId": 1094,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2016-01-04"
+  },
+  {
+    "ownershipId": 1095,
+    "userAccountId": "9acd824f-651c-4a88-86f7-2600bc1d7ad4",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2016-12-05"
+  },
+  {
+    "ownershipId": 1096,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 15,
+    "state": 0,
+    "registeredDate": "2017-06-27"
+  },
+  {
+    "ownershipId": 1097,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2016-07-30"
+  },
+  {
+    "ownershipId": 1098,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 4,
+    "state": 0,
+    "registeredDate": "2016-05-13"
+  },
+  {
+    "ownershipId": 1099,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 16,
+    "state": 0,
+    "registeredDate": "2015-04-21"
+  },
+  {
+    "ownershipId": 1100,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2016-03-16"
+  },
+  {
+    "ownershipId": 1101,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2016-05-12"
+  },
+  {
+    "ownershipId": 1102,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2016-05-12"
+  },
+  {
+    "ownershipId": 1103,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2016-12-21"
+  },
+  {
+    "ownershipId": 1104,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-07-21"
+  },
+  {
+    "ownershipId": 1105,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2017-08-30"
+  },
+  {
+    "ownershipId": 1106,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2017-10-09"
+  },
+  {
+    "ownershipId": 1107,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2017-03-15"
+  },
+  {
+    "ownershipId": 1108,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2015-04-09"
+  },
+  {
+    "ownershipId": 1109,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 24,
+    "state": 1,
+    "registeredDate": "2016-11-25"
+  },
+  {
+    "ownershipId": 1110,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2017-03-03"
+  },
+  {
+    "ownershipId": 1111,
+    "userAccountId": "bddeb900-2678-40fc-98c7-93ccf0dcceb7",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2016-08-10"
+  },
+  {
+    "ownershipId": 1112,
+    "userAccountId": "dc2b69a6-45fc-45c8-b9f9-92dfc6a3e6a4",
+    "gameId": 12,
+    "state": 0,
+    "registeredDate": "2016-01-01"
+  },
+  {
+    "ownershipId": 1113,
+    "userAccountId": "dc2b69a6-45fc-45c8-b9f9-92dfc6a3e6a4",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-05-15"
+  },
+  {
+    "ownershipId": 1114,
+    "userAccountId": "dc2b69a6-45fc-45c8-b9f9-92dfc6a3e6a4",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2017-03-22"
+  },
+  {
+    "ownershipId": 1115,
+    "userAccountId": "dc2b69a6-45fc-45c8-b9f9-92dfc6a3e6a4",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2015-08-05"
+  },
+  {
+    "ownershipId": 1116,
+    "userAccountId": "dc2b69a6-45fc-45c8-b9f9-92dfc6a3e6a4",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2015-03-21"
+  },
+  {
+    "ownershipId": 1117,
+    "userAccountId": "dc2b69a6-45fc-45c8-b9f9-92dfc6a3e6a4",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-02-17"
+  },
+  {
+    "ownershipId": 1118,
+    "userAccountId": "dc2b69a6-45fc-45c8-b9f9-92dfc6a3e6a4",
+    "gameId": 25,
+    "state": 0,
+    "registeredDate": "2015-08-28"
+  },
+  {
+    "ownershipId": 1119,
+    "userAccountId": "c3595389-016e-4316-9031-4856a7c82871",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2016-02-28"
+  },
+  {
+    "ownershipId": 1120,
+    "userAccountId": "c3595389-016e-4316-9031-4856a7c82871",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2016-10-08"
+  },
+  {
+    "ownershipId": 1121,
+    "userAccountId": "c3595389-016e-4316-9031-4856a7c82871",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2017-02-14"
+  },
+  {
+    "ownershipId": 1122,
+    "userAccountId": "c3595389-016e-4316-9031-4856a7c82871",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-01-30"
+  },
+  {
+    "ownershipId": 1123,
+    "userAccountId": "c3595389-016e-4316-9031-4856a7c82871",
+    "gameId": 18,
+    "state": 0,
+    "registeredDate": "2017-08-11"
+  },
+  {
+    "ownershipId": 1124,
+    "userAccountId": "c3595389-016e-4316-9031-4856a7c82871",
+    "gameId": 19,
+    "state": 0,
+    "registeredDate": "2015-07-04"
+  },
+  {
+    "ownershipId": 1125,
+    "userAccountId": "c3595389-016e-4316-9031-4856a7c82871",
+    "gameId": 17,
+    "state": 0,
+    "registeredDate": "2015-01-06"
+  },
+  {
+    "ownershipId": 1126,
+    "userAccountId": "c3595389-016e-4316-9031-4856a7c82871",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2015-10-24"
+  },
+  {
+    "ownershipId": 1127,
+    "userAccountId": "c3595389-016e-4316-9031-4856a7c82871",
+    "gameId": 6,
+    "state": 0,
+    "registeredDate": "2016-03-21"
+  },
+  {
+    "ownershipId": 1128,
+    "userAccountId": "c3595389-016e-4316-9031-4856a7c82871",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2017-09-27"
+  },
+  {
+    "ownershipId": 1129,
+    "userAccountId": "c3595389-016e-4316-9031-4856a7c82871",
+    "gameId": 10,
+    "state": 0,
+    "registeredDate": "2016-10-07"
+  },
+  {
+    "ownershipId": 1130,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 27,
+    "state": 1,
+    "registeredDate": "2016-10-19"
+  },
+  {
+    "ownershipId": 1131,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 1,
+    "state": 0,
+    "registeredDate": "2016-09-19"
+  },
+  {
+    "ownershipId": 1132,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 20,
+    "state": 1,
+    "registeredDate": "2016-02-02"
+  },
+  {
+    "ownershipId": 1133,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 30,
+    "state": 0,
+    "registeredDate": "2015-09-05"
+  },
+  {
+    "ownershipId": 1134,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 29,
+    "state": 0,
+    "registeredDate": "2016-02-16"
+  },
+  {
+    "ownershipId": 1135,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2017-07-26"
+  },
+  {
+    "ownershipId": 1136,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 8,
+    "state": 0,
+    "registeredDate": "2016-11-20"
+  },
+  {
+    "ownershipId": 1137,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 18,
+    "state": 1,
+    "registeredDate": "2016-10-18"
+  },
+  {
+    "ownershipId": 1138,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 3,
+    "state": 0,
+    "registeredDate": "2015-12-28"
+  },
+  {
+    "ownershipId": 1139,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 24,
+    "state": 0,
+    "registeredDate": "2016-11-24"
+  },
+  {
+    "ownershipId": 1140,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 7,
+    "state": 0,
+    "registeredDate": "2017-05-05"
+  },
+  {
+    "ownershipId": 1141,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 28,
+    "state": 0,
+    "registeredDate": "2017-01-16"
+  },
+  {
+    "ownershipId": 1142,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 19,
+    "state": 1,
+    "registeredDate": "2016-03-28"
+  },
+  {
+    "ownershipId": 1143,
+    "userAccountId": "e29e01f0-d8fe-472e-8412-9f78220d36ee",
+    "gameId": 26,
+    "state": 0,
+    "registeredDate": "2015-05-16"
+  },
+  {
+    "ownershipId": 1144,
+    "userAccountId": "d524da78-c808-4f11-a91c-afb565f12057",
+    "gameId": 31,
+    "state": 0,
+    "registeredDate": "2017-10-26"
+  },
+  {
+    "ownershipId": 1145,
+    "userAccountId": "d524da78-c808-4f11-a91c-afb565f12057",
+    "gameId": 14,
+    "state": 0,
+    "registeredDate": "2016-07-14"
+  },
+  {
+    "ownershipId": 1146,
+    "userAccountId": "d524da78-c808-4f11-a91c-afb565f12057",
+    "gameId": 23,
+    "state": 0,
+    "registeredDate": "2015-08-01"
+  },
+  {
+    "ownershipId": 1147,
+    "userAccountId": "d524da78-c808-4f11-a91c-afb565f12057",
+    "gameId": 11,
+    "state": 0,
+    "registeredDate": "2017-10-16"
+  },
+  {
+    "ownershipId": 1148,
+    "userAccountId": "d524da78-c808-4f11-a91c-afb565f12057",
+    "gameId": 2,
+    "state": 0,
+    "registeredDate": "2015-08-11"
+  },
+  {
+    "ownershipId": 1149,
+    "userAccountId": "d524da78-c808-4f11-a91c-afb565f12057",
+    "gameId": 4,
+    "state": 1,
+    "registeredDate": "2015-06-02"
+  },
+  {
+    "ownershipId": 1150,
+    "userAccountId": "d524da78-c808-4f11-a91c-afb565f12057",
+    "gameId": 22,
+    "state": 0,
+    "registeredDate": "2016-09-17"
+  },
+  {
+    "ownershipId": 1151,
+    "userAccountId": "d524da78-c808-4f11-a91c-afb565f12057",
+    "gameId": 18,
+    "state": 1,
+    "registeredDate": "2015-05-11"
+  },
+  {
+    "ownershipId": 1152,
+    "userAccountId": "d524da78-c808-4f11-a91c-afb565f12057",
+    "gameId": 33,
+    "state": 0,
+    "registeredDate": "2015-12-04"
+  },
+  {
+    "ownershipId": 1153,
+    "userAccountId": "d524da78-c808-4f11-a91c-afb565f12057",
+    "gameId": 13,
+    "state": 0,
+    "registeredDate": "2015-03-16"
+  },
+  {
+    "ownershipId": 1154,
+    "userAccountId": "d524da78-c808-4f11-a91c-afb565f12057",
+    "gameId": 5,
+    "state": 0,
+    "registeredDate": "2016-06-12"
+  },
+  {
+    "ownershipId": 1155,
+    "userAccountId": "d524da78-c808-4f11-a91c-afb565f12057",
+    "gameId": 20,
+    "state": 0,
+    "registeredDate": "2016-12-31"
+  }
+]
