@@ -15,20 +15,19 @@ namespace AcmeGames.Controllers
 		public async Task<IEnumerable<User>>
 		GetUsers()
 		{
-			var DBUsers = await Database.Users();
-            return DBUsers;
+            return await Database.Users();
 		}
         
         [HttpGet("{id}")]
 		public async Task<IActionResult>
 		GetUser(string id)
 		{
-			var DBUsers = await Database.Users();
-			var user = DBUsers.Where(u => u.UserAccountId == id).FirstOrDefault();
+			var user = (await Database.Users())
+                        .Where(u => u.UserAccountId == id)
+                        .FirstOrDefault();
 
             if (user == null)
                 return BadRequest("User not found");    
-
 
             return Ok(user);
 		}
@@ -37,14 +36,15 @@ namespace AcmeGames.Controllers
 		public async Task<IActionResult>
 		EditUser(string id, [FromBody] User aUser)
 		{
-			var DBUsers = await Database.Users();
-            var userList = DBUsers.ToList();
-			var user = DBUsers.Where(u => u.UserAccountId == id).FirstOrDefault();
+            var userList = (await Database.Users()).ToList();
+            var user = (await Database.Users())
+                .Where(u => u.UserAccountId == id)
+                .FirstOrDefault();
             
             if (user == null)
                 return BadRequest("User not found");  
             
-            var userIndex = DBUsers.ToList().IndexOf(user);
+            var userIndex = userList.IndexOf(user);
             userList[userIndex] = aUser;
 
             Database.SaveUsers(userList);

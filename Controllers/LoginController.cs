@@ -36,9 +36,9 @@ namespace AcmeGames.Controllers
             [FromBody] AuthRequest  aAuthRequest)
         {
             // Implement: Retrieve a user account from the database and handle invalid login attempts
-           var DbUsers = await Database.Users();
-          
-           var user = DbUsers.Where(u => u.EmailAddress == aAuthRequest.EmailAddress).FirstOrDefault(); 
+           var user = (await Database.Users())
+            .Where(u => u.EmailAddress == aAuthRequest.EmailAddress)
+            .FirstOrDefault(); 
            
             if (user == null)
                 return BadRequest("Username does not exist!");
@@ -46,8 +46,7 @@ namespace AcmeGames.Controllers
             var isPasswordMatch = (user.Password == aAuthRequest.Password) ? true : false;
 
             if (isPasswordMatch) {
-
-            
+                
                 var claims = new[]
                 {
                     new Claim(ClaimTypes.NameIdentifier,    user.UserAccountId),

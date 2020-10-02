@@ -18,25 +18,9 @@ namespace AcmeGames.Controllers
 		public async Task<IEnumerable<Game>>
 		GetGames()
 		{
-			var DBGames = await Database.Games();
-			return DBGames;
+			var games = await Database.Games();
+			return games;
 		}
-
-
-		[HttpDelete("{id}")]
-		public async Task<IActionResult> 
-		DeleteGame(int id)
-		{
-			
-			var DBGames = await Database.Games();
-			Database.SaveGames(DBGames.Where(g=> g.GameId != 1));
-			
-			return Ok(0);
-		}
-
-
-
-
-
+		
 	}
 }
