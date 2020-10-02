@@ -32,15 +32,15 @@ namespace AcmeGames.Data
 			return await DbInstance.PrivGetData<User>(locUsers);
 		}
 
-		public static void  SaveGames (IEnumerable<Game> games) {
+		public async static void  SaveGames (IEnumerable<Game> games) {
 
-			locGames = games;
+			locGames = await DbInstance.PrivGetData<Game>(games);
 
 		}
 
-		public static void  SaveUsers (IEnumerable<User> users) {
+		public async static void  SaveUsers (IEnumerable<User> users) {
 
-			locUsers = users;
+			locUsers = await DbInstance.PrivGetData<User>(users);
 
 		}
 
