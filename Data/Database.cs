@@ -5,6 +5,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using AcmeGames.Models;
 using Newtonsoft.Json;
+using System.Xml.Linq;
+using System.Linq;
 
 namespace AcmeGames.Data
 {
@@ -17,7 +19,35 @@ namespace AcmeGames.Data
 		private static IEnumerable<Ownership>	locOwnership	= new List<Ownership>();
 		private static IEnumerable<User>		locUsers		= new List<User>();
 
-		public Database()
+
+		private static Database DbInstance = new Database();
+
+		public async static Task<IEnumerable<Game>> Games (){
+			
+			return await DbInstance.PrivGetData<Game>(locGames);
+		}
+
+		public async static Task<IEnumerable<User>> Users () {
+			
+			return await DbInstance.PrivGetData<User>(locUsers);
+		}
+
+		public static void  SaveGames (IEnumerable<Game> games) {
+
+			locGames = games;
+
+		}
+
+		public static void  SaveUsers (IEnumerable<User> users) {
+
+			locUsers = users;
+
+		}
+
+		
+
+
+		private Database()
 		{
 			locGames		= JsonConvert.DeserializeObject<IEnumerable<Game>>(File.ReadAllText(@"Data\games.json"));
 			locKeys			= JsonConvert.DeserializeObject<IEnumerable<GameKey>>(File.ReadAllText(@"Data\keys.json"));

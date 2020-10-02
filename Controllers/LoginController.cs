@@ -2,10 +2,13 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Threading.Tasks;
+using AcmeGames.Data;
 using AcmeGames.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using System.Linq;
 
 namespace AcmeGames.Controllers
 {
@@ -28,44 +31,49 @@ namespace AcmeGames.Controllers
         }
 
         [HttpPost]
-        public IActionResult
+        public async Task<IActionResult>
         Authenticate(
             [FromBody] AuthRequest  aAuthRequest)
         {
             // Implement: Retrieve a user account from the database and handle invalid login attempts
-            var user = new User
-            {
-                UserAccountId = "fake",
-                DateOfBirth = DateTime.Now,
-                EmailAddress = "foo@bar.baz",
-                FirstName = "Hard",
-                LastName = "Codedson",
-                IsAdmin = false,
-                Password = "password"
-            };
+           var DbUsers = await Database.Users();
+          
+           var user = DbUsers.Where(u => u.EmailAddress == aAuthRequest.EmailAddress).FirstOrDefault(); 
+           
+            if (user == null)
+                return BadRequest("Username does not exist!");
+        
+            var isPasswordMatch = (user.Password == aAuthRequest.Password) ? true : false;
 
-            var claims = new[]
-            {
-                new Claim(ClaimTypes.NameIdentifier,    user.UserAccountId),
-                new Claim(ClaimTypes.Name,              user.FullName),
-                new Claim(ClaimTypes.GivenName,         user.FirstName),
-                new Claim(ClaimTypes.Surname,           user.LastName), 
-                new Claim(ClaimTypes.DateOfBirth,       user.DateOfBirth.ToString("yyyy-MM-dd")),
-                new Claim(ClaimTypes.Email,             user.EmailAddress),
-                new Claim(ClaimTypes.Role,              user.IsAdmin ? "Admin" : "User")
-            };
+            if (isPasswordMatch) {
 
-            var token = new JwtSecurityToken(
-                "localhost:56653",
-                "localhost:56653",
-                claims,
-                expires: DateTime.Now.AddMinutes(30),
-                signingCredentials: mySigningCredentials);
+            
+                var claims = new[]
+                {
+                    new Claim(ClaimTypes.NameIdentifier,    user.UserAccountId),
+                    new Claim(ClaimTypes.Name,              user.FullName),
+                    new Claim(ClaimTypes.GivenName,         user.FirstName),
+                    new Claim(ClaimTypes.Surname,           user.LastName), 
+                    new Claim(ClaimTypes.DateOfBirth,       user.DateOfBirth.ToString("yyyy-MM-dd")),
+                    new Claim(ClaimTypes.Email,             user.EmailAddress),
+                    new Claim(ClaimTypes.Role,              user.IsAdmin ? "Admin" : "User")
+                };
 
-            return Ok(new
-            {
-                token = new JwtSecurityTokenHandler().WriteToken(token)
-            });
+                var token = new JwtSecurityToken(
+                    "localhost:5001",
+                    "localhost:5001",
+                    claims,
+                    expires: DateTime.Now.AddMinutes(30),
+                    signingCredentials: mySigningCredentials);
+
+                return Ok(new
+                {
+                    token = new JwtSecurityTokenHandler().WriteToken(token)
+                });
+            
+            }
+
+            return Unauthorized();
         }
     }
 }
