@@ -1,0 +1,25 @@
+.task-header {
+    background-color: rgb(244, 97, 74);
+    padding: 0px;
+    height: 20px;
+    width: 100%;
+    font-family: Robo-medium !important;
+    font-weight: bold;
+  }
+  
+
+  
+  .form-field {
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .error-msg {
+  
+    padding: 10px;
+    color: red;
+    font-size: smaller;
+  
+  }
+  
+  

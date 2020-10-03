@@ -96,6 +96,7 @@ namespace AcmeGames.Controllers
 			if (key.IsRedeemed)
 				return BadRequest("Key has already been redeemed");
 			
+			//ADD THIS WHEN AUTHENTICATION IS FINIDHED
 			// var userAccountId = User.Claims
 			// 	.Where(c => c.Type == ClaimTypes.NameIdentifier)
 			// 	.FirstOrDefault()
