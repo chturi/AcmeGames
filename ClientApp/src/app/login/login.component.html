@@ -1,47 +1,40 @@
 
 
-<div>
-    <h1 mat-dialog-title>
-        <mat-toolbar class="task-header">
-            <mat-toolbar-row>
-                <span>Login</span>
-            </mat-toolbar-row>
-           
-        </mat-toolbar>
-    </h1>
-    
-    <div mat-dialog-content>
-        
-        <form [formGroup]="loginForm" (ngSubmit)="login()">
+ <div class="form-wraper">    
+        <form [formGroup]="loginForm" (ngSubmit)="login()" class="form-container card">
             
-            <mat-form-field class="form-field" appearance="legacy">
-                <mat-label>Username</mat-label>
-                <input matInput formControlName = "username" >
-                <mat-error *ngIf="submitted && form.username.errors">A Username is required</mat-error>
-            </mat-form-field>
-
-            <br>
-        
-            <mat-form-field class="form-field" appearance="legacy">
-                <mat-label>Password</mat-label>
-                <input matInput formControlName = "password" [type]="hide ? 'password' : 'text'">
-                <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
-                <mat-error *ngIf="submitted && form.username.errors">A Username is required</mat-error>
-            </mat-form-field>
-            
-            <div>
-                <span *ngIf="invalidLogin" class="error-msg">Invalid Password or Username!</span>
+            <div class="form-header">
             </div>
 
-            <br>
-
-            <button mat-raised-button color="primary" 
-            class="form-btn" 
-            type="submit"
-            [disabled]= "!loginForm.valid">
-            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
-            Login</button>
+            <div class="form-body">
+                <mat-form-field class="justifier" appearance="legacy">
+                    <mat-label>E-mail</mat-label>
+                    <input matInput formControlName = "emailAddress" class="form-input">
+                    <mat-error>An email is required</mat-error>
+                </mat-form-field>
             
+                <mat-form-field class="justifier" appearance="legacy">
+                    <mat-label>Password</mat-label>
+                    <input matInput formControlName = "password" [type]="hide ? 'password' : 'text'" class="form-input">
+                    <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                    <mat-error>A Password is required</mat-error>
+                </mat-form-field>
+                
+                <div class="justifier warning-wrapper">
+                    <span *ngIf="invalidLogin" class="error-msg" >Invalid Password or E-mail!</span>
+                </div>
+            </div> 
+
+            <div class="form-footer">
+                <button mat-raised-button color="primary" 
+                class="btn custom-btn" 
+                type="submit"
+                [disabled]= "!loginForm.valid">
+                <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                Login</button>
+            </div>
+            <div class="additional-link">
+                <a routerLink="/signup">No Account? <strong>Create one here</strong></a>
+            </div>
         </form>
     </div>
-</div>
