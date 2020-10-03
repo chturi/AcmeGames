@@ -36,7 +36,7 @@ namespace AcmeGames.Controllers
 
         [HttpPut("{id}")]
 		public async Task<IActionResult>
-		EditUser(string id, [FromBody] User aUser)
+		UpdateUser(string id, [FromBody] User aUser)
 		{
             var userList = (await Database.Users()).ToList();
             var user = (await Database.Users())

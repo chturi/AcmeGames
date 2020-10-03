@@ -15,5 +15,11 @@ export class UsersService {
      return this.http.get(this.systemsEndpoint + userAccountId); 
 
   }
+
+  updateUser(user) {
+
+    return this.http.put(this.systemsEndpoint + user.userAccountId, user); 
+
+  }
   
 }

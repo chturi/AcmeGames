@@ -9,10 +9,14 @@
     height: 180px;
     background-color: #363737;
     color: white;
+    margin-top: 5px;
    
     
     
 } 
+.mat-input-element:disabled {
+    color: black!important;
+}
 
 .card-content {
     text-align: center;
@@ -22,10 +26,6 @@
 .card-img {
     background-size: cover;
     max-height: 140px;
-}
-
-.card-wrapper {
-    
 }
 
 .game-wrapper {

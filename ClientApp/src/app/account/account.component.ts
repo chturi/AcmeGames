@@ -18,7 +18,9 @@ export class AccountComponent implements OnInit {
   loading: boolean;
   hide = true;
   userGames: Game[];
-  user: any ={}; 
+  user: any ={};
+  updateUserLoading: boolean;
+  getGamesLoading: boolean; 
 
   
  
@@ -40,13 +42,17 @@ export class AccountComponent implements OnInit {
       emailAddress : new FormControl(this.user.emailAdress,[Validators.required]),
       firstName : new FormControl(this.user.firstName,[Validators.required]),
       lastName : new FormControl(this.user.lastName,[Validators.required]),
-      dateOfBirth : new FormControl(null,[Validators.required]),
+      dateOfBirth : new FormControl(this.user.dateOfBirth,[Validators.required]),
     });
+
+    this.accountForm.disable();
 
     this.gameService.getUserGames(this.user.userAccountId)
     .subscribe(results => {
       this.userGames = (results as Game[]);
      
+      
+      
     });
 
     
@@ -59,8 +65,14 @@ export class AccountComponent implements OnInit {
     this.user.userAccountId = JSON.parse(localStorage.getItem("currentUser")).userAccountId;
     this.user.firstName = JSON.parse(localStorage.getItem("currentUser")).firstName;
     this.user.lastName = JSON.parse(localStorage.getItem("currentUser")).lastName;
-    this.user.emailAdress = JSON.parse(localStorage.getItem("currentUser")).emailAddress;
+    this.user.emailAdress = JSON.parse(localStorage.getItem("currentUser")).emailAdress;
     this.user.role = JSON.parse(localStorage.getItem("currentUser")).role;
+    this.user.dateOfBirth = JSON.parse(localStorage.getItem("currentUser")).dateOfBirth;
+    console.log(this.user)
+
+  }
+
+  updateUser() {
 
   }
 
