@@ -1,0 +1,110 @@
+<mat-card>
+    <mat-card-header>
+        <div style="display:inline-block;vertical-align:top;">
+            <div mat-card-avatar class="example-header-image"></div>
+        </div>
+        <div style="display:inline-block;">
+            <mat-card-title>Account Information</mat-card-title>
+            <mat-divider style="margin: 20px;"></mat-divider>
+        </div>
+       
+    </mat-card-header>
+
+    <mat-card-content>
+     
+        <form [formGroup]="accountForm" style="margin-top: 40px;"> 
+        <mat-form-field class="justifier" appearance="legacy">
+            <mat-label>E-mail Adress</mat-label>
+            <input matInput formControlName = "emailAddress" class="form-input">
+            <mat-error>An email is required</mat-error>
+        </mat-form-field>
+       
+
+        <mat-form-field class="justifier" appearance="legacy">
+            <mat-label>First Name</mat-label>
+            <input matInput formControlName = "firstName" class="form-input">
+            <mat-error>An email is required</mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="justifier" appearance="legacy">
+            <mat-label>Last Name</mat-label>
+            <input matInput formControlName = "lastName" class="form-input">
+            <mat-error>An email is required</mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="justifier" appearance="legacy">
+            <mat-label>Date of Birth</mat-label>
+            <input matInput [matDatepicker]="IrDatePicker" formControlName = "dateOfBirth" >
+            <mat-datepicker-toggle matSuffix [for]="IrDatePicker">
+              <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+            </mat-datepicker-toggle>
+            <mat-datepicker #IrDatePicker></mat-datepicker>
+            <mat-error>Date of Birth is required</mat-error>
+          </mat-form-field>
+
+    </form>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>EDIT</button>
+    </mat-card-actions>
+  </mat-card>
+
+<div class="game-wrapper">
+ <mat-accordion>
+  <mat-expansion-panel hideToggle>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        My Games
+      </mat-panel-title>
+      <mat-panel-description>
+        
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+
+    <div class="flex-container" fxLayout = "row">
+    <mat-card *ngFor="let game of userGames" class="game-card" >
+    <img mat-card-image [src]="game.thumbnail" class="card-img">
+    <mat-card-content class= "card-content">
+        {{game.name}}
+      </mat-card-content>
+    </mat-card>
+    </div>
+
+
+
+    
+
+  </mat-expansion-panel>
+</mat-accordion>
+</div>
+
+
+  <!-- <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>Personal Information</mat-card-title>
+    </mat-card-header>
+    <mat-divider></mat-divider>
+   
+    <mat-card-content>
+        
+        <mat-form-field class="justifier" appearance="legacy">
+            <mat-label>First Name</mat-label>
+            <input matInput formControlName = "emailAddress" class="form-input">
+            <mat-error>An email is required</mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="justifier" appearance="legacy">
+            <mat-label>Last Name</mat-label>
+            <input matInput formControlName = "emailAddress" class="form-input">
+            <mat-error>An email is required</mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="justifier" appearance="legacy">
+            <mat-label>Date of Birth</mat-label>
+            <input matInput formControlName = "emailAddress" class="form-input">
+            <mat-error>An email is required</mat-error>
+        </mat-form-field>
+  
+    </mat-card-content>
+  </mat-card> -->

@@ -29,7 +29,7 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
-
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 //Angular Components
@@ -40,6 +40,7 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AccountComponent } from './account/account.component';
 
 export function tokenGetter() {
   return localStorage.getItem("jwt");
@@ -52,7 +53,8 @@ export function tokenGetter() {
     HomeComponent,
     CounterComponent,
     FetchDataComponent,
-    LoginComponent
+    LoginComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -71,6 +73,7 @@ export function tokenGetter() {
     MatTableModule,
     MatPaginatorModule,
     MatSelectModule,
+    FlexLayoutModule,
     MatRadioModule,
     ReactiveFormsModule,
     MatSnackBarModule,
@@ -78,9 +81,11 @@ export function tokenGetter() {
     MatSortModule,
     MatDialogModule,
     MatToolbarModule,
+    MatNativeDateModule,
+    MatDatepickerModule,
     RouterModule.forRoot([
       { path: '', component: LoginComponent, pathMatch: 'full' },
-      { path: 'counter', component: CounterComponent },
+      { path: 'account', component: AccountComponent },
       { path: 'fetch-data', component: FetchDataComponent },
     ]),
     JwtModule.forRoot({

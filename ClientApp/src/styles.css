@@ -22,6 +22,7 @@ body{
   font-family: 'Roboto', sans-serif;
   margin:0px !important;
   overflow: hidden;
+  overflow-y: auto;
 }
 .add-btn{
   position: fixed;

@@ -14,7 +14,6 @@ export class LoginComponent implements OnInit {
 
   loginForm: FormGroup;
   invalidLogin: boolean;
-  submitted: boolean;
   loading: boolean;
   hide = true;
 
@@ -37,12 +36,15 @@ export class LoginComponent implements OnInit {
 
   login() {
     
+    localStorage.removeItem("currentUser");
+    localStorage.removeItem("jwt");
+
     const credentials = {
       'emailAddress' : this.form.emailAddress.value,
       'password' : this.form.password.value,
     }
 
-    this.submitted= true;
+  
     this.invalidLogin = false;
     this.loading = true;
 
@@ -52,7 +54,10 @@ export class LoginComponent implements OnInit {
       const token = (<any>response).token;
       
       const currentUser = {
-        username: this.jwtHelper.decodeToken(token)['username'], 
+        userAccountId: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier'],
+        firstName: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname'],
+        lastName: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname'],
+        emailAdress: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress'],
         role: this.jwtHelper.decodeToken(token)['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'] 
       };
 
