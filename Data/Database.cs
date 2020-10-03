@@ -32,6 +32,16 @@ namespace AcmeGames.Data
 			return await DbInstance.PrivGetData<User>(locUsers);
 		}
 
+		public async static Task<IEnumerable<Ownership>> Ownerships () {
+			
+			return await DbInstance.PrivGetData<Ownership>(locOwnership);
+		}
+
+		public async static Task<IEnumerable<GameKey>> GameKeys (){
+			
+			return await DbInstance.PrivGetData<GameKey>(locKeys);
+		}
+
 		public async static void  SaveGames (IEnumerable<Game> games) {
 
 			locGames = await DbInstance.PrivGetData<Game>(games);
@@ -44,7 +54,17 @@ namespace AcmeGames.Data
 
 		}
 
-		
+		public async static void  SaveOwnership (IEnumerable<Ownership> ownership) {
+
+			locOwnership = await DbInstance.PrivGetData<Ownership>(ownership);
+
+		}
+
+		public async static void  SaveGameKeys (IEnumerable<GameKey> keys) {
+
+			locKeys = await DbInstance.PrivGetData<GameKey>(keys);
+
+		}
 
 
 		private Database()
