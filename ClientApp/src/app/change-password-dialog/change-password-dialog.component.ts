@@ -25,8 +25,6 @@ export class ChangePasswordDialogComponent implements OnInit {
     password: null,
   };
   
-  
-
   constructor(private dialogRef: MatDialogRef<ChangePasswordDialogComponent>,
               public fb: FormBuilder,
               private jwtHelper : JwtHelperService,
@@ -69,11 +67,7 @@ export class ChangePasswordDialogComponent implements OnInit {
       (error: HttpErrorResponse) => {
         this.notificationService.showError("Error: " + error.error);
         this.loading = false;
-      });
-    
-    
-    
-    
+      }); 
   }
 
   close(){

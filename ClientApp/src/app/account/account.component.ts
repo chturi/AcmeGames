@@ -1,3 +1,4 @@
+import { ChangeEmailDialogComponent } from './../change-email-dialog/change-email-dialog.component';
 import { NotificationService } from './../services/notification.service';
 import { UsersService } from './../services/users.service';
 import { GamesService } from './../services/games.service';
@@ -26,14 +27,12 @@ export class AccountComponent implements OnInit {
   getGamesLoading: boolean; 
  
   constructor(private fb: FormBuilder,
-              private http: HttpClient,
-              private authService: AuthenticationService,
               private gameService: GamesService,
               private userService: UsersService,
-              private jwtHelper: JwtHelperService,
               private notificationService: NotificationService,
               private ngZone: NgZone,
-              private changePasswordDialog: MatDialog) { }
+              private changePasswordDialog: MatDialog,
+              private changeEmailDialog: MatDialog) { }
 
   ngOnInit(): void {
 
@@ -93,6 +92,18 @@ export class AccountComponent implements OnInit {
       
     this.ngZone.run(() => {
        this.changePasswordDialog.open(ChangePasswordDialogComponent,dialogConfig);
+    });  
+
+  }
+
+  updateUserEmail() {
+    
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.data = this.user.userAccountId;
+    dialogConfig.panelClass = 'custom-dialog-container' ;
+      
+    this.ngZone.run(() => {
+       this.changeEmailDialog.open(ChangeEmailDialogComponent,dialogConfig);
     });  
 
   }

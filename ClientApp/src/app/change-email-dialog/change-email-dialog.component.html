@@ -1,0 +1,46 @@
+<div>
+    <h1 mat-dialog-title>
+        <mat-toolbar class="task-header" color="primary">
+            <mat-toolbar-row>
+                <span style="margin:auto">Change Email-Adress</span>
+            </mat-toolbar-row>
+        </mat-toolbar>
+    </h1>
+
+    <div mat-dialog-content class="form-wrapper">
+        
+        <form [formGroup]="changeEmailForm" (ngSubmit)=" changeEmail()">
+            
+            <mat-form-field class="justifier" appearance="legacy">
+                <mat-label>New Email-Adress</mat-label>
+                <input matInput formControlName = "emailAdress">
+                <mat-error>New Email is required</mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="justifier" appearance="legacy">
+                <mat-label>Confirm Email-Adress</mat-label>
+                <input matInput formControlName = "confirmEmailAdress">
+                <mat-error>Confirm Email is required</mat-error>
+            </mat-form-field>
+            
+            <mat-form-field class="justifier" appearance="legacy">
+                <mat-label>Password</mat-label>
+                <input matInput formControlName = "password" [type]="hide ? 'password' : 'text'" >
+                <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                <mat-error>Passwords must match</mat-error>
+            </mat-form-field>
+
+            <button mat-raised-button color="primary"  
+                type="submit"
+                [disabled]= "!changeEmailForm.valid">
+                <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                Update</button>
+    
+            <button mat-button 
+                style= "float: right; margin-bottom: 15px;"
+                type ="button"
+                (click)="close()">Close</button>
+            
+        </form>
+    </div>
+</div>

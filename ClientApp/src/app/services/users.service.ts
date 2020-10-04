@@ -27,5 +27,13 @@ export class UsersService {
     return this.http.put(this.systemsEndpoint + "set-password/" + passwordResource.userAccountId, passwordResource)
 
   }
+
+  updateUserEmail(emailresource) {
+
+    return this.http.put(this.systemsEndpoint + "set-email/" + emailresource.userAccountId, emailresource)
+
+  }
+
+  
   
 }

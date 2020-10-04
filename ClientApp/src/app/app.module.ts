@@ -44,6 +44,7 @@ import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AccountComponent } from './account/account.component';
 import { ChangePasswordDialogComponent } from './change-password-dialog/change-password-dialog.component';
+import { ChangeEmailDialogComponent } from './change-email-dialog/change-email-dialog.component';
 
 export function tokenGetter() {
   return localStorage.getItem("jwt");
@@ -58,7 +59,8 @@ export function tokenGetter() {
     FetchDataComponent,
     LoginComponent,
     AccountComponent,
-    ChangePasswordDialogComponent
+    ChangePasswordDialogComponent,
+    ChangeEmailDialogComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
