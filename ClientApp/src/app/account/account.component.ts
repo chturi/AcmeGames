@@ -31,12 +31,15 @@ export class AccountComponent implements OnInit {
               private userService: UsersService,
               private notificationService: NotificationService,
               private ngZone: NgZone,
+              private jwtHelper: JwtHelperService,
               private changePasswordDialog: MatDialog,
               private changeEmailDialog: MatDialog) { }
 
   ngOnInit(): void {
+    
+    
 
-    this.getUserFromClaims();
+    this.getUserFromToken();
 
     this.accountForm = this.fb.group({
       emailAddress : new FormControl(this.user.emailAdress,[Validators.required]),
@@ -59,15 +62,19 @@ export class AccountComponent implements OnInit {
   }
 
 
-  private getUserFromClaims () {
+  private getUserFromToken () {
 
-    this.user.userAccountId = JSON.parse(localStorage.getItem("currentUser")).userAccountId;
-    this.user.firstName = JSON.parse(localStorage.getItem("currentUser")).firstName;
-    this.user.lastName = JSON.parse(localStorage.getItem("currentUser")).lastName;
-    this.user.emailAdress = JSON.parse(localStorage.getItem("currentUser")).emailAdress;
-    this.user.role = JSON.parse(localStorage.getItem("currentUser")).role;
-    this.user.dateOfBirth = JSON.parse(localStorage.getItem("currentUser")).dateOfBirth;
-    console.log(this.user)
+    const token = localStorage.getItem("jwt"); 
+     this.user= {
+         userAccountId: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier'],
+         firstName: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname'],
+         lastName: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname'],
+         emailAdress: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress'],
+         role: this.jwtHelper.decodeToken(token)['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'],
+         dateOfBirth: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/dateofbirth']
+       }
+
+  
 
   }
 
@@ -101,10 +108,18 @@ export class AccountComponent implements OnInit {
     const dialogConfig = new MatDialogConfig();
     dialogConfig.data = this.user.userAccountId;
     dialogConfig.panelClass = 'custom-dialog-container' ;
-      
+    
+    let dialogRef;
     this.ngZone.run(() => {
-       this.changeEmailDialog.open(ChangeEmailDialogComponent,dialogConfig);
-    });  
+       dialogRef = this.changeEmailDialog.open(ChangeEmailDialogComponent,dialogConfig);
+    });
+    
+    dialogRef.afterClosed().subscribe(
+      data => {
+        if (data)
+          this.accountForm.get("emailAddress").setValue(data);
+      });
+     
 
   }
 

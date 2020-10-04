@@ -54,18 +54,8 @@ export class LoginComponent implements OnInit {
     .subscribe(response => { 
       
       const token = (<any>response).token;
-      
-      const currentUser = {
-        userAccountId: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier'],
-        firstName: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname'],
-        lastName: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname'],
-        emailAdress: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress'],
-        role: this.jwtHelper.decodeToken(token)['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'],
-        dateOfBirth: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/dateofbirth']
-      };
-
       localStorage.setItem("jwt",token);
-      localStorage.setItem("currentUser", JSON.stringify(currentUser));
+     
       this.invalidLogin = false;
       this.loading = false;
       this.router.navigate(["/account"]);

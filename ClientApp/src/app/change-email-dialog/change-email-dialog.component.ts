@@ -22,7 +22,7 @@ export class ChangeEmailDialogComponent implements OnInit {
   emailResource: any = {
     userAccountId: null,
     password: null,
-    emailAdress: null,
+    emailAddress: null,
   };
   
   
@@ -40,11 +40,11 @@ export class ChangeEmailDialogComponent implements OnInit {
   ngOnInit(): void {
 
     this.changeEmailForm = this.fb.group({
-      emailAdress: new FormControl(null,[Validators.required]),
-      confirmEmailAdress : new FormControl(null,[Validators.required]),
+      emailAddress: new FormControl(null,[Validators.required]),
+      confirmEmailAddress : new FormControl(null,[Validators.required]),
       password : new FormControl(null,),
     }, {
-      validators: ConfirmedValidator('emailAdress','confirmEmailAdress')
+      validators: ConfirmedValidator('emailAddress','confirmEmailAddress')
     });
 
     this.changeEmailForm.valueChanges.subscribe(formdata => {
@@ -56,7 +56,7 @@ export class ChangeEmailDialogComponent implements OnInit {
   private onFormValueChange () {
     //Assign data from form to system object
     for (const key in this.changeEmailForm.controls) {
-      if (key != "confirmEmailAdress") {
+      if (key != "confirmEmailAddress") {
         const control = this.changeEmailForm.get(key);
         this.emailResource[key] = control.value;
       }
@@ -71,8 +71,8 @@ export class ChangeEmailDialogComponent implements OnInit {
     this.userService.updateUserEmail(this.emailResource)
     .subscribe(
       success => {
-        this.notificationService.showSuccess("Your Password changed successfully!")
-        this.dialogRef.close();
+        this.notificationService.showSuccess("Your Email changed successfully!")
+        this.dialogRef.close(this.emailResource.emailAddress);
       },
       (error: HttpErrorResponse) => {
         this.notificationService.showError("Error: " + error.error);

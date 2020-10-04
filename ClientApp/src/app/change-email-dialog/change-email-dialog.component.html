@@ -2,7 +2,7 @@
     <h1 mat-dialog-title>
         <mat-toolbar class="task-header" color="primary">
             <mat-toolbar-row>
-                <span style="margin:auto">Change Email-Adress</span>
+                <span style="margin:auto">Change Email-Address</span>
             </mat-toolbar-row>
         </mat-toolbar>
     </h1>
@@ -12,14 +12,14 @@
         <form [formGroup]="changeEmailForm" (ngSubmit)=" changeEmail()">
             
             <mat-form-field class="justifier" appearance="legacy">
-                <mat-label>New Email-Adress</mat-label>
-                <input matInput formControlName = "emailAdress">
+                <mat-label>New Email-Address</mat-label>
+                <input matInput formControlName = "emailAddress">
                 <mat-error>New Email is required</mat-error>
             </mat-form-field>
 
             <mat-form-field class="justifier" appearance="legacy">
-                <mat-label>Confirm Email-Adress</mat-label>
-                <input matInput formControlName = "confirmEmailAdress">
+                <mat-label>Confirm Email-Address</mat-label>
+                <input matInput formControlName = "confirmEmailAddress">
                 <mat-error>Confirm Email is required</mat-error>
             </mat-form-field>
             

@@ -28,9 +28,9 @@ export class UsersService {
 
   }
 
-  updateUserEmail(emailresource) {
+  updateUserEmail(emailResource) {
 
-    return this.http.put(this.systemsEndpoint + "set-email/" + emailresource.userAccountId, emailresource)
+    return this.http.put(this.systemsEndpoint + "set-email/" + emailResource.userAccountId, emailResource)
 
   }
 

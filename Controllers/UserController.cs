@@ -115,16 +115,23 @@ namespace AcmeGames.Controllers
                 .Where(u => u.UserAccountId == id)
                 .FirstOrDefault();
             
+            var duplicateEmail = userList
+                .Where(u => u.EmailAddress == aSetEmailResource.EmailAddress)
+                .FirstOrDefault();
+
+             var identity = HttpContext.User.Identity as ClaimsIdentity;
+            
             if (user == null)
                 return BadRequest("User not found");
 
+            if (duplicateEmail != null)
+                return Unauthorized("This email is already in use by another user");
+
             if (aSetEmailResource.Password != user.Password)
                 return Unauthorized("Wrong password input");
-            
-            var identity = HttpContext.User.Identity as ClaimsIdentity;
 
             if (user.UserAccountId != identity.Claims.Where(c => c.Type == ClaimTypes.NameIdentifier).FirstOrDefault().Value)
-                return Unauthorized("Password can only be changed by same User Account");
+                return Unauthorized("Email can only be changed by same User Account");
 
             var userIndex = userList.IndexOf(user);
             user.EmailAddress = aSetEmailResource.EmailAddress;
