@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { throwError } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -20,6 +21,7 @@ export class LoginComponent implements OnInit {
 
   constructor(private fb: FormBuilder,
               private http: HttpClient,
+              private router: Router,
               private authService: AuthenticationService,
               private jwtHelper: JwtHelperService) { }
 
@@ -66,6 +68,7 @@ export class LoginComponent implements OnInit {
       localStorage.setItem("currentUser", JSON.stringify(currentUser));
       this.invalidLogin = false;
       this.loading = false;
+      this.router.navigate(["/account"]);
 
     }, (err: HttpErrorResponse) => 
     {

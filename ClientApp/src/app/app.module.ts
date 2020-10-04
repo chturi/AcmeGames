@@ -30,6 +30,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatMenuModule } from '@angular/material/menu';
 
 
 //Angular Components
@@ -41,6 +42,7 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AccountComponent } from './account/account.component';
+import { ChangePasswordDialogComponent } from './change-password-dialog/change-password-dialog.component';
 
 export function tokenGetter() {
   return localStorage.getItem("jwt");
@@ -54,7 +56,8 @@ export function tokenGetter() {
     CounterComponent,
     FetchDataComponent,
     LoginComponent,
-    AccountComponent
+    AccountComponent,
+    ChangePasswordDialogComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -79,6 +82,7 @@ export function tokenGetter() {
     MatSnackBarModule,
     MatProgressSpinnerModule,
     MatSortModule,
+    MatMenuModule,
     MatDialogModule,
     MatToolbarModule,
     MatNativeDateModule,

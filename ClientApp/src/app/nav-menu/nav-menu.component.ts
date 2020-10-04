@@ -1,3 +1,5 @@
+import { Router, RouterModule } from '@angular/router';
+import { JwtHelperService } from '@auth0/angular-jwt';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,6 +9,9 @@ import { Component } from '@angular/core';
 })
 export class NavMenuComponent {
   isExpanded = false;
+  isAuthenticated: boolean;
+  
+  constructor(private router: Router) {}
 
   collapse() {
     this.isExpanded = false;
@@ -15,4 +20,14 @@ export class NavMenuComponent {
   toggle() {
     this.isExpanded = !this.isExpanded;
   }
+
+  logout() {
+
+     localStorage.removeItem("jwt");
+     localStorage.removeItem("currentUser");
+     this.router.navigate([""]);
+    
+  }
+
+
 }

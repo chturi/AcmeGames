@@ -1,10 +1,13 @@
+import { NotificationService } from './../services/notification.service';
 import { UsersService } from './../services/users.service';
 import { GamesService } from './../services/games.service';
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, NgZone, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { AuthenticationService } from '../services/authentication.service';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
+import { ChangePasswordDialogComponent } from '../change-password-dialog/change-password-dialog.component';
 
 @Component({
   selector: 'app-account',
@@ -21,18 +24,16 @@ export class AccountComponent implements OnInit {
   user: any ={};
   updateUserLoading: boolean;
   getGamesLoading: boolean; 
-
-  
  
-
-
-
   constructor(private fb: FormBuilder,
               private http: HttpClient,
               private authService: AuthenticationService,
               private gameService: GamesService,
               private userService: UsersService,
-              private jwtHelper: JwtHelperService) { }
+              private jwtHelper: JwtHelperService,
+              private notificationService: NotificationService,
+              private ngZone: NgZone,
+              private changePasswordDialog: MatDialog) { }
 
   ngOnInit(): void {
 
@@ -46,14 +47,14 @@ export class AccountComponent implements OnInit {
     });
 
     this.accountForm.disable();
+  
 
     this.gameService.getUserGames(this.user.userAccountId)
     .subscribe(results => {
       this.userGames = (results as Game[]);
-     
-      
-      
     });
+
+    this.accountForm.valueChanges.subscribe(() => {this.onFormValueChange()})  
 
     
     
@@ -72,9 +73,43 @@ export class AccountComponent implements OnInit {
 
   }
 
-  updateUser() {
+  updateUserDetails() {
+    this.updateUserLoading = true;
+
+    this.userService.updateUserDetails(this.user)
+    .subscribe(
+      success =>{
+        this.notificationService.showSuccess('Your User Details was Successfully updated!')
+        this.updateUserLoading = false;
+        this.accountForm.disable();
+      })
 
   }
+
+  updateUserPassword() {
+    
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.data = this.user.userAccountId;
+    dialogConfig.panelClass = 'custom-dialog-container' ;
+    
+    let dialogref
+ 
+    this.ngZone.run(() => {
+      dialogref =  this.changePasswordDialog.open(ChangePasswordDialogComponent,dialogConfig);
+        });   
+  }
+
+  private onFormValueChange () 
+  { 
+    //Assign data from form to user object
+    for (const key in this.accountForm.controls) {
+        const control = this.accountForm.get(key);
+        this.user[key] = control.value;
+    }
+
+  }
+
+  
 
 }
 

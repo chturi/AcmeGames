@@ -16,9 +16,15 @@ export class UsersService {
 
   }
 
-  updateUser(user) {
+  updateUserDetails(user) {
 
     return this.http.put(this.systemsEndpoint + user.userAccountId, user); 
+
+  }
+
+  updateUserPassword(passwordResource) {
+
+    return this.http.put(this.systemsEndpoint + passwordResource.userAccountId, passwordResource)
 
   }
   

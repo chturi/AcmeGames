@@ -14,9 +14,22 @@
         </div>
         <div style="display:inline-block;">
            <div style="font-weight: bold;">Username</div>
-           <div>{{accountForm.get("emailAddress").value}}</div>
-            
+           <div>{{accountForm.get("emailAddress").value}}</div>   
         </div>
+
+        <button mat-icon-button [matMenuTriggerFor]="menu" class="edit-user-btn">
+            <mat-icon color="primary">edit</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item class="edit-user-btn" (click)="updateUserPassword()">
+              <mat-icon>visibility_off</mat-icon>
+              <span>Change Password</span>
+            </button>
+            <button mat-menu-item class="edit-user-btn">
+              <mat-icon>alternate_email</mat-icon>
+              <span>Change Email</span>
+            </button>
+          </mat-menu>
      
         <form [formGroup]="accountForm" style="margin-top: 40px;"> 
         
@@ -25,13 +38,13 @@
         <mat-form-field class="justifier" appearance="legacy">
             <mat-label>First Name</mat-label>
             <input matInput formControlName = "firstName" class="form-input">
-            <mat-error>An email is required</mat-error>
+            <mat-error>An First Name is required</mat-error>
         </mat-form-field>
 
         <mat-form-field class="justifier" appearance="legacy">
             <mat-label>Last Name</mat-label>
             <input matInput formControlName = "lastName" class="form-input">
-            <mat-error>An email is required</mat-error>
+            <mat-error>A Last Name is required</mat-error>
         </mat-form-field>
 
         <mat-form-field class="justifier" appearance="legacy">
@@ -50,18 +63,26 @@
 
     <div *ngIf = "accountForm.disabled">
       <button mat-raised-button
-            (click)="accountForm.enable()">
+            (click)="accountForm.enable()"
+            class="edit-user-btn"
+            color="primary" >
             EDIT</button>
     </div>
     <div *ngIf = "accountForm.enabled">
         <button mat-raised-button
-            (click)="accountForm.disable()">
+            (click)="accountForm.disable()"
+            class="edit-user-btn">
             CANCEL</button>
         <button mat-raised-button
             [disabled] = "accountForm.pristine"
             style="float: right;"
-            (click)="updateUser()">
-            SAVE</button>
+            (click)="updateUserDetails()"
+            class="edit-user-btn"
+            color="primary">
+            SAVE
+            <span *ngIf="updateUserLoading" class="spinner-border spinner-border-sm mr-1"></span>
+        </button>
+            
     </div>
     
 
@@ -100,32 +121,3 @@
 </mat-accordion>
 </div>
 
-
-  <!-- <mat-card class="example-card">
-    <mat-card-header>
-      <mat-card-title>Personal Information</mat-card-title>
-    </mat-card-header>
-    <mat-divider></mat-divider>
-   
-    <mat-card-content>
-        
-        <mat-form-field class="justifier" appearance="legacy">
-            <mat-label>First Name</mat-label>
-            <input matInput formControlName = "emailAddress" class="form-input">
-            <mat-error>An email is required</mat-error>
-        </mat-form-field>
-
-        <mat-form-field class="justifier" appearance="legacy">
-            <mat-label>Last Name</mat-label>
-            <input matInput formControlName = "emailAddress" class="form-input">
-            <mat-error>An email is required</mat-error>
-        </mat-form-field>
-
-        <mat-form-field class="justifier" appearance="legacy">
-            <mat-label>Date of Birth</mat-label>
-            <input matInput formControlName = "emailAddress" class="form-input">
-            <mat-error>An email is required</mat-error>
-        </mat-form-field>
-  
-    </mat-card-content>
-  </mat-card> -->

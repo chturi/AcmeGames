@@ -103,6 +103,15 @@ body{
   padding: 10px auto;
   text-align: center;
 }
+
+.custom-dialog-container .mat-dialog-container {
+  padding: 0px;
+  width: 300px;
+  margin: 0px;
+
+}
+
+
 a{
   text-decoration: none;
   color: rgb(42, 125, 219);

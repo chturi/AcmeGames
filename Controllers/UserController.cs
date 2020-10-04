@@ -36,7 +36,7 @@ namespace AcmeGames.Controllers
 
         [HttpPut("{id}")]
 		public async Task<IActionResult>
-		UpdateUser(string id, [FromBody] User aUser)
+		UpdateUserDetails(string id, [FromBody] User aUser)
 		{
             var userList = (await Database.Users()).ToList();
             var user = (await Database.Users())
@@ -47,7 +47,12 @@ namespace AcmeGames.Controllers
                 return BadRequest("User not found");  
             
             var userIndex = userList.IndexOf(user);
-            userList[userIndex] = aUser;
+            
+            user.FirstName = aUser.FirstName;
+            user.LastName = aUser.LastName;
+            user.DateOfBirth = aUser.DateOfBirth;
+
+            userList[userIndex] = user;
 
             Database.SaveUsers(userList);
 
