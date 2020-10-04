@@ -49,12 +49,7 @@
 
         <mat-form-field class="justifier" appearance="legacy">
             <mat-label>Date of Birth</mat-label>
-            <input matInput [matDatepicker]="IrDatePicker" formControlName = "dateOfBirth" >
-            <mat-datepicker-toggle matSuffix [for]="IrDatePicker">
-              <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
-            </mat-datepicker-toggle>
-            <mat-datepicker #IrDatePicker></mat-datepicker>
-            <mat-error>Date of Birth is required</mat-error>
+            <input matInput readonly="true" [value]="user.dateOfBirth" >
           </mat-form-field>
 
     </form>

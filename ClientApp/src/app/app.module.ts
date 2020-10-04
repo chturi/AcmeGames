@@ -1,3 +1,4 @@
+import { AuthInterceptorService } from './services/auth-interceptor.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -105,6 +106,7 @@ export function tokenGetter() {
     {provide: MatDialogTitle, useValue: {}},
     {provide: MatDialogRef, useValue: {}},
     {provide: MAT_DIALOG_DATA, useValue: {}},
+    {provide: HTTP_INTERCEPTORS, useClass: AuthInterceptorService, multi: true},
   ],
   bootstrap: [AppComponent]
 })

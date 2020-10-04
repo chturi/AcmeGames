@@ -46,6 +46,7 @@ namespace AcmeGames
                     };
                 });
 
+
             services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
@@ -77,6 +78,9 @@ namespace AcmeGames
             }
 
             app.UseRouting();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

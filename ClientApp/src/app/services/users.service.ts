@@ -24,7 +24,7 @@ export class UsersService {
 
   updateUserPassword(passwordResource) {
 
-    return this.http.put(this.systemsEndpoint + passwordResource.userAccountId, passwordResource)
+    return this.http.put(this.systemsEndpoint + "set-password/" + passwordResource.userAccountId, passwordResource)
 
   }
   

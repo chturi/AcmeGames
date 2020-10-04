@@ -43,7 +43,6 @@ export class AccountComponent implements OnInit {
       emailAddress : new FormControl(this.user.emailAdress,[Validators.required]),
       firstName : new FormControl(this.user.firstName,[Validators.required]),
       lastName : new FormControl(this.user.lastName,[Validators.required]),
-      dateOfBirth : new FormControl(this.user.dateOfBirth,[Validators.required]),
     });
 
     this.accountForm.disable();
@@ -91,12 +90,11 @@ export class AccountComponent implements OnInit {
     const dialogConfig = new MatDialogConfig();
     dialogConfig.data = this.user.userAccountId;
     dialogConfig.panelClass = 'custom-dialog-container' ;
-    
-    let dialogref
- 
+      
     this.ngZone.run(() => {
-      dialogref =  this.changePasswordDialog.open(ChangePasswordDialogComponent,dialogConfig);
-        });   
+       this.changePasswordDialog.open(ChangePasswordDialogComponent,dialogConfig);
+    });  
+
   }
 
   private onFormValueChange () 

@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using AcmeGames.Data;
 using AcmeGames.Models;
 using AcmeGames.Resources;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AcmeGames.Controllers
@@ -19,7 +21,8 @@ namespace AcmeGames.Controllers
 		{
             return await Database.Users();
 		}
-        
+
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpGet("{id}")]
 		public async Task<IActionResult>
 		GetUser(string id)
@@ -29,11 +32,18 @@ namespace AcmeGames.Controllers
                         .FirstOrDefault();
 
             if (user == null)
-                return BadRequest("User not found");    
+                return BadRequest("User not found");
+
+            
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+
+            if (user.UserAccountId != identity.Claims.Where(c => c.Type == ClaimTypes.NameIdentifier).FirstOrDefault().Value)
+                return Unauthorized("User Information can only be accessed by the same User Account");    
 
             return Ok(user);
 		}
 
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPut("{id}")]
 		public async Task<IActionResult>
 		UpdateUserDetails(string id, [FromBody] User aUser)
@@ -44,13 +54,17 @@ namespace AcmeGames.Controllers
                 .FirstOrDefault();
             
             if (user == null)
-                return BadRequest("User not found");  
+                return BadRequest("User not found");
+
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+
+            if (user.UserAccountId != identity.Claims.Where(c => c.Type == ClaimTypes.NameIdentifier).FirstOrDefault().Value)
+                return Unauthorized("User Information can only be changed by same User Account");  
             
             var userIndex = userList.IndexOf(user);
             
             user.FirstName = aUser.FirstName;
             user.LastName = aUser.LastName;
-            user.DateOfBirth = aUser.DateOfBirth;
 
             userList[userIndex] = user;
 
@@ -59,6 +73,7 @@ namespace AcmeGames.Controllers
             return Ok(userList[userIndex]);
 		}
 
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPut("set-password/{id}")]
 		public async Task<IActionResult>
 		setPassword(string id, [FromBody] SetPasswordResource aSetPasswordResource)
@@ -74,12 +89,45 @@ namespace AcmeGames.Controllers
 
             if (aSetPasswordResource.CurrentPassword != user.Password)
                 return Unauthorized("Wrong current password input");
-            
-            // if (user.UserAccountId != User.Claims.Where(c => c.ValueType == ClaimTypes.NameIdentifier).FirstOrDefault().Value)
-            //     return Unauthorized("Password can only be changed by same User Account");
+          
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+
+            if (user.UserAccountId != identity.Claims.Where(c => c.Type == ClaimTypes.NameIdentifier).FirstOrDefault().Value)
+                return Unauthorized("Password can only be changed by same User Account");
 
             var userIndex = userList.IndexOf(user);
             user.Password = aSetPasswordResource.Password;
+            userList[userIndex] = user;
+
+            Database.SaveUsers(userList);
+
+            return Ok();
+		}
+
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpPut("set-email/{id}")]
+		public async Task<IActionResult>
+		setEmail(string id, [FromBody] SetEmailResource aSetEmailResource)
+		{
+            
+            var userList = (await Database.Users()).ToList();
+            var user = (await Database.Users())
+                .Where(u => u.UserAccountId == id)
+                .FirstOrDefault();
+            
+            if (user == null)
+                return BadRequest("User not found");
+
+            if (aSetEmailResource.Password != user.Password)
+                return Unauthorized("Wrong password input");
+            
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+
+            if (user.UserAccountId != identity.Claims.Where(c => c.Type == ClaimTypes.NameIdentifier).FirstOrDefault().Value)
+                return Unauthorized("Password can only be changed by same User Account");
+
+            var userIndex = userList.IndexOf(user);
+            user.EmailAddress = aSetEmailResource.EmailAddress;
             userList[userIndex] = user;
 
             Database.SaveUsers(userList);

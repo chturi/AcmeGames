@@ -5,6 +5,7 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { ConfirmedValidator } from '../validators/Confirmed.validators';
+import { HttpRequest, HttpErrorResponse } from '@angular/common/http';
 
 @Component({
   selector: 'app-change-password-dialog',
@@ -56,17 +57,23 @@ export class ChangePasswordDialogComponent implements OnInit {
 
 
   changePassword() {
-    console.log(this.passwordResource);
+    
     this.loading = true;
+    
     this.userService.updateUserPassword(this.passwordResource)
     .subscribe(
       success => {
         this.notificationService.showSuccess("Your Password changed successfully!")
-      }
-    )
+        this.dialogRef.close();
+      },
+      (error: HttpErrorResponse) => {
+        this.notificationService.showError("Error: " + error.error);
+        this.loading = false;
+      });
     
     
-    this.loading = false;
+    
+    
   }
 
   close(){
