@@ -1,0 +1,33 @@
+<div>
+    <h1 mat-dialog-title>
+        <mat-toolbar class="task-header" color="primary">
+            <mat-toolbar-row>
+                <span style="margin:auto">REDEEM GAME KEY</span>
+            </mat-toolbar-row>
+        </mat-toolbar>
+    </h1>
+
+    <div mat-dialog-content class="form-wrapper">
+        
+        <form [formGroup]="redeemKeyForm" (ngSubmit)=" redeemKey()">
+            
+            <mat-form-field class="justifier" appearance="legacy">
+                <mat-label>key</mat-label>
+                <input matInput formControlName = "keyId" >
+                <mat-error>A Key is required</mat-error>
+            </mat-form-field>
+
+            <button mat-raised-button color="primary"  
+            type="submit"
+            [disabled]= "!redeemKeyForm.valid">
+            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+            REDEEM</button>
+    
+            <button mat-button 
+                style= "float: right; margin-bottom: 15px;"
+                type ="button"
+                (click)="close()">Close</button>
+            
+        </form>
+    </div>
+</div>

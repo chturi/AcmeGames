@@ -16,4 +16,10 @@ export class GamesService {
 
   }
 
+  redeemUserGame(key) {
+
+    return this.http.put(this.systemsEndpoint + "redeem-key/" + key.keyId, key);
+
+  }
+
 }

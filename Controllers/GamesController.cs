@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System;
 using System.Security.Claims;
+using System.Net;
 
 namespace AcmeGames.Controllers
 {
@@ -79,10 +80,11 @@ namespace AcmeGames.Controllers
 
 			Database.SaveOwnership(ownerships);
 				
-			return Ok(aOwnerShip);
+			return Ok();
 		}
 
-		[HttpPost("redeem-key/{id}")]
+		[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+		[HttpPut("redeem-key/{id}")]
 		public async Task<IActionResult>
 		RedeemUserKey(string id) 
 		{
@@ -94,15 +96,32 @@ namespace AcmeGames.Controllers
 				return BadRequest("Key does not exsist");
 			
 			if (key.IsRedeemed)
-				return BadRequest("Key has already been redeemed");
+				return Unauthorized("Key has already been redeemed");
 			
-			//ADD THIS WHEN AUTHENTICATION IS FINIDHED
-			// var userAccountId = User.Claims
-			// 	.Where(c => c.Type == ClaimTypes.NameIdentifier)
-			// 	.FirstOrDefault()
-			// 	.Value;
 
-			var userAccountId =  "6a2ad8b5-0272-4090-990d-7da07b1b9835";
+			var identity = HttpContext.User.Identity as ClaimsIdentity;
+
+			var userAccountId = identity.Claims
+				.Where(c => c.Type == ClaimTypes.NameIdentifier)
+				.FirstOrDefault()
+				.Value;
+
+			var userDateOfBirth = identity.Claims
+				.Where(c => c.Type == ClaimTypes.DateOfBirth)
+				.FirstOrDefault()
+				.Value;
+			
+			var userAge =   DateTime.Now.Year - Convert.ToDateTime(userDateOfBirth).Year; 
+
+			var game = (await Database.Games())
+				.Where(g => g.GameId == key.GameId)
+				.FirstOrDefault();
+
+			if (game == null)
+				return BadRequest("Game does not exsist");
+			
+			if ((game.AgeRestriction - userAge) >= 0 )
+				return Unauthorized("Users age is below age restriction");
 
 			var aOwnerShip = new Ownership{
 				GameId = key.GameId,
@@ -111,8 +130,12 @@ namespace AcmeGames.Controllers
 			
 			var addOwnershipResponse = await AddUserGame(aOwnerShip);
 
+			var httpResponseCode = (int)addOwnershipResponse
+				.GetType()
+                .GetProperty("StatusCode")
+                .GetValue(addOwnershipResponse, null);
 
-			if(addOwnershipResponse == Ok()) 
+			if(httpResponseCode == 200) 
 			{
 				var keys = (await Database.GameKeys())
 				.Where(k => k.Key == id)

@@ -18,10 +18,10 @@
            <div>{{accountForm.get("emailAddress").value}}</div>   
         </div>
 
-        <button mat-icon-button [matMenuTriggerFor]="menu" class="edit-user-btn">
+        <button mat-icon-button [matMenuTriggerFor]="editMenu" class="edit-user-btn">
             <mat-icon color="primary">edit</mat-icon>
           </button>
-          <mat-menu #menu="matMenu">
+          <mat-menu #editMenu="matMenu">
             <button mat-menu-item class="edit-user-btn" (click)="updateUserPassword()">
               <mat-icon>visibility_off</mat-icon>
               <span>Change Password</span>
@@ -86,34 +86,35 @@
   </mat-card>
 
 <div class="game-wrapper">
+
  <mat-accordion class = "card">
   <mat-expansion-panel>
     <mat-expansion-panel-header>
       <mat-panel-title>
         My Games
+        <span *ngIf="getGamesLoading" style="margin-left: 5px" class="spinner-border spinner-border-sm mr-1"></span>
       </mat-panel-title>
-      <mat-panel-description>
-        
-      </mat-panel-description>
     </mat-expansion-panel-header>
 
-
     <div class="flex-container" 
-    fxLayout = "row wrap"
-    fxLayoutGap ="5px"
-    fxLayoutAlign="center center">
-    <mat-card *ngFor="let game of userGames" class="game-card" >
-    <img mat-card-image [src]="game.thumbnail" class="card-img">
-    <mat-card-content class= "card-content">
-        {{game.name}}
-      </mat-card-content>
-    </mat-card>
+      fxLayout = "row wrap"
+      fxLayoutGap ="5px"
+      fxLayoutAlign="center center">
+      <mat-card *ngFor="let game of userGames" class="game-card" >
+        <img mat-card-image [src]="game.thumbnail" class="card-img">
+        <mat-card-content class= "card-content">
+          {{game.name}}
+        </mat-card-content>
+      </mat-card>
     </div>
 
-
-
-    
+    <button mat-raised-button
+      (click)="reedemKey()"
+      style="margin-top: 20px; display: flex!important;"
+      color="primary" >
+      REDEEM KEY</button>
 
   </mat-expansion-panel>
 </mat-accordion>
 </div>
+

@@ -1,3 +1,4 @@
+import { RedeemKeyDialogComponent } from './../redeem-key-dialog/redeem-key-dialog.component';
 import { ChangeEmailDialogComponent } from './../change-email-dialog/change-email-dialog.component';
 import { NotificationService } from './../services/notification.service';
 import { UsersService } from './../services/users.service';
@@ -33,12 +34,13 @@ export class AccountComponent implements OnInit {
               private ngZone: NgZone,
               private jwtHelper: JwtHelperService,
               private changePasswordDialog: MatDialog,
-              private changeEmailDialog: MatDialog) { }
+              private changeEmailDialog: MatDialog,
+              private redeemKeyDialog: MatDialog) { }
 
   ngOnInit(): void {
     
     
-
+    this.getGamesLoading = true;
     this.getUserFromToken();
 
     this.accountForm = this.fb.group({
@@ -53,6 +55,7 @@ export class AccountComponent implements OnInit {
     this.gameService.getUserGames(this.user.userAccountId)
     .subscribe(results => {
       this.userGames = (results as Game[]);
+      this.getGamesLoading = false;
     });
 
     this.accountForm.valueChanges.subscribe(() => {this.onFormValueChange()})  
@@ -120,7 +123,30 @@ export class AccountComponent implements OnInit {
           this.accountForm.get("emailAddress").setValue(data);
       });
      
+  }
 
+  reedemKey() {
+    
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.panelClass = 'custom-dialog-container' ;
+    
+    let dialogRef;
+    this.ngZone.run(() => {
+       dialogRef = this.redeemKeyDialog.open(RedeemKeyDialogComponent,dialogConfig);
+    });
+    dialogRef.afterClosed().subscribe(
+      data => {
+        if (data) {
+          this.getGamesLoading = true;
+          this.gameService.getUserGames(this.user.userAccountId)
+            .subscribe(results => {
+            this.userGames = (results as Game[]);
+            this.getGamesLoading = false;
+          });
+        }
+          
+      });
+     
   }
 
   private onFormValueChange () 
