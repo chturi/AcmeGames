@@ -46,4 +46,5 @@ table {
   width: 100%;
   max-width: 100%;
   overflow: auto;
+  margin-bottom: 20px;
 }

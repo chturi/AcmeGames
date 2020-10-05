@@ -47,6 +47,7 @@ import { ChangePasswordDialogComponent } from './change-password-dialog/change-p
 import { ChangeEmailDialogComponent } from './change-email-dialog/change-email-dialog.component';
 import { RedeemKeyDialogComponent } from './redeem-key-dialog/redeem-key-dialog.component';
 import { AdminConsoleComponent } from './admin-console/admin-console.component';
+import { ResetPasswordDialogComponent } from './dialogs/reset-password-dialog/reset-password-dialog.component';
 
 export function tokenGetter() {
   return localStorage.getItem("jwt");
@@ -64,7 +65,8 @@ export function tokenGetter() {
     ChangePasswordDialogComponent,
     ChangeEmailDialogComponent,
     RedeemKeyDialogComponent,
-    AdminConsoleComponent
+    AdminConsoleComponent,
+    ResetPasswordDialogComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

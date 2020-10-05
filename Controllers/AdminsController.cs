@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using AcmeGames.Data;
@@ -19,7 +20,17 @@ namespace AcmeGames.Controllers
 		public async Task<IEnumerable<User>>
 		GetUsers()
 		{
-            return await Database.Users();
+            var users = (await Database.Users())
+            .Select(u => new User{
+                UserAccountId = u.UserAccountId,
+                FirstName = u.FirstName,
+                LastName = u.LastName,
+                EmailAddress = u.EmailAddress,
+                DateOfBirth = u.DateOfBirth,
+                IsAdmin = u.IsAdmin,
+            }).ToList();
+
+            return users;
 		}
         
     }

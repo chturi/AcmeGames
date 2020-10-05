@@ -1,8 +1,11 @@
+import { ResetPasswordDialogComponent } from './../dialogs/reset-password-dialog/reset-password-dialog.component';
+import { element } from 'protractor';
 import { AdminsService } from './../services/admins.service';
-import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, OnInit, ViewChild, NgZone } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-admin-console',
@@ -27,7 +30,11 @@ export class AdminConsoleComponent implements AfterViewInit {
   }
   @ViewChild(MatSort, {static: true}) sort: MatSort;
 
-  constructor(private adminService: AdminsService) { }
+  constructor(private adminService: AdminsService,
+              private ngZone: NgZone,
+              private resetPasswordDialog: MatDialog,
+              private editUserInformationDialog: MatDialog,
+              private addremoveGameDialog: MatDialog) { }
 
   ngAfterViewInit (): void {
     this.adminService.getUsers().subscribe(
@@ -37,7 +44,6 @@ export class AdminConsoleComponent implements AfterViewInit {
           this.populateTable(results);   
           this.dataSource.data = this.ELEMENT_DATA;
           this.isTableLoading = false;
-          console.log(JSON.stringify(results))
       });
   }
 
@@ -56,7 +62,7 @@ export class AdminConsoleComponent implements AfterViewInit {
     for(let user of users) {
       this.ELEMENT_DATA[incr] = {
         "User Account Id" : user.userAccountId,
-        "Full Name" : user.fullName,
+        "Full Name" : user.firstName + " " + user.lastName,
         "Email Address" : user.emailAddress,
         "Role" : (user.isAdmin) ? "Admin" : "User",
         "Date of Birth" : user.dateOfBirth,
@@ -86,17 +92,32 @@ export class AdminConsoleComponent implements AfterViewInit {
       return false;   
   }
 
-  resetPassword() {
+  resetPassword(element : UserData) {
+  
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.data = element;
+    dialogConfig.panelClass = 'custom-dialog-container' ;
+    
+    let dialogRef
+    this.ngZone.run(() => {
+      dialogRef = this.resetPasswordDialog.open(ResetPasswordDialogComponent,dialogConfig);
+    });
+    
+    dialogRef.afterClosed()
+    .subscribe(
+      data => {
+        if (data)
+          this.refreshTable();
+      });
+
+  }
+
+  editUserInformation (element : UserData) {
 
 
   }
 
-  editUserInformation () {
-
-
-  }
-
-  addRevokeGame () {
+  addRevokeGame (element : UserData) {
 
 
   }

@@ -16,9 +16,9 @@
           <td mat-cell class="mat-cell" *matCellDef="let element">
             <ng-container *ngIf="tableFieldParser(column); else data">
                 <span *ngIf="dateField"> {{element[column] | date }} </span>
-                <button mat-raised-button *ngIf="editGameBtn"(click)="addRevokeGame(rowIndex)">ADD/REVOKE GAME</button>             
-                <button mat-raised-button *ngIf="passwordBtn" (click)="resetPassword(rowIndex)">RESET PASSWORD</button>
-                <button mat-raised-button *ngIf="editUserBtn" (click)="editUserInformation(rowIndex)">EDIT USER</button>
+                <button mat-raised-button *ngIf="editGameBtn"(click)="addRevokeGame(element)" color="primary" value="rowIndex">ADD/REVOKE GAME</button>             
+                <button mat-raised-button *ngIf="passwordBtn" (click)="resetPassword(element)" color="primary" value="rowIndex">RESET PASSWORD</button>
+                <button mat-raised-button *ngIf="editUserBtn" (click)="editUserInformation(element)" color="primary">EDIT USER</button>
             </ng-container>
             <ng-template  #data>
               <span>{{element[column]}}</span>

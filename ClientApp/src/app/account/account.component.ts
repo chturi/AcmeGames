@@ -120,8 +120,8 @@ export class AccountComponent implements OnInit {
     this.ngZone.run(() => {
        dialogRef = this.changeEmailDialog.open(ChangeEmailDialogComponent,dialogConfig);
     });
-    
-    dialogRef.afterClosed().subscribe(
+    dialogRef.afterClosed()
+    .subscribe(
       data => {
         if (data)
           this.accountForm.get("emailAddress").setValue(data);

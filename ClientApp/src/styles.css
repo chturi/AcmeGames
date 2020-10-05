@@ -22,10 +22,9 @@ html, body {
   background-color: rgb(237, 240, 251);
 }
 
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
 
 body{
-  font-family: 'Roboto', sans-serif;
   margin:0px !important;
   overflow: hidden;
   overflow-y: auto;
@@ -127,6 +126,19 @@ a{
   text-decoration: none;
   color: rgb(42, 125, 219);
 }
+
+
+.snackBar {
+  background-color: #009FF2;
+  color: white;
+}
+
+.snackBarError {
+  background-color: red;
+  color: white;
+
+}
+
 
 /*
 ##Device = Desktops

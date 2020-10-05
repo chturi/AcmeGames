@@ -1,4 +1,4 @@
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~@angular/material/theming';
 
 // Define a custom typography config that overrides the font-family as well as the
 // `headlines` and `body-1` levels.
@@ -22,14 +22,11 @@ $custom-typography: mat-typography-config(
 @include mat-core($custom-typography);
 
 // Define your application's custom theme.
-$primary: mat-palette(#0088cc);
-$accent:  mat-palette(#252d3a, #4e5664, #000214);
-$theme: mat-light-theme((
-  color: (
-    primary: $primary,
-    accent: $accent,
-  )
-));
+$primary: mat-palette($mat-light-blue);
+$accent: mat-palette($mat-blue-grey,A200,A100,A400);
+$warn: mat-palette($mat-red);
+
+$theme: mat-light-theme($primary,$accent,$warn);
 
 // Include theme styles for Angular Material components.
 @include angular-material-theme($theme);
