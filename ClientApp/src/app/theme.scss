@@ -1,0 +1,35 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+// Define a custom typography config that overrides the font-family as well as the
+// `headlines` and `body-1` levels.
+$custom-typography: mat-typography-config(
+  $font-family: 'Ubisoftsans, Robo-black, sans-serif',
+  $headline: mat-typography-level(32px, 48px, 700),
+  $body-1: mat-typography-level(16px, 24px, 500)
+);
+
+
+@font-face {
+    font-family: Robo-black;
+    src: url(../src/assets/fonts/Roboto-Black.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: Ubisoftsans;
+    src: url(../src/assets/fonts/ubisoftsans-regular.otf) format('truetype');
+  }
+
+@include mat-core($custom-typography);
+
+// Define your application's custom theme.
+$primary: mat-palette(#0088cc);
+$accent:  mat-palette(#252d3a, #4e5664, #000214);
+$theme: mat-light-theme((
+  color: (
+    primary: $primary,
+    accent: $accent,
+  )
+));
+
+// Include theme styles for Angular Material components.
+@include angular-material-theme($theme);

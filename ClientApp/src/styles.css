@@ -1,3 +1,5 @@
+
+
 /* You can add global styles to this file, and also import other style files */
 
 /* Provide sufficient contrast against white background */
@@ -205,14 +207,4 @@ a{
   .btn{
       font-size: 1em;
   }
-}
-
-@font-face {
-  font-family: Robo-black;
-  src: url(../src/assets/fonts/Roboto-Black.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: Robo-black;
-  src: url(../src/assets/fonts/ubisoftsans-regular.otf) format('truetype');
 }

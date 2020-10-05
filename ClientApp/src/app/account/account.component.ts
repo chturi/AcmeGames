@@ -3,7 +3,7 @@ import { ChangeEmailDialogComponent } from './../change-email-dialog/change-emai
 import { NotificationService } from './../services/notification.service';
 import { UsersService } from './../services/users.service';
 import { GamesService } from './../services/games.service';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Component, NgZone, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { JwtHelperService } from '@auth0/angular-jwt';
@@ -90,6 +90,10 @@ export class AccountComponent implements OnInit {
         this.notificationService.showSuccess('Your User Details was Successfully updated!')
         this.updateUserLoading = false;
         this.accountForm.disable();
+      }, 
+      (error:HttpErrorResponse) => {
+        this.updateUserLoading = false;
+        this.notificationService.showError(error.error);
       })
 
   }

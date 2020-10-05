@@ -16,10 +16,9 @@ import { HttpErrorResponse } from '@angular/common/http';
 export class RedeemKeyDialogComponent implements OnInit {
 
   redeemKeyForm: FormGroup;
-  submitted: boolean;
+  isRedeemError: boolean = false;
+  redeemError: string;
   loading: boolean;
-  hide: boolean = true;
-  usernameExsist = false;
   key: any = {
     keyId : null
   } 
@@ -63,8 +62,13 @@ export class RedeemKeyDialogComponent implements OnInit {
       this.dialogRef.close(true);
       },
       (error: HttpErrorResponse) => {
-      this.notificationService.showError("Error: " + error.error);
-      this.loading = false;
+      if (error.status == 401) {
+        this.isRedeemError = true;
+        this.redeemError = error.error;  
+      } else {
+        this.notificationService.showError("Error: " + error.error);
+      }
+        this.loading = false;
     }); 
 
   }

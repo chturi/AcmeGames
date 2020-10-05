@@ -1,0 +1,49 @@
+
+table {
+    width: 100%;
+    max-width: 100% !important; 
+}
+
+.form-full-width {
+    width: 100%;
+    max-width: 100% !important; 
+}
+
+
+.mat-row:hover {
+    background-color: #FAFAFA;
+  }
+
+
+  .mat-row {
+    height: auto;
+  }
+  
+  .mat-cell {
+    padding: 8px 8px 8px 0;
+  }
+
+ .submit-btn {
+    background-color: rgb(244, 97, 74);
+    margin-top: 15px; 
+}
+
+.loading-shade {   
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 56px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.table-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: auto;
+}

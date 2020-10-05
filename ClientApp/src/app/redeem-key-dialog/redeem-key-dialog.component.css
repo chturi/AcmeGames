@@ -12,9 +12,10 @@
 }
   .error-msg {
   
-    padding: 10px;
     color: red;
     font-size: smaller;
+    text-align: center;
+    margin-bottom: 5px;
   
   }
 

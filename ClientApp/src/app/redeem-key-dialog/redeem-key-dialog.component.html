@@ -17,6 +17,10 @@
                 <mat-error>A Key is required</mat-error>
             </mat-form-field>
 
+            <div class="error-msg">
+                <span *ngIf="isRedeemError" >{{redeemError}}</span>
+            </div>
+
             <button mat-raised-button color="primary"  
             type="submit"
             [disabled]= "!redeemKeyForm.valid">

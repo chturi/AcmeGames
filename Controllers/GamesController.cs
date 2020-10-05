@@ -68,7 +68,7 @@ namespace AcmeGames.Controllers
 				.FirstOrDefault();
 
 			if (duplicategames != null)
-				return BadRequest("User already owns game");
+				return Unauthorized("User already owns game");
 
 			var uniqueOwnershipId = ownershipsIds.Max() + 1;
 			
@@ -93,7 +93,7 @@ namespace AcmeGames.Controllers
 				.FirstOrDefault();
 
 			if (key == null)
-				return BadRequest("Key does not exsist");
+				return Unauthorized("Invalid Key");
 			
 			if (key.IsRedeemed)
 				return Unauthorized("Key has already been redeemed");

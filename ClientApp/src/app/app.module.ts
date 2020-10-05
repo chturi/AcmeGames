@@ -46,6 +46,7 @@ import { AccountComponent } from './account/account.component';
 import { ChangePasswordDialogComponent } from './change-password-dialog/change-password-dialog.component';
 import { ChangeEmailDialogComponent } from './change-email-dialog/change-email-dialog.component';
 import { RedeemKeyDialogComponent } from './redeem-key-dialog/redeem-key-dialog.component';
+import { AdminConsoleComponent } from './admin-console/admin-console.component';
 
 export function tokenGetter() {
   return localStorage.getItem("jwt");
@@ -62,7 +63,8 @@ export function tokenGetter() {
     AccountComponent,
     ChangePasswordDialogComponent,
     ChangeEmailDialogComponent,
-    RedeemKeyDialogComponent
+    RedeemKeyDialogComponent,
+    AdminConsoleComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -95,7 +97,7 @@ export function tokenGetter() {
     RouterModule.forRoot([
       { path: '', component: LoginComponent, pathMatch: 'full' },
       { path: 'account', component: AccountComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'admin-console', component: AdminConsoleComponent },
     ]),
     JwtModule.forRoot({
       config: {

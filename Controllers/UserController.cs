@@ -15,12 +15,7 @@ namespace AcmeGames.Controllers
     [Route("api/users")]
     public class UserController : Controller
     {
-        [HttpGet]
-		public async Task<IEnumerable<User>>
-		GetUsers()
-		{
-            return await Database.Users();
-		}
+       
 
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpGet("{id}")]

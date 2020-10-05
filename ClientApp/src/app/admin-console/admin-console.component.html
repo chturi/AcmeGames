@@ -1,0 +1,34 @@
+<h1>Admin Console</h1>
+<p>This console lets an admin view/edit user information, reset password and Add/Revoke games</p>
+<div>
+  <div class="loading-shade"
+       *ngIf="isTableLoading">
+    <mat-spinner *ngIf="isTableLoading"></mat-spinner>
+  </div>
+  <mat-form-field appearance="standard" class="form-full-width">
+    <mat-label>User Filter</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Ex. First Name, Last Name, Role etc..">
+  </mat-form-field>
+  <div class="mat-elevation-z8 table-container">
+    <table mat-table [dataSource]="dataSource" matSort>
+        <ng-container [matColumnDef]="column" *ngFor="let column of displayedColumns; let rowIndex=index">
+          <th mat-header-cell class="mat-header-cell" *matHeaderCellDef mat-sort-header>{{column}}</th>
+          <td mat-cell class="mat-cell" *matCellDef="let element">
+            <ng-container *ngIf="tableFieldParser(column); else data">
+                <span *ngIf="dateField"> {{element[column] | date }} </span>
+                <button mat-raised-button *ngIf="editGameBtn"(click)="addRevokeGame(rowIndex)">ADD/REVOKE GAME</button>             
+                <button mat-raised-button *ngIf="passwordBtn" (click)="resetPassword(rowIndex)">RESET PASSWORD</button>
+                <button mat-raised-button *ngIf="editUserBtn" (click)="editUserInformation(rowIndex)">EDIT USER</button>
+            </ng-container>
+            <ng-template  #data>
+              <span>{{element[column]}}</span>
+            </ng-template>
+            </td>
+        </ng-container>  
+        <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+      <mat-paginator [pageSizeOptions]="[5, 10, 25,dataSource.data.length]" showFirstLastButtons></mat-paginator>
+    </div>
+  </div>
+<div>
