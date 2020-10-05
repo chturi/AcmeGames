@@ -1,3 +1,4 @@
+import { AdminsService } from './../../services/admins.service';
 import { NotificationService } from './../../services/notification.service';
 import { UsersService } from './../../services/users.service';
 import { Component, Inject, OnInit } from '@angular/core';
@@ -14,7 +15,7 @@ import { HttpRequest, HttpErrorResponse } from '@angular/common/http';
 })
 export class ResetPasswordDialogComponent implements OnInit {
 
-  changePasswordForm: FormGroup;
+  resetPasswordForm: FormGroup;
   submitted: boolean;
   loading: boolean;
   hide: boolean = true;
@@ -23,34 +24,38 @@ export class ResetPasswordDialogComponent implements OnInit {
   
   constructor(private dialogRef: MatDialogRef<ResetPasswordDialogComponent>,
               public fb: FormBuilder,
-              private userService : UsersService,
+              private adminService : AdminsService,
               private notificationService : NotificationService,
               @Inject(MAT_DIALOG_DATA) data) 
       {
-      this.userResource = data; 
+        this.userResource = {
+          userAccountId: data["User Account Id"],
+          fullName: data["Full Name"],
+          password: null,
+        } 
       } 
 
   ngOnInit(): void {
 
-    this.changePasswordForm = this.fb.group({
+    this.resetPasswordForm = this.fb.group({
       password : new FormControl(null,[Validators.required]),
       confirmPassword : new FormControl(null,),
     }, {
       validators: ConfirmedValidator('password','confirmPassword')
     });
 
-    this.changePasswordForm.valueChanges.subscribe(formdata => {
+    this.resetPasswordForm.valueChanges.subscribe(formdata => {
       this.onFormValueChange(); 
     });
 
   }
 
  
-  changePassword() {
+  resetPassword() {
     
     this.loading = true;
     
-    this.userService.updateUserPassword(this.userResource)
+    this.adminService.resetPassword(this.userResource)
     .subscribe(
       success => {
         this.notificationService.showSuccess("Your Password changed successfully!")
@@ -68,9 +73,9 @@ export class ResetPasswordDialogComponent implements OnInit {
 
   private onFormValueChange () {
     //Assign data from form to system object
-    for (const key in this.changePasswordForm.controls) {
+    for (const key in this.resetPasswordForm.controls) {
       if (key != "confirmPassword") {
-        const control = this.changePasswordForm.get(key);
+        const control = this.resetPasswordForm.get(key);
         this.userResource[key] = control.value;
       }
       

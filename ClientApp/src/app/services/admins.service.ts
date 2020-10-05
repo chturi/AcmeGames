@@ -22,6 +22,12 @@ export class AdminsService {
 
  }
 
+  resetPassword(passwordResource) {
+
+    return this.http.put(this.systemsEndpoint + "set-password/" + passwordResource.userAccountId, passwordResource)
+  
+  }
+
  
 
 }

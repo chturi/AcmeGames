@@ -70,6 +70,29 @@ namespace AcmeGames.Controllers
             return Ok(userList[userIndex]);
 		}
 
+         [HttpPut("set-password/{id}")]
+		public async Task<IActionResult>
+		resetPassword(string id, [FromBody] SetPasswordResource aSetPasswordResource)
+		{
+            
+            var userList = (await Database.Users()).ToList();
+            var user = (await Database.Users())
+                .Where(u => u.UserAccountId == id)
+                .FirstOrDefault();
+            
+            if (user == null)
+                return BadRequest("User not found");
+
+            var userIndex = userList.IndexOf(user);
+            user.Password = aSetPasswordResource.Password;
+            userList[userIndex] = user;
+
+            Database.SaveUsers(userList);
+
+            return Ok();
+		}
+
+
         
     }
 
