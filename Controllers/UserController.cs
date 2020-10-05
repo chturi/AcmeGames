@@ -13,11 +13,11 @@ namespace AcmeGames.Controllers
 {
     [Produces("application/json")]
     [Route("api/users")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class UserController : Controller
     {
        
 
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpGet("{id}")]
 		public async Task<IActionResult>
 		GetUser(string id)
@@ -43,7 +43,7 @@ namespace AcmeGames.Controllers
             return Ok(user);
 		}
 
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+       
         [HttpPut("{id}")]
 		public async Task<IActionResult>
 		UpdateUserDetails(string id, [FromBody] User aUser)
@@ -73,7 +73,6 @@ namespace AcmeGames.Controllers
             return Ok(userList[userIndex]);
 		}
 
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPut("set-password/{id}")]
 		public async Task<IActionResult>
 		setPassword(string id, [FromBody] SetPasswordResource aSetPasswordResource)
@@ -104,7 +103,6 @@ namespace AcmeGames.Controllers
             return Ok();
 		}
 
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPut("set-email/{id}")]
 		public async Task<IActionResult>
 		setEmail(string id, [FromBody] SetEmailResource aSetEmailResource)

@@ -4,6 +4,7 @@ using System.Net;
 using System.Threading.Tasks;
 using AcmeGames.Data;
 using AcmeGames.Models;
+using AcmeGames.Resources;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -12,10 +13,11 @@ namespace AcmeGames.Controllers
 {
     [Produces("application/json")]
     [Route("api/admin")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles ="Admin")]
     public class AdminsController: Controller
     {
 
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        
         [HttpGet("users")]
 		public async Task<IEnumerable<User>>
 		GetUsers()
@@ -32,6 +34,45 @@ namespace AcmeGames.Controllers
 
             return users;
 		}
+
+
+        [HttpPut("users/{id}")]
+		public async Task<IActionResult>
+		UpdateUser(string id, [FromBody] UpdateUserAdminResource aUser)
+		{
+            var userList = (await Database.Users()).ToList();
+            var user = (await Database.Users())
+                .Where(u => u.UserAccountId == id)
+                .FirstOrDefault();
+            
+            if (user == null)
+                return BadRequest("User not found");
+
+            var duplicateEmail = userList
+                .Where(u => u.EmailAddress == aUser.EmailAddress && u.UserAccountId != aUser.UserAccountId)
+                .FirstOrDefault();
+            
+            if (duplicateEmail != null)
+                return Unauthorized("Email is already in use");
+
+            var userIndex = userList.IndexOf(user);
+            
+            user.FirstName = aUser.FirstName;
+            user.LastName = aUser.LastName;
+            user.EmailAddress = aUser.EmailAddress;
+            user.DateOfBirth = aUser.DateOfBirth;
+            user.IsAdmin = (aUser.Role == "Admin") ? true : false;
+                    
+            userList[userIndex] = user;
+
+            Database.SaveUsers(userList);
+
+            return Ok(userList[userIndex]);
+		}
+
         
     }
+
+
+
 }

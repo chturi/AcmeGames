@@ -1,9 +1,11 @@
+import { AdminsService } from './../../services/admins.service';
 import { NotificationService } from './../../services/notification.service';
 import { UsersService } from './../../services/users.service';
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { ConfirmedValidator } from '../../validators/Confirmed.validators';
+import { HttpErrorResponse } from '@angular/common/http';
 
 
 @Component({
@@ -24,6 +26,7 @@ export class EditUserDialogComponent implements OnInit {
   constructor(private dialogRef: MatDialogRef<EditUserDialogComponent>,
               public fb: FormBuilder,
               private userService : UsersService,
+              private adminService: AdminsService,
               private notificationService : NotificationService,
               @Inject(MAT_DIALOG_DATA) data) 
       {
@@ -40,6 +43,7 @@ export class EditUserDialogComponent implements OnInit {
       lastName : new FormControl(null,[Validators.required]),
       dateOfBirth : new FormControl(null,[Validators.required]),
       role : new FormControl(null,[Validators.required]),
+      userAccountId:  new FormControl(null), 
     });
 
     this.userService.getUserInformation(this.userResource["User Account Id"])
@@ -65,6 +69,18 @@ export class EditUserDialogComponent implements OnInit {
   }
 
   editUserInformation() {
+    this.loading = true;
+
+    this.adminService.updateUser(this.userResource)
+    .subscribe(
+      success => { 
+      this.notificationService.showSuccess(this.userResource.firstName + " " + this.userResource.lastName + " information was updated succefully!");
+      this.dialogRef.close(true);
+    },
+    (error: HttpErrorResponse) => {
+      this.notificationService.showError("Error: " + error.error);
+      this.loading = false;
+    }); 
 
   }
 

@@ -16,6 +16,12 @@ export class AdminsService {
 
   }
 
+  updateUser(userResource) {
+
+    return this.http.put(this.systemsEndpoint + "users/" + userResource.userAccountId, userResource); 
+
+ }
+
  
 
 }
