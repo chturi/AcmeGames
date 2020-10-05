@@ -1,3 +1,4 @@
+import { AddRevokeGameDialogComponent } from './../dialogs/add-revoke-game-dialog/add-revoke-game-dialog.component';
 import { EditUserDialogComponent } from './../dialogs/edit-user-dialog/edit-user-dialog.component';
 import { ResetPasswordDialogComponent } from './../dialogs/reset-password-dialog/reset-password-dialog.component';
 import { element } from 'protractor';
@@ -135,7 +136,21 @@ export class AdminConsoleComponent implements AfterViewInit {
   }
 
   addRevokeGame (element : UserData) {
-
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.data = element;
+    dialogConfig.panelClass = 'custom-dialog-container' ;
+    
+    let dialogRef
+    this.ngZone.run(() => {
+      dialogRef = this.addremoveGameDialog.open(AddRevokeGameDialogComponent,dialogConfig);
+    });
+    
+    dialogRef.afterClosed()
+    .subscribe(
+      data => {
+        if (data)
+          this.refreshTable();
+      });
 
   }
   

@@ -1,0 +1,68 @@
+<div>
+    <h1 mat-dialog-title>
+        <mat-toolbar class="task-header" color="primary">
+            <mat-toolbar-row>
+                <div class="header-row">Add / Revoke Game:</div>
+            </mat-toolbar-row>
+            <mat-toolbar-row>
+                <div class="header-row">{{userResource.fullName}}</div>
+            </mat-toolbar-row>
+        </mat-toolbar>
+    </h1>
+
+    <div mat-dialog-content class="form-wrapper">
+        <form [formGroup]="editGameForm">
+            <div class="loading-shade"
+            *ngIf="gameDataLoading">
+            <mat-spinner *ngIf="gameDataLoading"></mat-spinner>
+            </div>
+
+            
+            <mat-radio-group layout="row" class="radioButtons">
+                <mat-radio-button value="ADD" color = "primary" class="radioButtons" (click)="setGameAction('ADD')"> ADD </mat-radio-button>
+                <mat-radio-button value="REVOKE" color = "primary" class="radioButtons" (click)="setGameAction('REVOKE')"> REVOKE </mat-radio-button>
+            </mat-radio-group>
+            
+
+            
+            <ng-container *ngIf = "gameAction == 'ADD'">
+            
+                <mat-form-field class="justifier" appearance="legacy">
+                    <mat-label>Add Game</mat-label>
+                    <mat-select formControlName = "addedGame" >
+                      <mat-option *ngFor="let game of notOwnedGames" value="game['name']">{{game['name']}}</mat-option>
+                    </mat-select>
+                    <mat-error>A Game is required</mat-error>
+                </mat-form-field>
+
+            <button mat-raised-button color="primary"  
+            (click) = "addGame()"
+            [disabled]= "!editGameForm.valid">
+            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+            Add</button>
+            </ng-container>
+
+            <ng-container *ngIf ="gameAction == 'REVOKE'">
+                <mat-form-field class="justifier" appearance="legacy">
+                    <mat-label>Revoke Game</mat-label>
+                    <mat-select formControlName = "revokedGame" >
+                      <mat-option *ngFor="let game of ownedGames" value="game['name']">{{game['name']}}</mat-option>
+                    </mat-select>
+                    <mat-error>A Game is required</mat-error>
+                </mat-form-field>
+
+            <button mat-raised-button color="primary"  
+            (click) = "revokeGame()"
+            [disabled]= "!editGameForm.valid">
+            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+            Revoke</button>
+            </ng-container>
+    
+            <button mat-button 
+                style= "float: right; margin-bottom: 15px;"
+                type ="button"
+                (click)="close()">Close</button>
+            
+        </form>
+    </div>
+</div>

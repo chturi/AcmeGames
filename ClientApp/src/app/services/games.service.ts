@@ -10,6 +10,12 @@ export class GamesService {
 
   constructor(private http: HttpClient) { }
 
+  getGames() {
+
+    return this.http.get(this.systemsEndpoint); 
+
+ }
+
   getUserGames(userAccountId) {
 
      return this.http.get(this.systemsEndpoint + userAccountId); 

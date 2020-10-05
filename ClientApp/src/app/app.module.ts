@@ -34,6 +34,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatMenuModule } from '@angular/material/menu';
 
 
+
 //Angular Components
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
@@ -49,6 +50,7 @@ import { RedeemKeyDialogComponent } from './redeem-key-dialog/redeem-key-dialog.
 import { AdminConsoleComponent } from './admin-console/admin-console.component';
 import { ResetPasswordDialogComponent } from './dialogs/reset-password-dialog/reset-password-dialog.component';
 import { EditUserDialogComponent } from './dialogs/edit-user-dialog/edit-user-dialog.component';
+import { AddRevokeGameDialogComponent } from './dialogs/add-revoke-game-dialog/add-revoke-game-dialog.component';
 
 export function tokenGetter() {
   return localStorage.getItem("jwt");
@@ -68,7 +70,8 @@ export function tokenGetter() {
     RedeemKeyDialogComponent,
     AdminConsoleComponent,
     ResetPasswordDialogComponent,
-    EditUserDialogComponent
+    EditUserDialogComponent,
+    AddRevokeGameDialogComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
