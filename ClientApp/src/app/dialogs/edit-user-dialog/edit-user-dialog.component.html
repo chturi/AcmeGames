@@ -1,0 +1,68 @@
+<div>
+    <h1 mat-dialog-title>
+        <mat-toolbar class="task-header" color="primary">
+            <mat-toolbar-row>
+                <div class="header-row">Change Password:</div>
+            </mat-toolbar-row>
+            <mat-toolbar-row>
+                <div class="header-row">{{userResource["Full Name"]}}</div>
+            </mat-toolbar-row>
+        </mat-toolbar>
+    </h1>
+
+    <div mat-dialog-content class="form-wrapper">
+        
+        <form [formGroup]="editUserForm" (ngSubmit)=" editUserInformation()">
+    
+            <mat-form-field class="justifier" appearance="legacy">
+                <mat-label>Email-Address</mat-label>
+                <input matInput formControlName = "emailAddress">
+                <mat-error>Email-Address is required</mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="justifier" appearance="legacy">
+                <mat-label>First Name</mat-label>
+                <input matInput formControlName = "firstName">
+                <mat-error>First Name is required</mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="justifier" appearance="legacy">
+                <mat-label>Last Name</mat-label>
+                <input matInput formControlName = "lastName">
+                <mat-error>Last Name is required</mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="justifier" appearance="legacy">
+                <mat-label>Date Of Birth</mat-label>
+                <input matInput [matDatepicker]="IrDatePicker" formControlName = "dateOfBirth" >
+                <mat-datepicker-toggle matSuffix [for]="IrDatePicker">
+                  <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+                </mat-datepicker-toggle>
+                <mat-datepicker #IrDatePicker></mat-datepicker>
+                <mat-error>Date Of Birth is required</mat-error>
+              </mat-form-field>
+
+            <mat-form-field class="justifier" appearance="legacy">
+                <mat-label>Role</mat-label>
+                <mat-select  formControlName = "role" >
+                  <mat-option value="Admin" >Admin</mat-option>
+                  <mat-option value="User">User</mat-option>
+                </mat-select>
+                <mat-error>User Role is required</mat-error>
+              </mat-form-field>
+
+
+            <button mat-raised-button color="primary"  
+            type="submit"
+            [disabled]= "!editUserForm.valid">
+            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+            Update</button>
+    
+            <button mat-button 
+                style= "float: right; margin-bottom: 15px;"
+                type ="button"
+                (click)="close()">Close</button>
+            
+        </form>
+    </div>
+</div>
