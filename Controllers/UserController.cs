@@ -31,9 +31,13 @@ namespace AcmeGames.Controllers
 
             
             var identity = HttpContext.User.Identity as ClaimsIdentity;
+            
+            var userId = identity.Claims.Where(c => c.Type == ClaimTypes.NameIdentifier).FirstOrDefault().Value;
+            var userRole = identity.Claims.Where(c => c.Type == ClaimTypes.Role).FirstOrDefault().Value;
+            
 
             if (user.UserAccountId != identity.Claims.Where(c => c.Type == ClaimTypes.NameIdentifier).FirstOrDefault().Value 
-            || identity.Claims.Where(c => c.Type == ClaimTypes.Role).FirstOrDefault().Value == "Admin")
+            && identity.Claims.Where(c => c.Type == ClaimTypes.Role).FirstOrDefault().Value != "Admin")
                 return Unauthorized("User Information can only be accessed by the same User Account");    
 
             return Ok(user);

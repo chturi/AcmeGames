@@ -11,6 +11,10 @@
     </h1>
 
     <div mat-dialog-content class="form-wrapper">
+        <div class="loading-shade"
+            *ngIf="userDataLoading">
+            <mat-spinner *ngIf="userDataLoading"></mat-spinner>
+        </div>
         
         <form [formGroup]="editUserForm" (ngSubmit)=" editUserInformation()">
     

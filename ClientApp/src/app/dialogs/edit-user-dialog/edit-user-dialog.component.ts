@@ -16,6 +16,7 @@ export class EditUserDialogComponent implements OnInit {
   editUserForm: FormGroup;
   submitted: boolean;
   loading: boolean;
+  userDataLoading: boolean;
   hide: boolean = true;
   usernameExsist = false;
   userResource: any = {};
@@ -31,7 +32,7 @@ export class EditUserDialogComponent implements OnInit {
 
   ngOnInit(): void {
 
-
+    this.userDataLoading = true;
 
     this.editUserForm = this.fb.group({
       emailAddress : new FormControl(null,[Validators.required]),
@@ -41,9 +42,11 @@ export class EditUserDialogComponent implements OnInit {
       role : new FormControl(null,[Validators.required]),
     });
 
-    this.userService.getUserInformation(this.userResource[""])
-    .subscribe( results => {
-      console.log(results);
+    this.userService.getUserInformation(this.userResource["User Account Id"])
+    .subscribe( (results: any) => {
+      results.role = (results.isAdmin) ? "Admin" : "User"
+      this.editUserForm.patchValue(results);
+      this.userDataLoading = false;
     })
 
     this.editUserForm.valueChanges.subscribe(formdata => {

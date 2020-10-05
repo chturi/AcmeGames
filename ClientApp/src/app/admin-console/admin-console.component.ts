@@ -115,6 +115,7 @@ export class AdminConsoleComponent implements AfterViewInit {
 
   editUserInformation (element : UserData) {
 
+   
     const dialogConfig = new MatDialogConfig();
     dialogConfig.data = element;
     dialogConfig.panelClass = 'custom-dialog-container' ;
