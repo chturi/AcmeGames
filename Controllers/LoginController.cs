@@ -29,24 +29,27 @@ namespace AcmeGames.Controllers
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(aConfiguration["JWTKey"]));
             mySigningCredentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
         }
-
+        
+        //Request for Auth request, returns JWT Token including claims with userinformation
         [HttpPost]
         public async Task<IActionResult>
         Authenticate(
             [FromBody] AuthRequest  aAuthRequest)
         {
-            // Implement: Retrieve a user account from the database and handle invalid login attempts
+            // Try to find user from DB with username from request
            var user = (await Database.Users())
             .Where(u => u.EmailAddress == aAuthRequest.EmailAddress)
             .FirstOrDefault(); 
            
             if (user == null)
                 return BadRequest("Username does not exist!");
-        
+
+            //Verify that the user from DB has the same password as payload
             var isPasswordMatch = (user.Password == aAuthRequest.Password) ? true : false;
 
             if (isPasswordMatch) {
                 
+                //Generate claims and JWT token
                 var claims = new[]
                 {
                     new Claim(ClaimTypes.NameIdentifier,    user.UserAccountId),

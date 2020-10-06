@@ -2,6 +2,7 @@ using System;
 
 namespace AcmeGames.Resources
 {
+	//Resource with role for parsing data when Admin wants to change user information from the admin-console
     public class UpdateUserAdminResource
     {
         public string	UserAccountId { get; set; }
