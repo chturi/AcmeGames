@@ -1,41 +1,37 @@
 
 <mat-card class = "card">
-    <mat-card-header>
-        
-        <div style="display:inline-block;">
-            <mat-card-title>Account Information</mat-card-title>
-        </div>
-       
-    </mat-card-header>
+  <mat-card-header> 
+      <div style="display:inline-block;">
+          <mat-card-title>Account Information</mat-card-title>
+      </div>
+  </mat-card-header>
 
-    <mat-card-content>
+  <mat-card-content>
 
-        <div style="display:inline-block;vertical-align:top;">
-            <div mat-card-avatar class="example-header-image"></div>
-        </div>
-        <div style="display:inline-block;">
-           <div style="font-weight: bold; opacity: 0.4;">Username</div>
-           <div>{{accountForm.get("emailAddress").value}}</div>   
-        </div>
+    <div style="display:inline-block;vertical-align:top;">
+        <div mat-card-avatar class="example-header-image"></div>
+    </div>
+    <div style="display:inline-block;">
+      <div style="font-weight: bold; opacity: 0.4;">Username</div>
+      <div>{{accountForm.get("emailAddress").value}}</div>   
+    </div>
 
-        <button mat-icon-button [matMenuTriggerFor]="editMenu" class="edit-user-btn">
-            <mat-icon color="primary">edit</mat-icon>
-          </button>
-          <mat-menu #editMenu="matMenu">
-            <button mat-menu-item class="edit-user-btn" (click)="updateUserPassword()">
-              <mat-icon>visibility_off</mat-icon>
-              <span>Change Password</span>
-            </button>
-            <button mat-menu-item class="edit-user-btn" (click)="updateUserEmail()">
-              <mat-icon>alternate_email</mat-icon>
-              <span>Change Email</span>
-            </button>
-          </mat-menu>
+      <button mat-icon-button [matMenuTriggerFor]="editMenu" class="edit-user-btn">
+        <mat-icon color="primary">edit</mat-icon>
+      </button>
+      <mat-menu #editMenu="matMenu">
+        <button mat-menu-item class="edit-user-btn" (click)="updateUserPassword()">
+          <mat-icon>visibility_off</mat-icon>
+          <span>Change Password</span>
+        </button>
+        <button mat-menu-item class="edit-user-btn" (click)="updateUserEmail()">
+          <mat-icon>alternate_email</mat-icon>
+          <span>Change Email</span>
+        </button>
+      </mat-menu>
      
-        <form [formGroup]="accountForm" style="margin-top: 40px;"> 
+      <form [formGroup]="accountForm" style="margin-top: 40px;"> 
         
-       
-
         <mat-form-field class="justifier" appearance="legacy">
             <mat-label>First Name</mat-label>
             <input matInput formControlName = "firstName" class="form-input">
@@ -53,9 +49,9 @@
             <input matInput readonly="true" [value]="user.dateOfBirth" >
           </mat-form-field>
 
-    </form>
-    </mat-card-content>
-    <mat-card-actions>
+      </form>
+  </mat-card-content>
+  <mat-card-actions>
 
     <div *ngIf = "accountForm.disabled">
       <button mat-raised-button
@@ -77,44 +73,44 @@
             color="primary">
             SAVE
             <span *ngIf="updateUserLoading" class="spinner-border spinner-border-sm mr-1"></span>
-        </button>
-            
-    </div>
-    
-
-    </mat-card-actions>
-  </mat-card>
+        </button>      
+      </div>
+      
+  </mat-card-actions>
+</mat-card>
 
 <div class="game-wrapper">
+  <mat-accordion class = "card">
 
- <mat-accordion class = "card">
-  <mat-expansion-panel>
-    <mat-expansion-panel-header>
-      <mat-panel-title>
-        My Games
-        <span *ngIf="getGamesLoading" style="margin-left: 5px" class="spinner-border spinner-border-sm mr-1"></span>
-      </mat-panel-title>
-    </mat-expansion-panel-header>
+    <mat-expansion-panel>
 
-    <div class="flex-container" 
-      fxLayout = "row wrap"
-      fxLayoutGap ="5px"
-      fxLayoutAlign="center center">
-      <mat-card *ngFor="let game of userGames" class="game-card" >
-        <img mat-card-image [src]="game.thumbnail" class="card-img">
-        <mat-card-content class= "card-content">
-          {{game.name}}
-        </mat-card-content>
-      </mat-card>
-    </div>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          My Games
+          <span *ngIf="getGamesLoading" style="margin-left: 5px" class="spinner-border spinner-border-sm mr-1"></span>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
 
-    <button mat-raised-button
-      (click)="reedemKey()"
-      style="margin-top: 20px; display: flex!important;"
-      color="primary" >
-      REDEEM KEY</button>
+      <div class="flex-container" 
+        fxLayout = "row wrap"
+        fxLayoutGap ="5px"
+        fxLayoutAlign="center center">
+        <mat-card *ngFor="let game of userGames" class="game-card" >
+          <img mat-card-image [src]="game.thumbnail" class="card-img">
+          <mat-card-content class= "card-content">
+            {{game.name}}
+          </mat-card-content>
+        </mat-card>
+      </div>
 
-  </mat-expansion-panel>
-</mat-accordion>
+      <button mat-raised-button
+        (click)="reedemKey()"
+        style="margin-top: 20px; display: flex!important;"
+        color="primary" >
+        REDEEM KEY</button>
+
+    </mat-expansion-panel>
+    
+  </mat-accordion>
 </div>
 

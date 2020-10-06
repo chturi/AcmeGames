@@ -54,7 +54,6 @@ export class NavMenuComponent implements OnInit{
       else
         this.isAdmin = false;
 
-      this.router.navigate(["account"])
     } 
     else {
       this.userRole = "";

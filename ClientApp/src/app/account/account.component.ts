@@ -50,21 +50,17 @@ export class AccountComponent implements OnInit {
       lastName : new FormControl(this.user.lastName,[Validators.required]),
     });
 
-    this.accountForm.disable();
-  
+    this.accountForm.disable(); 
 
     this.gameService.getUserGames(this.user.userAccountId)
-    .subscribe(results => {
-      this.userGames = (results as Game[]);
-      this.getGamesLoading = false;
-    });
+      .subscribe(results => {
+        this.userGames = (results as Game[]);
+        this.getGamesLoading = false;
+      });
 
     this.accountForm.valueChanges.subscribe(() => {this.onFormValueChange()})  
-
-    
-    
+ 
   }
-
 
   private getUserFromToken () {
 
@@ -77,12 +73,10 @@ export class AccountComponent implements OnInit {
          role: this.jwtHelper.decodeToken(token)['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'],
          dateOfBirth: this.jwtHelper.decodeToken(token)['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/dateofbirth']
        }
-
-  
-
   }
 
   updateUserDetails() {
+    
     this.updateUserLoading = true;
 
     this.userService.updateUserDetails(this.user)
@@ -95,7 +89,7 @@ export class AccountComponent implements OnInit {
       (error:HttpErrorResponse) => {
         this.updateUserLoading = false;
         this.notificationService.showError(error.error);
-      })
+      });
 
   }
 
@@ -126,8 +120,8 @@ export class AccountComponent implements OnInit {
       data => {
         if (data)
           this.accountForm.get("emailAddress").setValue(data);
-      });
-     
+      }); 
+
   }
 
   reedemKey() {
@@ -151,7 +145,6 @@ export class AccountComponent implements OnInit {
         }
           
       });
-     
   }
 
   private onFormValueChange () 
@@ -161,11 +154,7 @@ export class AccountComponent implements OnInit {
         const control = this.accountForm.get(key);
         this.user[key] = control.value;
     }
-
   }
-
-  
-
 }
 
 

@@ -17,7 +17,6 @@ export class AuthGuardServiceAdmin implements CanActivate{
     
     const userRole = this.jwtHelper.decodeToken(token)['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'];
 
-    
     if(token && !this.jwtHelper.isTokenExpired(token) && userRole == "Admin")
       return true;
     

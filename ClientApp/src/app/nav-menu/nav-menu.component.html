@@ -48,7 +48,7 @@
           class="nav-item" 
           [routerLinkActive]="['link-active']">
             <a class="nav-link text-dark">
-            | {{username}}</a>
+            | {{username}} <span *ngIf="isAdmin">[ADMIN]</span></a>
           </li>
         </ul>
       </div>
