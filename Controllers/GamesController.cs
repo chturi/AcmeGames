@@ -29,7 +29,7 @@ namespace AcmeGames.Controllers
 		GetUserGames(string id)
 		{
 			var ownedGameIds = (await Database.Ownerships())
-				.Where(o => o.UserAccountId == id)
+				.Where(o => o.UserAccountId == id && o.State == OwnershipState.Owned)
 				.Select(g => g.GameId)
 				.ToList();
 
@@ -39,18 +39,6 @@ namespace AcmeGames.Controllers
 			return userGames;
 		}
 
-		[HttpDelete("byId")]
-		public async Task<IActionResult>
-		DeleteUserGame(string userAccountId, uint gameId)
-		{
-			var newOwnerShip = (await Database.Ownerships())
-				.Where(o => o.UserAccountId != userAccountId && o.GameId != gameId)
-				.ToList();
-			
-			Database.SaveOwnership(newOwnerShip);
-				
-			return Ok(newOwnerShip);
-		}
 
 		[HttpPost]
 		public async Task<IActionResult>
@@ -59,12 +47,12 @@ namespace AcmeGames.Controllers
 			var ownerships = (await Database.Ownerships())
 				.ToList();
 
-			var ownershipsIds = (await Database.Ownerships())
+			var ownershipsIds = ownerships
 				.Select(o => o.OwnershipId)
 				.ToList();
 			
 			var duplicategames = (await Database.Ownerships())
-				.Where(o => o.GameId == aOwnerShip.GameId && o.UserAccountId == aOwnerShip.UserAccountId)
+				.Where(o => o.GameId == aOwnerShip.GameId && o.UserAccountId == aOwnerShip.UserAccountId && o.State == OwnershipState.Owned)
 				.FirstOrDefault();
 
 			if (duplicategames != null)
@@ -73,7 +61,7 @@ namespace AcmeGames.Controllers
 			var uniqueOwnershipId = ownershipsIds.Max() + 1;
 			
 			aOwnerShip.OwnershipId = uniqueOwnershipId;
-			aOwnerShip.State = 0;
+			aOwnerShip.State = OwnershipState.Owned;
 			aOwnerShip.RegisteredDate = DateTime.Now.ToString(); 
 
 			ownerships.Add(aOwnerShip);
@@ -83,7 +71,7 @@ namespace AcmeGames.Controllers
 			return Ok();
 		}
 
-		[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+	
 		[HttpPut("redeem-key/{id}")]
 		public async Task<IActionResult>
 		RedeemUserKey(string id) 

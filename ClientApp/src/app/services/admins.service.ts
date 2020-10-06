@@ -28,6 +28,17 @@ export class AdminsService {
   
   }
 
+  addUserGame(ownerShipResource) {
+
+    return this.http.post(this.systemsEndpoint + "games/" + ownerShipResource.userAccountId , ownerShipResource);
+
+  }
+
+  revokeUserGame(ownerShipResource) {
+
+    return this.http.put(this.systemsEndpoint + "games/" + ownerShipResource.userAccountId , ownerShipResource);
+
+  }
  
 
 }

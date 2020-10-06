@@ -1,9 +1,11 @@
+import { UsersService } from './../../services/users.service';
 import { GamesService } from './../../services/games.service';
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { AdminsService } from 'src/app/services/admins.service';
 import { NotificationService } from 'src/app/services/notification.service';
+import { HttpErrorResponse } from '@angular/common/http';
 
 @Component({
   selector: 'app-add-revoke-game-dialog',
@@ -14,7 +16,7 @@ export class AddRevokeGameDialogComponent implements OnInit {
 
   editGameForm: FormGroup;
   loading: boolean;
-  gameAction;
+  gameAction = "ADD";
   hide: boolean = true;
   usernameExsist = false;
   userResource: any = {};
@@ -44,8 +46,12 @@ export class AddRevokeGameDialogComponent implements OnInit {
       this.gameDataLoading = true;
       
       this.editGameForm = this.fb.group({
-        addedGame : new FormControl(null,[Validators.required]),
-        revokedGame : new FormControl(null,[Validators.required]),           
+        adding : new FormGroup ({
+          addedGame : new FormControl(null,[Validators.required])
+        }),
+        revoking : new FormGroup ({
+          revokedGame : new FormControl(null,[Validators.required]),
+        })           
       });
 
       
@@ -56,9 +62,10 @@ export class AddRevokeGameDialogComponent implements OnInit {
           this.gameservice.getGames()
             .subscribe((allGames: {}[]) => {
               this.allGames = allGames;
+              
+              this.notOwnedGames = this.allGames
+                .filter(game => !this.ownedGames.some(a=> a['gameId'] === game['gameId']));
 
-              this.notOwnedGames = this.ownedGames
-                .filter(game => allGames.indexOf(game) < 0);
                 this.gameDataLoading = false;
             });
         });
@@ -70,11 +77,47 @@ export class AddRevokeGameDialogComponent implements OnInit {
       this.gameAction = action;
     }
 
-    addGame(){
+    addGame() {
+      this.loading = true;
+
+      var ownershipResource = {
+        gameId: this.editGameForm.get("adding.addedGame").value,
+        userAccountId: this.userResource.userAccountId,
+      }
+
+    this.adminService.addUserGame(ownershipResource)
+    .subscribe(
+      success => { 
+      this.notificationService.showSuccess("Game was successfully added to " + this.userResource.fullName);
+      this.dialogRef.close(true);
+    },
+    (error: HttpErrorResponse) => {
+      this.notificationService.showError("Error: " + error.error);
+      this.loading = false;
+    }); 
+
+
 
     }
 
-    revokeGame(){
+    revokeGame() {
+      this.loading = true;
+
+      var ownershipResource = {
+        gameId: this.editGameForm.get("revoking.revokedGame").value,
+        userAccountId: this.userResource.userAccountId,
+      }
+
+      this.adminService.revokeUserGame(ownershipResource)
+      .subscribe(
+        success => { 
+        this.notificationService.showSuccess("Game was succefully revoked from " + this.userResource.fullName);
+        this.dialogRef.close(true);
+      },
+      (error: HttpErrorResponse) => {
+        this.notificationService.showError("Error: " + error.error);
+        this.loading = false;
+      }); 
 
     }
 

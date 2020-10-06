@@ -20,6 +20,8 @@
 .card-content {
     text-align: center;
     font-size: 8px;
+   line-height: 130%;
+   
 } 
 
 .card-img {

@@ -5,6 +5,7 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { throwError } from 'rxjs';
 import { Router } from '@angular/router';
+import { SharedService } from '../services/shared.service';
 
 @Component({
   selector: 'app-login',
@@ -20,10 +21,10 @@ export class LoginComponent implements OnInit {
 
 
   constructor(private fb: FormBuilder,
-              private http: HttpClient,
+              private sharedService: SharedService,
               private router: Router,
               private authService: AuthenticationService,
-              private jwtHelper: JwtHelperService) { }
+              ) { }
 
   ngOnInit(): void {
 
@@ -37,8 +38,7 @@ export class LoginComponent implements OnInit {
   get form() { return this.loginForm.controls }
 
   login() {
-    
-    localStorage.removeItem("currentUser");
+ 
     localStorage.removeItem("jwt");
 
     const credentials = {
@@ -58,6 +58,7 @@ export class LoginComponent implements OnInit {
      
       this.invalidLogin = false;
       this.loading = false;
+      this.sharedService.sendVerifyEvent();
       this.router.navigate(["/account"]);
 
     }, (err: HttpErrorResponse) => 

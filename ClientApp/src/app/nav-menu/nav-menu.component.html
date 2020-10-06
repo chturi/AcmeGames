@@ -3,7 +3,7 @@
     class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"
   >
     <div class="container">
-      <a class="navbar-brand" [routerLink]="['/']">Acme Games</a>
+      <a class="navbar-brand" [routerLink]="['/account']">Acme Games</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -21,22 +21,34 @@
       >
         <ul class="navbar-nav flex-grow">
           <li
+            *ngIf ="isAuthenticated" 
             class="nav-item"
             [routerLinkActive]="['link-active']"
             [routerLinkActiveOptions]="{ exact: true }"
           >
             <a class="nav-link text-dark" [routerLink]="['/account']">Account Information</a>
           </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/admin-console']"
-              >Admin Tools</a
-            >
+          <li
+          *ngIf ="isAdmin"  
+          class="nav-item" 
+          [routerLinkActive]="['link-active']">
+            <a class="nav-link text-dark" [routerLink]="['/admin-console']">
+              Admin Tools</a>
           </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark"
-            (click) = "logout()"
-              >Log out</a
-            >
+          <li
+          *ngIf ="isAuthenticated" 
+          class="nav-item" 
+          [routerLinkActive]="['link-active']">
+            <a class="nav-link text-dark" 
+            (click) = "logout()" [routerLink]="['/login']">
+            Log out</a>
+          </li>
+          <li
+          *ngIf ="isAuthenticated" 
+          class="nav-item" 
+          [routerLinkActive]="['link-active']">
+            <a class="nav-link text-dark">
+            | {{username}}</a>
           </li>
         </ul>
       </div>

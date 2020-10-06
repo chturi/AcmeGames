@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -91,6 +92,85 @@ namespace AcmeGames.Controllers
 
             return Ok();
 		}
+
+        [HttpPost("games/{id}")]
+		public async Task<IActionResult>
+		AddUserGame([FromBody] Ownership aOwnerShip)
+		{
+			var ownerships = (await Database.Ownerships())
+				.ToList();
+
+			var ownershipsIds = ownerships
+				.Select(o => o.OwnershipId)
+				.ToList();
+			
+			var duplicategames = (await Database.Ownerships())
+				.Where(o => o.GameId == aOwnerShip.GameId && o.UserAccountId == aOwnerShip.UserAccountId && o.State == OwnershipState.Owned)
+				.FirstOrDefault();
+
+			if (duplicategames != null)
+				return Unauthorized("User already owns game");
+            
+            var userAccountId = aOwnerShip.UserAccountId;
+
+			var user = (await Database.Users())
+				.Where(g => g.UserAccountId == aOwnerShip.UserAccountId)
+				.FirstOrDefault();
+            
+            if (user == null)
+				return BadRequest("User does not exsist");
+			
+			var userAge =  DateTime.Now.Year - Convert.ToDateTime(user.DateOfBirth).Year; 
+
+			var game = (await Database.Games())
+				.Where(g => g.GameId == aOwnerShip.GameId)
+				.FirstOrDefault();
+
+			if (game == null)
+				return BadRequest("Game does not exsist");
+			
+			if ((game.AgeRestriction - userAge) >= 0 )
+				return Unauthorized("Users age is below age restriction");
+
+
+			var uniqueOwnershipId = ownershipsIds.Max() + 1;
+			
+			aOwnerShip.OwnershipId = uniqueOwnershipId;
+			aOwnerShip.State = OwnershipState.Owned;
+			aOwnerShip.RegisteredDate = DateTime.Now.ToString(); 
+
+			ownerships.Add(aOwnerShip);
+
+			Database.SaveOwnership(ownerships);
+				
+			return Ok();
+		}
+
+        [HttpPut("games/{id}")]
+		public async Task<IActionResult>
+		revokeUserGame([FromBody] Ownership aOwnerShip)
+		{
+            var ownerShips = (await Database.Ownerships()).ToList();
+            var revokedOwnerShip = ownerShips
+                .Where(o => o.GameId == aOwnerShip.GameId && o.UserAccountId == aOwnerShip.UserAccountId)
+                .FirstOrDefault();
+
+            if (revokedOwnerShip == null)
+                return BadRequest("User does not own game");
+            
+            var ownerShipIndex = ownerShips.IndexOf(revokedOwnerShip);
+            
+            revokedOwnerShip.State = OwnershipState.Revoked;
+
+            ownerShips[ownerShipIndex] = revokedOwnerShip;
+            
+            Database.SaveOwnership(ownerShips);
+
+            return Ok();
+		}
+
+
+
 
 
         

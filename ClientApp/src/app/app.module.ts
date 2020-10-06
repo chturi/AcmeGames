@@ -51,6 +51,8 @@ import { AdminConsoleComponent } from './admin-console/admin-console.component';
 import { ResetPasswordDialogComponent } from './dialogs/reset-password-dialog/reset-password-dialog.component';
 import { EditUserDialogComponent } from './dialogs/edit-user-dialog/edit-user-dialog.component';
 import { AddRevokeGameDialogComponent } from './dialogs/add-revoke-game-dialog/add-revoke-game-dialog.component';
+import { AuthGuardService } from './guards/auth-guard';
+import { AuthGuardServiceAdmin } from './guards/auth-guard-admin';
 
 export function tokenGetter() {
   return localStorage.getItem("jwt");
@@ -103,8 +105,9 @@ export function tokenGetter() {
     MatDatepickerModule,
     RouterModule.forRoot([
       { path: '', component: LoginComponent, pathMatch: 'full' },
-      { path: 'account', component: AccountComponent },
-      { path: 'admin-console', component: AdminConsoleComponent },
+      { path: 'login', component: LoginComponent, pathMatch: 'full' },
+      { path: 'account', component: AccountComponent, canActivate: [AuthGuardService]},
+      { path: 'admin-console', component: AdminConsoleComponent, canActivate: [AuthGuardServiceAdmin]},
     ]),
     JwtModule.forRoot({
       config: {
