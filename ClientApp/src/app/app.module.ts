@@ -10,7 +10,6 @@ import { JwtModule } from '@auth0/angular-jwt'
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatExpansionModule } from '@angular/material/expansion';
-import { MatCheckboxModule } from '@angular/material/checkbox'
 import { MatCardModule } from '@angular/material/card'
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list'
@@ -26,7 +25,6 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSortModule } from '@angular/material/sort';
 import { MatDialogModule, MatDialogTitle, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { MatBadgeModule } from '@angular/material/badge';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
@@ -38,19 +36,16 @@ import { MatMenuModule } from '@angular/material/menu';
 //Angular Components
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
-import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AccountComponent } from './account/account.component';
-import { ChangePasswordDialogComponent } from './change-password-dialog/change-password-dialog.component';
-import { ChangeEmailDialogComponent } from './change-email-dialog/change-email-dialog.component';
-import { RedeemKeyDialogComponent } from './redeem-key-dialog/redeem-key-dialog.component';
+import { ChangePasswordDialogComponent } from './account/dialogs/change-password-dialog/change-password-dialog.component';
+import { ChangeEmailDialogComponent } from './account/dialogs/change-email-dialog/change-email-dialog.component';
+import { RedeemKeyDialogComponent } from './account/dialogs/redeem-key-dialog/redeem-key-dialog.component';
 import { AdminConsoleComponent } from './admin-console/admin-console.component';
-import { ResetPasswordDialogComponent } from './dialogs/reset-password-dialog/reset-password-dialog.component';
-import { EditUserDialogComponent } from './dialogs/edit-user-dialog/edit-user-dialog.component';
-import { AddRevokeGameDialogComponent } from './dialogs/add-revoke-game-dialog/add-revoke-game-dialog.component';
+import { ResetPasswordDialogComponent } from './admin-console/dialogs/reset-password-dialog/reset-password-dialog.component';
+import { EditUserDialogComponent } from './admin-console/dialogs/edit-user-dialog/edit-user-dialog.component';
+import { AddRevokeGameDialogComponent } from './admin-console/dialogs/add-revoke-game-dialog/add-revoke-game-dialog.component';
 import { AuthGuardService } from './guards/auth-guard';
 import { AuthGuardServiceAdmin } from './guards/auth-guard-admin';
 
@@ -62,9 +57,6 @@ export function tokenGetter() {
   declarations: [
     AppComponent,
     NavMenuComponent,
-    HomeComponent,
-    CounterComponent,
-    FetchDataComponent,
     LoginComponent,
     AccountComponent,
     ChangePasswordDialogComponent,

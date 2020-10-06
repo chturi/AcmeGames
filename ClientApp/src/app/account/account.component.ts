@@ -1,15 +1,15 @@
-import { RedeemKeyDialogComponent } from './../redeem-key-dialog/redeem-key-dialog.component';
-import { ChangeEmailDialogComponent } from './../change-email-dialog/change-email-dialog.component';
+import { RedeemKeyDialogComponent } from './dialogs/redeem-key-dialog/redeem-key-dialog.component';
+import { ChangeEmailDialogComponent } from './dialogs/change-email-dialog/change-email-dialog.component';
 import { NotificationService } from './../services/notification.service';
 import { UsersService } from './../services/users.service';
 import { GamesService } from './../services/games.service';
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { HttpErrorResponse } from '@angular/common/http';
 import { Component, NgZone, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { JwtHelperService } from '@auth0/angular-jwt';
-import { AuthenticationService } from '../services/authentication.service';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
-import { ChangePasswordDialogComponent } from '../change-password-dialog/change-password-dialog.component';
+import { ChangePasswordDialogComponent } from './dialogs/change-password-dialog/change-password-dialog.component';
+import { SharedService } from '../services/shared.service';
 
 @Component({
   selector: 'app-account',
@@ -35,11 +35,12 @@ export class AccountComponent implements OnInit {
               private jwtHelper: JwtHelperService,
               private changePasswordDialog: MatDialog,
               private changeEmailDialog: MatDialog,
-              private redeemKeyDialog: MatDialog) { }
+              private redeemKeyDialog: MatDialog,
+              private sharedService: SharedService) { }
 
   ngOnInit(): void {
     
-    
+    this.sharedService.sendVerifyEvent();
     this.getGamesLoading = true;
     this.getUserFromToken();
 

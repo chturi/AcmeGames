@@ -1,11 +1,10 @@
-import { UsersService } from './../../services/users.service';
-import { GamesService } from './../../services/games.service';
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { AdminsService } from 'src/app/services/admins.service';
 import { NotificationService } from 'src/app/services/notification.service';
 import { HttpErrorResponse } from '@angular/common/http';
+import { GamesService } from 'src/app/services/games.service';
 
 @Component({
   selector: 'app-add-revoke-game-dialog',

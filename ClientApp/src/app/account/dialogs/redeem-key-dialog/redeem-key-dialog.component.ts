@@ -1,11 +1,11 @@
-import { GamesService } from './../services/games.service';
+import { GamesService } from '../../../services/games.service';
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { ChangeEmailDialogComponent } from '../change-email-dialog/change-email-dialog.component';
-import { NotificationService } from '../services/notification.service';
-import { UsersService } from '../services/users.service';
+import { NotificationService } from '../../../services/notification.service';
+import { UsersService } from '../../../services/users.service';
 import { HttpErrorResponse } from '@angular/common/http';
 
 @Component({

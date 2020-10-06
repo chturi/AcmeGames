@@ -1,13 +1,13 @@
-import { AddRevokeGameDialogComponent } from './../dialogs/add-revoke-game-dialog/add-revoke-game-dialog.component';
-import { EditUserDialogComponent } from './../dialogs/edit-user-dialog/edit-user-dialog.component';
-import { ResetPasswordDialogComponent } from './../dialogs/reset-password-dialog/reset-password-dialog.component';
-import { element } from 'protractor';
 import { AdminsService } from './../services/admins.service';
-import { AfterViewInit, Component, OnInit, ViewChild, NgZone } from '@angular/core';
+import { AfterViewInit, Component, ViewChild, NgZone } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
+import { ResetPasswordDialogComponent } from './dialogs/reset-password-dialog/reset-password-dialog.component';
+import { EditUserDialogComponent } from './dialogs/edit-user-dialog/edit-user-dialog.component';
+import { AddRevokeGameDialogComponent } from './dialogs/add-revoke-game-dialog/add-revoke-game-dialog.component';
+import { SharedService } from '../services/shared.service';
 
 @Component({
   selector: 'app-admin-console',
@@ -36,9 +36,13 @@ export class AdminConsoleComponent implements AfterViewInit {
               private ngZone: NgZone,
               private resetPasswordDialog: MatDialog,
               private editUserInformationDialog: MatDialog,
-              private addremoveGameDialog: MatDialog) { }
+              private addremoveGameDialog: MatDialog,
+              private sharedService: SharedService) { }
 
   ngAfterViewInit (): void {
+
+    this.sharedService.sendVerifyEvent();
+
     this.adminService.getUsers().subscribe(
       results => { 
           this.dataSource.paginator = this.paginator;

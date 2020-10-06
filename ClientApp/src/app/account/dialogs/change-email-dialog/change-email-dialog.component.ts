@@ -2,10 +2,9 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { JwtHelperService } from '@auth0/angular-jwt';
-import { NotificationService } from '../services/notification.service';
-import { UsersService } from '../services/users.service';
-import { ConfirmedValidator } from '../validators/Confirmed.validators';
+import { NotificationService } from '../../../services/notification.service';
+import { UsersService } from '../../../services/users.service';
+import { ConfirmedValidator } from '../../../validators/Confirmed.validators';
 
 @Component({
   selector: 'app-change-email-dialog',
@@ -29,7 +28,6 @@ export class ChangeEmailDialogComponent implements OnInit {
 
   constructor(private dialogRef: MatDialogRef<ChangeEmailDialogComponent>,
               public fb: FormBuilder,
-              private jwtHelper : JwtHelperService,
               private userService : UsersService,
               private notificationService : NotificationService,
               @Inject(MAT_DIALOG_DATA) data) 

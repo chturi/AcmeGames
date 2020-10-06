@@ -1,11 +1,10 @@
-import { AdminsService } from './../../services/admins.service';
-import { NotificationService } from './../../services/notification.service';
-import { UsersService } from './../../services/users.service';
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { ConfirmedValidator } from '../../validators/Confirmed.validators';
 import { HttpErrorResponse } from '@angular/common/http';
+import { UsersService } from 'src/app/services/users.service';
+import { AdminsService } from 'src/app/services/admins.service';
+import { NotificationService } from 'src/app/services/notification.service';
 
 
 @Component({

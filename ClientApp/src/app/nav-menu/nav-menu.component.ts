@@ -1,5 +1,5 @@
 import { SharedService } from './../services/shared.service';
-import { Router, RouterModule } from '@angular/router';
+import { Router} from '@angular/router';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { Component, OnInit } from '@angular/core';
 
@@ -61,6 +61,7 @@ export class NavMenuComponent implements OnInit{
       this.username = "";
       this.isAdmin = false;
       this.isAuthenticated = false;
+      this.router.navigate(["login"]);
     }  
    
   }
