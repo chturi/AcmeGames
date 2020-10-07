@@ -58,7 +58,7 @@
 
             <button mat-raised-button color="primary"  
             type="submit"
-            [disabled]= "!editUserForm.valid">
+            [disabled]= "editUserForm.invalid || editUserForm.pristine">
             <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
             Update</button>
     

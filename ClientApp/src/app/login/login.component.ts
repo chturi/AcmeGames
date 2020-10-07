@@ -1,8 +1,7 @@
 import { AuthenticationService } from './../services/authentication.service';
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-import { JwtHelperService } from '@auth0/angular-jwt';
 import { throwError } from 'rxjs';
 import { Router } from '@angular/router';
 import { SharedService } from '../services/shared.service';
