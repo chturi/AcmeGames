@@ -34,8 +34,10 @@ export class EditUserDialogComponent implements OnInit {
 
   ngOnInit(): void {
 
+    //Assign form loading state for spinner
     this.userDataLoading = true;
 
+    //Initilizing reactive form
     this.editUserForm = this.fb.group({
       emailAddress : new FormControl(null,[Validators.required]),
       firstName : new FormControl(null,[Validators.required]),
@@ -45,13 +47,15 @@ export class EditUserDialogComponent implements OnInit {
       userAccountId:  new FormControl(null), 
     });
 
+    //Making the get user information HTTP request and parse isAdmin to role data
     this.userService.getUserInformation(this.userResource["User Account Id"])
     .subscribe( (results: any) => {
       results.role = (results.isAdmin) ? "Admin" : "User"
       this.editUserForm.patchValue(results);
       this.userDataLoading = false;
-    })
+    });
 
+    //Make a subscription to the form allowing to update data to userResource whenever form is updated
     this.editUserForm.valueChanges.subscribe(formdata => {
       this.onFormValueChange(); 
     });
@@ -60,13 +64,14 @@ export class EditUserDialogComponent implements OnInit {
 
 
   private onFormValueChange () {
-    //Assign data from form to User object
+    //Assign data from form to userResource
     for (const key in this.editUserForm.controls) {
         const control = this.editUserForm.get(key);
         this.userResource[key] = control.value; 
     } 
   }
 
+  //Submitting edit user information form
   editUserInformation() {
     this.loading = true;
 
@@ -83,6 +88,7 @@ export class EditUserDialogComponent implements OnInit {
 
   }
 
+  //close the Dialog
   close(){
     this.dialogRef.close();
   }

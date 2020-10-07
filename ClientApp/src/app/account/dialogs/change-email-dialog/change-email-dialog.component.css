@@ -4,18 +4,18 @@
     height: 20px;
     width: 100%;
     font-weight: bold;
-    
-  }
+}
   
-  .form-wrapper {
+.form-wrapper {
     margin: 5px!important;
 }
-  .error-msg {
-  
-    padding: 10px;
-    color: red;
-    font-size: smaller;
-  
-  }
+
+.error-msg {
+
+  padding: 10px;
+  color: red;
+  font-size: smaller;
+
+}
 
   

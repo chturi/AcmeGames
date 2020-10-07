@@ -37,22 +37,25 @@ export class ChangeEmailDialogComponent implements OnInit {
 
   ngOnInit(): void {
 
+    //Initilizing reactive form and add custom validators
     this.changeEmailForm = this.fb.group({
       emailAddress: new FormControl(null,[Validators.required]),
       confirmEmailAddress : new FormControl(null,[Validators.required]),
-      password : new FormControl(null,),
+      password : new FormControl(null,[Validators.required]),
     }, {
       validators: ConfirmedValidator('emailAddress','confirmEmailAddress')
     });
 
+    //Make a subscription to the form allowing to update data to emailReousrce whenever form is updated
     this.changeEmailForm.valueChanges.subscribe(formdata => {
       this.onFormValueChange(); 
     });
 
   }
 
+  //Assign data from form to emailResource
   private onFormValueChange () {
-    //Assign data from form to system object
+    
     for (const key in this.changeEmailForm.controls) {
       if (key != "confirmEmailAddress") {
         const control = this.changeEmailForm.get(key);
@@ -62,6 +65,7 @@ export class ChangeEmailDialogComponent implements OnInit {
     } 
   }
 
+  //Submitting Change Email form
   changeEmail() {
     
     this.loading = true;
@@ -78,7 +82,7 @@ export class ChangeEmailDialogComponent implements OnInit {
       }); 
   }
 
-
+ //close the Dialog
   close(){
     this.dialogRef.close();
   }

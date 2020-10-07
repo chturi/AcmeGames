@@ -5,10 +5,12 @@
        *ngIf="isTableLoading">
     <mat-spinner *ngIf="isTableLoading"></mat-spinner>
   </div>
+  <!-- Filter field -->
   <mat-form-field appearance="standard" class="form-full-width">
     <mat-label>User Filter</mat-label>
     <input matInput (keyup)="applyFilter($event)" placeholder="Ex. First Name, Last Name, Role etc..">
   </mat-form-field>
+  <!-- Table -->
   <div class="mat-elevation-z8 table-container">
     <table mat-table [dataSource]="dataSource" matSort>
         <ng-container [matColumnDef]="column" *ngFor="let column of displayedColumns; let rowIndex=index">
@@ -28,6 +30,7 @@
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
       </table>
+      <!-- Paginator -->
       <mat-paginator [pageSizeOptions]="[5, 10, 25,dataSource.data.length]" showFirstLastButtons></mat-paginator>
     </div>
 </div>

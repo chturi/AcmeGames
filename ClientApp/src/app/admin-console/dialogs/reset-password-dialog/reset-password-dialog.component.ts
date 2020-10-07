@@ -35,6 +35,7 @@ export class ResetPasswordDialogComponent implements OnInit {
 
   ngOnInit(): void {
 
+    //Initilizing reactive form
     this.resetPasswordForm = this.fb.group({
       password : new FormControl(null,[Validators.required]),
       confirmPassword : new FormControl(null,),
@@ -42,13 +43,14 @@ export class ResetPasswordDialogComponent implements OnInit {
       validators: ConfirmedValidator('password','confirmPassword')
     });
 
+    //Make an subscription to the form allowing to update data to userResource whenever form is updated
     this.resetPasswordForm.valueChanges.subscribe(formdata => {
       this.onFormValueChange(); 
     });
 
   }
 
- 
+ //Submitting reset password http request
   resetPassword() {
     
     this.loading = true;
@@ -65,12 +67,13 @@ export class ResetPasswordDialogComponent implements OnInit {
       }); 
   }
 
+  //close the Dialog box
   close(){
     this.dialogRef.close();
   }
 
   private onFormValueChange () {
-    //Assign data from form to system object
+    //Assign data from form to user resource
     for (const key in this.resetPasswordForm.controls) {
       if (key != "confirmPassword") {
         const control = this.resetPasswordForm.get(key);

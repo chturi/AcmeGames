@@ -1,8 +1,9 @@
+<!-- Dialog box header -->
 <div>
     <h1 mat-dialog-title>
         <mat-toolbar class="task-header" color="primary">
             <mat-toolbar-row>
-                <div class="header-row">Change Password:</div>
+                <div class="header-row">Edit User Information:</div>
             </mat-toolbar-row>
             <mat-toolbar-row>
                 <div class="header-row">{{userResource["Full Name"]}}</div>
@@ -10,6 +11,7 @@
         </mat-toolbar>
     </h1>
 
+ <!-- edit user information form    -->
     <div mat-dialog-content class="form-wrapper">
         <div class="loading-shade"
             *ngIf="userDataLoading">
@@ -44,7 +46,7 @@
                 </mat-datepicker-toggle>
                 <mat-datepicker #IrDatePicker></mat-datepicker>
                 <mat-error>Date Of Birth is required</mat-error>
-              </mat-form-field>
+            </mat-form-field>
 
             <mat-form-field class="justifier" appearance="legacy">
                 <mat-label>Role</mat-label>
@@ -53,7 +55,7 @@
                   <mat-option value="User">User</mat-option>
                 </mat-select>
                 <mat-error>User Role is required</mat-error>
-              </mat-form-field>
+            </mat-form-field>
 
 
             <button mat-raised-button color="primary"  

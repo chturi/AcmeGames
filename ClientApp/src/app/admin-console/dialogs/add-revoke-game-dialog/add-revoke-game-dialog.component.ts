@@ -41,9 +41,11 @@ export class AddRevokeGameDialogComponent implements OnInit {
 
 
     ngOnInit(): void {
-      
+
+      //Assign form loading state for spinner
       this.gameDataLoading = true;
       
+      //Initilizing reactive form
       this.editGameForm = this.fb.group({
         adding : new FormGroup ({
           addedGame : new FormControl(null,[Validators.required])
@@ -53,7 +55,7 @@ export class AddRevokeGameDialogComponent implements OnInit {
         })           
       });
 
-      
+      //Making the get games HTTP request and seperet user currently owned games and not owned
       this.gameservice.getUserGames(this.userResource.userAccountId)
         .subscribe((userGames: {}[]) => {
           this.ownedGames = userGames;
@@ -71,11 +73,13 @@ export class AddRevokeGameDialogComponent implements OnInit {
 
     }
 
-
+    //ADD or REVOKE game state change by radio button
     setGameAction(action) {
       this.gameAction = action;
+
     }
 
+    //Adding game submission
     addGame() {
       this.loading = true;
 
@@ -84,21 +88,20 @@ export class AddRevokeGameDialogComponent implements OnInit {
         userAccountId: this.userResource.userAccountId,
       }
 
-    this.adminService.addUserGame(ownershipResource)
-    .subscribe(
-      success => { 
-      this.notificationService.showSuccess("Game was successfully added to " + this.userResource.fullName);
-      this.dialogRef.close(true);
-    },
-    (error: HttpErrorResponse) => {
-      this.notificationService.showError("Error: " + error.error);
-      this.loading = false;
-    }); 
-
-
+      this.adminService.addUserGame(ownershipResource)
+      .subscribe(
+        success => { 
+        this.notificationService.showSuccess("Game was successfully added to " + this.userResource.fullName);
+        this.dialogRef.close(true);
+      },
+      (error: HttpErrorResponse) => {
+        this.notificationService.showError("Error: " + error.error);
+        this.loading = false;
+      }); 
 
     }
 
+    //Revoke game submission
     revokeGame() {
       this.loading = true;
 
@@ -120,6 +123,7 @@ export class AddRevokeGameDialogComponent implements OnInit {
 
     }
 
+    //Close Dialog
     close(){
       this.dialogRef.close();
     }

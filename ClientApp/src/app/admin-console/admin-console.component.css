@@ -9,21 +9,19 @@ table {
     max-width: 100% !important; 
 }
 
-
 .mat-row:hover {
     background-color: #FAFAFA;
   }
 
-
-  .mat-row {
+.mat-row {
     height: auto;
   }
   
-  .mat-cell {
+.mat-cell {
     padding: 8px 8px 8px 0;
   }
 
- .submit-btn {
+.submit-btn {
     background-color: rgb(244, 97, 74);
     margin-top: 15px; 
 }
@@ -39,7 +37,6 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .table-container {
@@ -48,4 +45,4 @@ table {
   overflow: auto;
   margin-bottom: 20px;
   background-color: white;
-}
+  }

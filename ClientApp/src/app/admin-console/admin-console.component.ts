@@ -25,11 +25,15 @@ export class AdminConsoleComponent implements AfterViewInit {
   passwordBtn = false;
   editGameBtn = false;
 
+  //Initializing Pageinator and sort functionallity
+
   @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
+
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
+
   @ViewChild(MatSort, {static: true}) sort: MatSort;
 
   constructor(private adminService: AdminsService,
@@ -41,8 +45,10 @@ export class AdminConsoleComponent implements AfterViewInit {
 
   ngAfterViewInit (): void {
 
+    //Subscription to check wether user is still authenticated and updated navbar
     this.sharedService.sendVerifyEvent();
 
+    //Get all users from DB and populate table
     this.adminService.getUsers().subscribe(
       results => { 
           this.dataSource.paginator = this.paginator;
@@ -53,6 +59,7 @@ export class AdminConsoleComponent implements AfterViewInit {
       });
   }
 
+  //Function to refresh table data
   private refreshTable() {
     this.isTableLoading = true;
     this.adminService.getUsers().subscribe(
@@ -63,6 +70,7 @@ export class AdminConsoleComponent implements AfterViewInit {
       });
   }
 
+  //Function to populate table from DB response
   private populateTable(users) {
     var incr= 0;
     for(let user of users) {
@@ -80,6 +88,7 @@ export class AdminConsoleComponent implements AfterViewInit {
     }
   }
 
+  //Table field parsing of data, decides what format the table field should have
   tableFieldParser(fieldLabel) {
     this.dateField = false;
     this.editUserBtn = false;
@@ -98,6 +107,7 @@ export class AdminConsoleComponent implements AfterViewInit {
       return false;   
   }
 
+  //Open reset password dialog, user data from the same row will be sent to the dialog box
   resetPassword(element : UserData) {
   
     const dialogConfig = new MatDialogConfig();
@@ -118,9 +128,9 @@ export class AdminConsoleComponent implements AfterViewInit {
 
   }
 
+  //Open Edit user Information dialog, user data from the same row will be sent to the dialog box
   editUserInformation (element : UserData) {
 
-   
     const dialogConfig = new MatDialogConfig();
     dialogConfig.data = element;
     dialogConfig.panelClass = 'custom-dialog-container' ;
@@ -136,9 +146,9 @@ export class AdminConsoleComponent implements AfterViewInit {
         if (data)
           this.refreshTable();
       });
-
   }
 
+//Open Add/Revoke game dialog, user data from the same row will be sent to the dialog box
   addRevokeGame (element : UserData) {
     const dialogConfig = new MatDialogConfig();
     dialogConfig.data = element;
@@ -161,6 +171,7 @@ export class AdminConsoleComponent implements AfterViewInit {
 
 }
 
+//Interface for Table row data
 export interface UserData {
   "User Account Id":string,
   "Full Name": string,
