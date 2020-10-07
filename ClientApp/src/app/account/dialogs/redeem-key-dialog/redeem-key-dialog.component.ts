@@ -34,17 +34,20 @@ export class RedeemKeyDialogComponent implements OnInit {
 
   ngOnInit(): void {
 
+    //Initilizing reactive form
     this.redeemKeyForm = this.fb.group({
       keyId: new FormControl(null,[Validators.required])
     });
 
+    //Make a subscription to the form allowing to update data to keyResource whenever form is updated
     this.redeemKeyForm.valueChanges.subscribe(formdata => {
       this.onFormValueChange(); 
     });
   }
 
+  //Assign data from form to key resource
   private onFormValueChange () {
-    //Assign data from form to system object
+    
     for (const key in this.redeemKeyForm.controls) {
       {
         const control = this.redeemKeyForm.get(key);
@@ -53,6 +56,8 @@ export class RedeemKeyDialogComponent implements OnInit {
     } 
   }
 
+
+  //Submitting Redeem Key form
   redeemKey() {
     this.loading = true;
 

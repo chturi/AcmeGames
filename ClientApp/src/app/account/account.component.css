@@ -1,16 +1,15 @@
-.example-header-image {
+.user-header-image {
     background-image: url("../../assets/icons/account-icon-25499.png");
     background-size: cover;
     float: left;
-  }
+}
 
 .game-card {
     width: 120px;
     height: 180px;
     background-color: #363737;
     color: white;
-    margin-top: 5px;
-    
+    margin-top: 5px; 
 } 
 
 .mat-input-element:disabled {
@@ -20,8 +19,7 @@
 .card-content {
     text-align: center;
     font-size: 8px;
-    line-height: 130%;
-   
+    line-height: 130%; 
 } 
 
 .card-img {
@@ -37,12 +35,20 @@
 .edit-user-btn {
     border: none;
     outline:none;
-
   }
 
 .redeemBtn {
     text-align: center;
-    margin: 10px;
-    
-    
+    margin: 10px;   
 }
+
+.userneam-header-img {
+    display:inline-block;
+    vertical-align:top;
+}
+
+.username-header-text {
+    font-weight: bold; 
+    opacity: 0.4;
+}
+

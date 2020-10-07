@@ -20,7 +20,8 @@ export class NavMenuComponent implements OnInit{
               private jwtHelper: JwtHelperService) {}
 
   ngOnInit() : void {
-   
+
+   //Listener service to update navbar depending on user role
     this.sharedService.getVerifyEvent().subscribe(()=> {
       this.isUserAuthenticated();
     })
@@ -34,6 +35,7 @@ export class NavMenuComponent implements OnInit{
     this.isExpanded = !this.isExpanded;
   }
 
+  //Logout method
   logout() {
 
      localStorage.removeItem("jwt");
@@ -41,6 +43,7 @@ export class NavMenuComponent implements OnInit{
     
   }
 
+  //method to verify authentication and user role. Will verify with current JWT token and claims
   isUserAuthenticated() {
     const token: string = localStorage.getItem("jwt");
     

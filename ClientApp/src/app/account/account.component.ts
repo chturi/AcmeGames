@@ -40,7 +40,9 @@ export class AccountComponent implements OnInit {
 
   ngOnInit(): void {
     
+    //Notfier to verify authetication and update navbar
     this.sharedService.sendVerifyEvent();
+    
     this.getGamesLoading = true;
     this.getUserFromToken();
 
@@ -62,6 +64,7 @@ export class AccountComponent implements OnInit {
  
   }
 
+  //Assigning user data claims in JWT token
   private getUserFromToken () {
 
     const token = localStorage.getItem("jwt"); 
@@ -75,6 +78,7 @@ export class AccountComponent implements OnInit {
        }
   }
 
+  //Submission of Update user Details  form
   updateUserDetails() {
     
     this.updateUserLoading = true;
@@ -93,6 +97,7 @@ export class AccountComponent implements OnInit {
 
   }
 
+  //Open Password Dialog include user account id
   updateUserPassword() {
     
     const dialogConfig = new MatDialogConfig();
@@ -105,6 +110,7 @@ export class AccountComponent implements OnInit {
 
   }
 
+  //Open update email Dialog and include user account id
   updateUserEmail() {
     
     const dialogConfig = new MatDialogConfig();
@@ -124,6 +130,7 @@ export class AccountComponent implements OnInit {
 
   }
 
+   //Open Redeem Key Dialog
   reedemKey() {
     
     const dialogConfig = new MatDialogConfig();
@@ -157,7 +164,7 @@ export class AccountComponent implements OnInit {
   }
 }
 
-
+//Interface for game resource
 interface Game {
 
   ageRestriction:number,
@@ -167,11 +174,3 @@ interface Game {
 
 }
 
-interface User {
-  userAccountId:string,
-  firstName:string,
-  lastName:string,
-  emailAdress:string,
-  role:string,
-  
-}

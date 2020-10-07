@@ -11,8 +11,9 @@ export class AuthGuardServiceAdmin implements CanActivate{
               private jwtHelper: JwtHelperService,
               ) { }
 
-
+  //Route guard for admin authentication, used for admin console page
   canActivate() {
+    //Get the current token and verify that user is admin, otherwise transfer to login page
     const token = localStorage.getItem("jwt");
     
     const userRole = this.jwtHelper.decodeToken(token)['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'];

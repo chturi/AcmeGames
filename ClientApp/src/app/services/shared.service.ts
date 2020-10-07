@@ -6,6 +6,8 @@ import { Observable, Subject } from 'rxjs';
 })
 export class SharedService {
 
+  //Service for Navbar listener
+
   private subject = new Subject<any>();
  
   sendVerifyEvent() {

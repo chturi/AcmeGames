@@ -5,6 +5,7 @@ import { Observable } from "rxjs";
 @Injectable()
 export class AuthInterceptorService implements HttpInterceptor {
 
+    //HTTP interceptor to always send JWT token in the header of a HTTP Request
     intercept(req: HttpRequest<any>,
               next: HttpHandler): Observable<HttpEvent<any>> {
 

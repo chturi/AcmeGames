@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
+//Service to call the Games controller end points
 export class GamesService {
 
   private readonly systemsEndpoint: string = "/api/games/";

@@ -62,9 +62,9 @@ export class EditUserDialogComponent implements OnInit {
 
   }
 
-
+//Assign data from form to userResource
   private onFormValueChange () {
-    //Assign data from form to userResource
+    
     for (const key in this.editUserForm.controls) {
         const control = this.editUserForm.get(key);
         this.userResource[key] = control.value; 

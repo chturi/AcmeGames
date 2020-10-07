@@ -53,7 +53,7 @@ export class ChangeEmailDialogComponent implements OnInit {
 
   }
 
-  //Assign data from form to emailResource
+  //Assign data from form to emailResource 
   private onFormValueChange () {
     
     for (const key in this.changeEmailForm.controls) {

@@ -1,19 +1,17 @@
+ 
+.form-field {
+  padding: 10px;
+  width: 200px;
+}
 
+.warning-wrapper {
+  overflow: hidden; 
+  text-align: center;
+}
+.error-msg {
+  color: red;
+  font-size: smaller;
+  display: inline-block;
+}
 
-  
-  .form-field {
-    padding: 10px;
-    width: 200px;
-  }
-  
-  .warning-wrapper {
-    overflow: hidden; 
-    text-align: center;
-  }
-  .error-msg {
-    color: red;
-    font-size: smaller;
-    display: inline-block;
-  }
-  
   

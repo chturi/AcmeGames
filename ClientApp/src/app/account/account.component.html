@@ -1,4 +1,5 @@
 
+<!-- Account information Header -->
 <mat-card class = "card">
   <mat-card-header> 
       <div style="display:inline-block;">
@@ -8,14 +9,16 @@
 
   <mat-card-content>
 
-    <div style="display:inline-block;vertical-align:top;">
-        <div mat-card-avatar class="example-header-image"></div>
+    <!-- Username header -->
+    <div class= "userneam-header-img">
+        <div mat-card-avatar class="user-header-image"></div>
     </div>
     <div style="display:inline-block;">
-      <div style="font-weight: bold; opacity: 0.4;">Username</div>
+      <div class = "username-header-text">Username</div>
       <div>{{accountForm.get("emailAddress").value}}</div>   
     </div>
 
+    <!-- Edit user email/password button menu -->
       <button mat-icon-button [matMenuTriggerFor]="editMenu" class="edit-user-btn">
         <mat-icon color="primary">edit</mat-icon>
       </button>
@@ -30,6 +33,7 @@
         </button>
       </mat-menu>
      
+      <!-- Account Informationform    -->
       <form [formGroup]="accountForm" style="margin-top: 40px;"> 
         
         <mat-form-field class="justifier" appearance="legacy">
@@ -52,7 +56,7 @@
       </form>
   </mat-card-content>
   <mat-card-actions>
-
+ 
     <div *ngIf = "accountForm.disabled">
       <button mat-raised-button
             (click)="accountForm.enable()"
@@ -79,6 +83,8 @@
   </mat-card-actions>
 </mat-card>
 
+<!-- User Game List -->
+
 <div class="game-wrapper">
   <mat-accordion class = "card">
 
@@ -102,6 +108,7 @@
           </mat-card-content>
         </mat-card>
       </div>
+      <!-- Redeem key button   -->
       <div class="redeemBtn">
         <button mat-raised-button
           (click)="reedemKey()"

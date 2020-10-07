@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit {
               ) { }
 
   ngOnInit(): void {
-
+    //Initialize reactive login form
     this.loginForm = this.fb.group({
       emailAddress : new FormControl(null,[Validators.required]),
       password : new FormControl(null,[Validators.required])
@@ -36,6 +36,7 @@ export class LoginComponent implements OnInit {
 
   get form() { return this.loginForm.controls }
 
+  //Login form submission, removes current token and validates user credentials
   login() {
  
     localStorage.removeItem("jwt");

@@ -12,7 +12,7 @@ export class AuthGuardService implements CanActivate{
               private jwtHelper: JwtHelperService,
               ) { }
 
-
+//Route guard for basic authentication,  used for account information page, will route back to login page if user token isnt valid
   canActivate() {
     const token = localStorage.getItem("jwt");
 

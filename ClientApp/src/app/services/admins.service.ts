@@ -4,6 +4,8 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
+
+//Service to call the admin controller end points
 export class AdminsService {
 
   private readonly systemsEndpoint: string = "/api/admin/";

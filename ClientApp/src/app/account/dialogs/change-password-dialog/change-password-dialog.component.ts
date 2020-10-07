@@ -27,7 +27,6 @@ export class ChangePasswordDialogComponent implements OnInit {
   
   constructor(private dialogRef: MatDialogRef<ChangePasswordDialogComponent>,
               public fb: FormBuilder,
-              private jwtHelper : JwtHelperService,
               private userService : UsersService,
               private notificationService : NotificationService,
               @Inject(MAT_DIALOG_DATA) data) 
@@ -37,23 +36,23 @@ export class ChangePasswordDialogComponent implements OnInit {
 
   ngOnInit(): void {
 
+    //Initilizing reactive form
     this.changePasswordForm = this.fb.group({
       currentPassword: new FormControl(null,[Validators.required]),
       password : new FormControl(null,[Validators.required]),
-      confirmPassword : new FormControl(null,),
+      confirmPassword : new FormControl(null,[Validators.required]),
     }, {
       validators: ConfirmedValidator('password','confirmPassword')
     });
 
+     //Make a subscription to the form allowing to update data to passwordResource whenever form is updated
     this.changePasswordForm.valueChanges.subscribe(formdata => {
       this.onFormValueChange(); 
     });
 
   }
 
-  get form() { return this.changePasswordForm.controls }
-
-
+  //Submitting  Change password form
   changePassword() {
     
     this.loading = true;
@@ -70,12 +69,14 @@ export class ChangePasswordDialogComponent implements OnInit {
       }); 
   }
 
+  //close the Dialog
   close(){
     this.dialogRef.close();
   }
 
+  //Assign data from form to passwordResource
   private onFormValueChange () {
-    //Assign data from form to system object
+    
     for (const key in this.changePasswordForm.controls) {
       if (key != "confirmPassword") {
         const control = this.changePasswordForm.get(key);
