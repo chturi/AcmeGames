@@ -18,6 +18,8 @@ export class ChangeEmailDialogComponent implements OnInit {
   loading: boolean;
   hide: boolean = true;
   usernameExsist = false;
+  isEmailError = false;
+  emailError: string;
   emailResource: any = {
     userAccountId: null,
     password: null,
@@ -39,7 +41,7 @@ export class ChangeEmailDialogComponent implements OnInit {
 
     //Initilizing reactive form and add custom validators
     this.changeEmailForm = this.fb.group({
-      emailAddress: new FormControl(null,[Validators.required]),
+      emailAddress: new FormControl(null,[Validators.required,Validators.email]),
       confirmEmailAddress : new FormControl(null,[Validators.required]),
       password : new FormControl(null,[Validators.required]),
     }, {
@@ -77,8 +79,13 @@ export class ChangeEmailDialogComponent implements OnInit {
         this.dialogRef.close(this.emailResource.emailAddress);
       },
       (error: HttpErrorResponse) => {
-        this.notificationService.showError("Error: " + error.error);
-        this.loading = false;
+        if (error.status == 401) {
+          this.isEmailError = true;
+          this.emailError = error.error;  
+        } else {
+          this.notificationService.showError("Error: " + error.error);
+        }
+          this.loading = false;
       }); 
   }
 

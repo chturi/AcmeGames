@@ -6,6 +6,7 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { ConfirmedValidator } from '../../../validators/Confirmed.validators';
 import { HttpErrorResponse } from '@angular/common/http';
+import { PasswordStrengthValidator } from 'src/app/validators/password-strength.validators';
 
 @Component({
   selector: 'app-change-password-dialog',
@@ -39,10 +40,10 @@ export class ChangePasswordDialogComponent implements OnInit {
     //Initilizing reactive form
     this.changePasswordForm = this.fb.group({
       currentPassword: new FormControl(null,[Validators.required]),
-      password : new FormControl(null,[Validators.required]),
+      password : new FormControl(null,[Validators.required, PasswordStrengthValidator]),
       confirmPassword : new FormControl(null,[Validators.required]),
     }, {
-      validators: ConfirmedValidator('password','confirmPassword')
+      validators: ConfirmedValidator('password','confirmPassword'),
     });
 
      //Make a subscription to the form allowing to update data to passwordResource whenever form is updated
@@ -51,6 +52,7 @@ export class ChangePasswordDialogComponent implements OnInit {
     });
 
   }
+
 
   //Submitting  Change password form
   changePassword() {

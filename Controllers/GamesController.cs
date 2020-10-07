@@ -137,7 +137,6 @@ namespace AcmeGames.Controllers
 			if(httpResponseCode == 200) 
 			{
 				var keys = (await Database.GameKeys())
-				.Where(k => k.Key == id)
 				.ToList();
 
 				var keyIndex = keys.IndexOf(key);

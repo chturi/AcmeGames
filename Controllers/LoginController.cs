@@ -62,8 +62,8 @@ namespace AcmeGames.Controllers
                 };
 
                 var token = new JwtSecurityToken(
-                    "localhost:5001",
-                    "localhost:5001",
+                    "localhost:56653",
+                    "localhost:56653",
                     claims,
                     expires: DateTime.Now.AddMinutes(30),
                     signingCredentials: mySigningCredentials);

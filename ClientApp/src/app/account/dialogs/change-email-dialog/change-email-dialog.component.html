@@ -16,8 +16,11 @@
             <mat-form-field class="justifier" appearance="legacy">
                 <mat-label>New Email-Address</mat-label>
                 <input matInput formControlName = "emailAddress">
-                <mat-error>New Email is required</mat-error>
+                <mat-error> This is not a valid email-address</mat-error>
             </mat-form-field>
+            <div class="error-msg">
+                <span *ngIf="isEmailError" >{{emailError}}</span>
+            </div>
 
             <mat-form-field class="justifier" appearance="legacy">
                 <mat-label>Confirm Email-Address</mat-label>

@@ -20,6 +20,8 @@ export class EditUserDialogComponent implements OnInit {
   userDataLoading: boolean;
   hide: boolean = true;
   usernameExsist = false;
+  isEmailError = false;
+  emailError: string;
   userResource: any = {};
   
   constructor(private dialogRef: MatDialogRef<EditUserDialogComponent>,
@@ -39,7 +41,7 @@ export class EditUserDialogComponent implements OnInit {
 
     //Initilizing reactive form
     this.editUserForm = this.fb.group({
-      emailAddress : new FormControl(null,[Validators.required]),
+      emailAddress : new FormControl(null,[Validators.required,Validators.email]),
       firstName : new FormControl(null,[Validators.required]),
       lastName : new FormControl(null,[Validators.required]),
       dateOfBirth : new FormControl(null,[Validators.required]),
@@ -82,8 +84,13 @@ export class EditUserDialogComponent implements OnInit {
       this.dialogRef.close(true);
     },
     (error: HttpErrorResponse) => {
-      this.notificationService.showError("Error: " + error.error);
-      this.loading = false;
+      if (error.status == 401) {
+        this.isEmailError = true;
+          this.emailError = error.error;  
+        } else {
+          this.notificationService.showError("Error: " + error.error);
+        }
+          this.loading = false;
     }); 
 
   }

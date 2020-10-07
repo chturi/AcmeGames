@@ -131,7 +131,7 @@ namespace AcmeGames.Controllers
                 return BadRequest("User not found");
 
             if (duplicateEmail != null)
-                return Unauthorized("This email is already in use by another user");
+                return Unauthorized("This email is already in use");
 
             if (aSetEmailResource.Password != user.Password)
                 return Unauthorized("Wrong password input");

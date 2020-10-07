@@ -1,3 +1,4 @@
+import { PasswordStrengthValidator } from 'src/app/validators/password-strength.validators';
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
@@ -37,8 +38,8 @@ export class ResetPasswordDialogComponent implements OnInit {
 
     //Initilizing reactive form
     this.resetPasswordForm = this.fb.group({
-      password : new FormControl(null,[Validators.required]),
-      confirmPassword : new FormControl(null,),
+      password : new FormControl(null,[Validators.required,PasswordStrengthValidator]),
+      confirmPassword : new FormControl(null,[Validators.required]),
     }, {
       validators: ConfirmedValidator('password','confirmPassword')
     });
